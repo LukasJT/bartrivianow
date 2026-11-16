@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import data from '../../data/catalog.json';
+import {regionIds,regionLabel,type Locale,type Region} from '../../data/regions';
+export const getStaticPaths=()=>['en','fr'].map(lang=>({params:{lang}}));
+const lang=Astro.params.lang as Locale,fr=lang==='fr';
+const venuesById=new Map(data.venues.map(v=>[v.id,v]));
+function count(region:Region){return data.series.filter(s=>s.kind==='trivia'&&venuesById.get(s.venueId)?.regions.includes(region)).length;}
+---
+<Base {lang} alternate={'/'+(fr?'en':'fr')+'/coverage/'} title={(fr?'Couverture':'Coverage')+' | Bar Trivia Now'}>
+<article class="detail frame">
+<h1>{fr?'Sources et couverture':'Sources & coverage'}</h1>
+<p>{fr?'Répertoire pilote de soirées annoncées en Ontario et au Québec. Consultez la source pour confirmer votre soirée.':'A pilot directory of advertised events in Ontario and Québec. Check the linked source before making plans.'}</p>
+<ul class="coverage-list">{regionIds.map(id=><li><a href={'/'+lang+'/areas/'+id+'/'}>{regionLabel(id,lang)}</a><span>{count(id)?count(id)+(fr?' horaires de quiz':' trivia schedules'):(fr?'Recherche en cours':'Research in progress')}</span></li>)}</ul>
+<p>{fr?'Un lieu peut apparaître dans plusieurs régions. Les horaires expirent lorsqu’ils doivent être revérifiés.':'A venue can appear in more than one region. Schedules expire when they are due for another check.'}</p>
+<p>{fr?'Cartographie : ':'Mapping: '}<a href="https://openfreemap.org/">OpenFreeMap</a>, <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>.</p>
+<p>{fr?'Les repères de rue sont approximatifs. Géocodage : ':'Street pins are approximate. Address geocoding: '}<a href="https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service">{fr?'Ressources naturelles Canada':'Natural Resources Canada'}</a>.</p>
+<p><a href={'/'+lang+'/submit/'}>{fr?'Proposer un événement':'Suggest an event'}</a></p>
+</article></Base>

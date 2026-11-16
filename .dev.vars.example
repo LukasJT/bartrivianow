@@ -1,0 +1,4 @@
+# Copy to .dev.vars for a local Worker connected to your free Supabase project.
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_SERVER_KEY=
+ADMIN_TOKEN=

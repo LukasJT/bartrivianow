@@ -1,0 +1,14 @@
+---
+import { formatDate, formatTime, type Match } from '../lib/events';
+import { labels, money } from '../lib/labels';
+import type {Locale} from '../data/regions';
+const {event,lang}=Astro.props as {event:Match;lang:Locale};
+const {date,time,venue,series}=event;
+---
+<li class="event" data-venue={venue.id}>
+<div class="when"><span>{formatDate(date,lang,{weekday:'short'})}</span><strong>{date.slice(-2)}</strong><span>{formatTime(time,lang)}</span></div>
+<div class="event-copy"><span class="event-kind">{labels[lang][series.kind]}</span><h3><a href={'/'+lang+'/series/'+series.id+'/'}>{series.name}</a></h3>
+<a class="venue-link" href={'/'+lang+'/venues/'+venue.id+'/'}>{venue.name} · {venue.city}</a>
+<div class="facts"><span>{series.fee==='unknown'?(lang==='fr'?'Tarif non indiqué':'Fee not listed'):labels[lang][series.fee]}</span>
+{series.prize!=='unknown'&&<span>{series.prizeCents?money(series.prizeCents,lang)+' ':''}{labels[lang][series.prize]}</span>}</div></div>
+</li>

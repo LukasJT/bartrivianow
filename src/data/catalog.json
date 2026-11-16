@@ -1,0 +1,576 @@
+{
+  "venues": [
+    {
+      "id": "stout",
+      "name": "Stout Irish Pub",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "221 Parliament Street",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.656889,
+        -79.364972
+      ],
+      "website": "https://www.stoutirishpub.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "snakes-annex",
+      "name": "Snakes & Lattes Annex",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "600 Bloor Street West",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.664699,
+        -79.413194
+      ],
+      "website": "https://www.snakesandlattes.com/events-toronto",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "burgundy-lion",
+      "name": "Pub Burgundy Lion",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "2496 rue Notre-Dame Ouest",
+      "regions": [
+        "montreal"
+      ],
+      "point": [
+        45.482861,
+        -73.575316
+      ],
+      "website": "https://www.burgundylion.com/",
+      "timezone": "America/Montreal",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "peddlers",
+      "name": "Peddler’s Pub",
+      "city": "Greater Sudbury",
+      "province": "ON",
+      "address": "63 Cedar Street",
+      "regions": [
+        "sudbury"
+      ],
+      "point": [
+        46.492209,
+        -80.995044
+      ],
+      "website": "https://peddlerspub.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "irenes",
+      "name": "Irene’s Pub",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "885 Bank Street",
+      "regions": [
+        "ottawa"
+      ],
+      "point": [
+        45.40068,
+        -75.687058
+      ],
+      "website": "https://irenespub.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "fool-flagon",
+      "name": "The Fool & Flagon",
+      "city": "Hamilton",
+      "province": "ON",
+      "address": "2255 Barton Street East",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": [
+        43.239271,
+        -79.770872
+      ],
+      "website": "https://www.foolandflagon.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "squires-burlington",
+      "name": "Squires Gastro Pub",
+      "city": "Burlington",
+      "province": "ON",
+      "address": "3537 Fairview Street",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.36006,
+        -79.77931
+      ],
+      "website": "https://www.squires.pub/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "montanas-waterloo",
+      "name": "Montana’s Waterloo",
+      "city": "Waterloo",
+      "province": "ON",
+      "address": "310 The Boardwalk",
+      "regions": [
+        "waterloo"
+      ],
+      "point": [
+        43.437088,
+        -80.562294
+      ],
+      "website": "https://www.montanas.ca/en/locations/on/waterloo/310-the-boardwalk",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "mick-angelos",
+      "name": "Mick & Angelo’s",
+      "city": "Niagara Falls",
+      "province": "ON",
+      "address": "7600 Lundy’s Lane",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": [
+        43.089023,
+        -79.123285
+      ],
+      "website": "https://mickandangelos.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "moose-north-bay",
+      "name": "The Moose’s Cookhouse",
+      "city": "North Bay",
+      "province": "ON",
+      "address": "134 Main Street East",
+      "regions": [
+        "northbay"
+      ],
+      "point": [
+        46.309937,
+        -79.46365
+      ],
+      "website": "https://themoose.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "italian-centre",
+      "name": "Italian Cultural Centre",
+      "city": "Thunder Bay",
+      "province": "ON",
+      "address": "132 Algoma Street South",
+      "regions": [
+        "thunderbay"
+      ],
+      "point": [
+        48.432647,
+        -89.228542
+      ],
+      "website": "https://italiancc.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "ridge-rock",
+      "name": "Ridge Rock Brewing Company",
+      "city": "Carp",
+      "province": "ON",
+      "address": "421 Donald B. Munro Drive",
+      "regions": [
+        "ottawa"
+      ],
+      "point": [
+        45.344379,
+        -76.035523
+      ],
+      "website": "https://ridgerockbrewco.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "anderson",
+      "name": "Anderson Craft Ales",
+      "city": "London",
+      "province": "ON",
+      "address": "1030 Elias Street",
+      "regions": [
+        "london"
+      ],
+      "point": [
+        42.998293,
+        -81.216492
+      ],
+      "website": "https://www.andersoncraftales.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "the-still",
+      "name": "The Still Bar & Tasting Room",
+      "city": "Mount Brydges",
+      "province": "ON",
+      "address": "22469 Adelaide Road",
+      "regions": [
+        "london"
+      ],
+      "point": [
+        42.908075,
+        -81.492662
+      ],
+      "website": "https://thestillbar.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    }
+  ],
+  "series": [
+    {
+      "id": "stout-event",
+      "venueId": "stout",
+      "name": "Headscratchers Trivia",
+      "days": [
+        1,
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.stoutirishpub.ca/events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "headscratchers"
+    },
+    {
+      "id": "snakes-annex-event",
+      "venueId": "snakes-annex",
+      "name": "General Trivia Night",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "gift-card",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.snakesandlattes.com/events-toronto",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "end": "21:00",
+      "prizeCents": 5000
+    },
+    {
+      "id": "burgundy-lion-event",
+      "venueId": "burgundy-lion",
+      "name": "Monday Pub Quiz",
+      "days": [
+        1
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.burgundylion.com/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "brian",
+      "teamMax": 6
+    },
+    {
+      "id": "peddlers-event",
+      "venueId": "peddlers",
+      "name": "Wednesday Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://peddlerspub.com/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "two-thumbs"
+    },
+    {
+      "id": "irenes-event",
+      "venueId": "irenes",
+      "name": "Trivia Tuesday",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://irenespub.ca/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "end": "21:00"
+    },
+    {
+      "id": "fool-flagon-event",
+      "venueId": "fool-flagon",
+      "name": "Monday Trivia",
+      "days": [
+        1
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "private-label"
+    },
+    {
+      "id": "squires-burlington-event",
+      "venueId": "squires-burlington",
+      "name": "Tuesday Trivia",
+      "days": [
+        2
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "private-label"
+    },
+    {
+      "id": "montanas-waterloo-event",
+      "venueId": "montanas-waterloo",
+      "name": "Tuesday Trivia",
+      "days": [
+        2
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "private-label"
+    },
+    {
+      "id": "mick-angelos-event",
+      "venueId": "mick-angelos",
+      "name": "Tuesday Trivia",
+      "days": [
+        2
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "private-label"
+    },
+    {
+      "id": "moose-north-bay-event",
+      "venueId": "moose-north-bay",
+      "name": "Super Fun Time Trivia",
+      "days": [
+        4
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.superfuntimetrivia.com/liveshows",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "super-fun"
+    },
+    {
+      "id": "italian-centre-event",
+      "venueId": "italian-centre",
+      "name": "Trivia Night for Our Kids Count",
+      "days": [],
+      "time": "18:30",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.visitthunderbay.com/event/trivia-night-in-support-of-our-kids-count/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-27",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "ridge-rock-event",
+      "venueId": "ridge-rock",
+      "name": "Monthly Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://ridgerockbrewco.ca/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "monthWeeks": [
+        1
+      ]
+    },
+    {
+      "id": "anderson-event",
+      "venueId": "anderson",
+      "name": "Catan Tournament",
+      "days": [],
+      "time": "13:00",
+      "kind": "games",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.andersoncraftales.ca/calendar/events-calendar/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-28",
+      "date": "2026-11-28"
+    },
+    {
+      "id": "stout-euchre",
+      "venueId": "stout",
+      "name": "Euchre Night",
+      "days": [
+        3
+      ],
+      "time": "19:30",
+      "kind": "games",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.stoutirishpub.ca/events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16"
+    },
+    {
+      "id": "burgundy-comedy",
+      "venueId": "burgundy-lion",
+      "name": "Wednesday Comedy Night",
+      "days": [
+        3
+      ],
+      "time": "20:00",
+      "kind": "comedy",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.burgundylion.com/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16"
+    },
+    {
+      "id": "the-still-nov-18",
+      "venueId": "the-still",
+      "name": "Trivia Night",
+      "days": [],
+      "time": "20:00",
+      "end": "22:00",
+      "kind": "trivia",
+      "date": "2026-11-18",
+      "validUntil": "2026-11-18",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://thestillbar.ca/events-in-london-ontario",
+        "checked": "2026-11-16"
+      }
+    }
+  ],
+  "hosts": [
+    {
+      "id": "headscratchers",
+      "name": "Headscratchers Trivia",
+      "website": "https://www.headscratcherstrivia.com/"
+    },
+    {
+      "id": "brian",
+      "name": "Quiz Master Brian",
+      "website": "https://quizmasterbrian.com/"
+    },
+    {
+      "id": "two-thumbs",
+      "name": "Two Thumbs Trivia"
+    },
+    {
+      "id": "private-label",
+      "name": "Private Label Trivia",
+      "website": "https://www.privatelabeltrivia.com/our-trivia-events"
+    },
+    {
+      "id": "super-fun",
+      "name": "Super Fun Time Trivia",
+      "website": "https://www.superfuntimetrivia.com/"
+    }
+  ],
+  "exceptions": []
+}

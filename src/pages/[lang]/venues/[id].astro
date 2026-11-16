@@ -1,0 +1,25 @@
+---
+import Base from '../../../layouts/Base.astro';
+import EventRow from '../../../components/EventRow.astro';
+import data from '../../../data/catalog.json';
+import {normalize, search, type Catalog, type Venue} from '../../../lib/events';
+import type {Locale} from '../../../data/regions';
+export const getStaticPaths=()=>['en','fr'].flatMap(lang=>data.venues.map(venue=>({params:{lang,id:venue.id},props:{venue}})));
+const {venue}=Astro.props as {venue:Venue};
+const lang=Astro.params.lang as Locale, fr=lang==='fr';
+const catalog=data as Catalog;
+const series=catalog.series.filter(s=>s.venueId===venue.id);
+const upcoming=search({...catalog,series},normalize(new URLSearchParams('type=all'))).slice(0,8);
+const directions='https://www.openstreetmap.org/search?query='+encodeURIComponent(venue.address+', '+venue.city+', '+venue.province);
+---
+<Base {lang} title={venue.name+' | Bar Trivia Now'} alternate={'/'+(fr?'en':'fr')+'/venues/'+venue.id+'/'}>
+<article class="detail frame">
+<a href={'/'+lang+'/#agenda'}>{fr?'Retour au programme':'Back to the lineup'}</a>
+<h1>{venue.name}</h1><p>{venue.address}, {venue.city}, {venue.province}</p>
+<div class="actions"><a href={directions}>{fr?'Carte et itinéraire':'Map and directions'}</a><a href={venue.website}>{fr?'Site du lieu':'Venue website'}</a></div>
+<h2>{fr?'Cette semaine':'This week'}</h2>
+{upcoming.length?<ol class="event-list">{upcoming.map(event=><EventRow {event} {lang}/>)}</ol>:<p>{fr?'Aucun événement annoncé pour cette semaine.':'No events advertised for this week.'}</p>}
+<h2>{fr?'Événements et sources':'Events and sources'}</h2>
+<ul>{series.map(s=><li><a href={'/'+lang+'/series/'+s.id+'/'}>{s.name}</a></li>)}</ul>
+<p><a href={'/'+lang+'/submit/?venue='+venue.id}>{fr?'Signaler une modification':'Report a change'}</a></p>
+</article></Base>

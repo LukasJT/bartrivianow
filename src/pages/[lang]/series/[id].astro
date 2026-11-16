@@ -1,0 +1,33 @@
+---
+import Base from '../../../layouts/Base.astro';
+import data from '../../../data/catalog.json';
+import {formatDate, formatTime, localDate, normalize, plusDays, search, type Catalog, type Series} from '../../../lib/events';
+import {labels,money} from '../../../lib/labels';
+import type {Locale} from '../../../data/regions';
+export const getStaticPaths=()=>['en','fr'].flatMap(lang=>data.series.map(series=>({params:{lang,id:series.id},props:{series}})));
+const {series}=Astro.props as {series:Series};
+const lang=Astro.params.lang as Locale,fr=lang==='fr', catalog=data as Catalog;
+const venue=catalog.venues.find(v=>v.id===series.venueId)!;
+const host=catalog.hosts.find(h=>h.id===series.hostId);
+const days=series.days.map(day=>formatDate('2026-11-'+String(15+day),lang,{weekday:'long'})).join(', ');
+const upcoming=search({...catalog,series:[series]},normalize(new URLSearchParams('type=all&to='+plusDays(localDate(),55)))).slice(0,8);
+---
+<Base {lang} title={series.name+' · '+venue.name+' | Bar Trivia Now'} alternate={'/'+(fr?'en':'fr')+'/series/'+series.id+'/'}>
+<article class="detail frame">
+<a href={'/'+lang+'/venues/'+venue.id+'/'}>{venue.name}</a>
+<h1>{series.name}</h1><p>{venue.address}, {venue.city}</p>
+<p><strong>{series.date?formatDate(series.date,lang,{dateStyle:'full'}):days} · {formatTime(series.time,lang)}</strong></p>
+{series.monthWeeks&&<p>{fr?'Semaines du mois':'Weeks of the month'}: {series.monthWeeks.join(', ')}</p>}
+{host&&<p>{fr?'Animation':'Hosted by'} {host.name}</p>}
+<dl>
+<dt>{fr?'Participation':'Entry fee'}</dt><dd>{series.fee==='unknown'?(fr?'Tarif non indiqué':'Fee not listed'):labels[lang][series.fee]}</dd>
+<dt>{fr?'Prix':'Prizes'}</dt><dd>{series.prize==='unknown'?(fr?'Prix non indiqués':'Prizes not listed'):(series.prizeCents?money(series.prizeCents,lang)+' · ':'')+labels[lang][series.prize]}</dd>
+<dt>{fr?'Langue de l’événement':'Event language'}</dt><dd>{labels[lang][series.language]}</dd>
+{series.teamMax&&<><dt>{fr?'Équipe':'Team size'}</dt><dd>{fr?'Maximum de ':'Up to '}{series.teamMax}</dd></>}
+</dl>
+<h2>{fr?'Prochaines dates':'Upcoming dates'}</h2>
+{upcoming.length?<ul>{upcoming.map(e=><li><time datetime={e.startsAt}>{formatDate(e.date,lang,{dateStyle:'full'})} · {formatTime(e.time,lang)}</time> · <a href={'/api/v1/calendar/'+e.id+'.ics'}>{fr?'Calendrier':'Calendar'}</a></li>)}</ul>:<p>{fr?'Aucune prochaine date publiée.':'No upcoming dates published.'}</p>}
+<p class="notice">{fr?'Horaire annoncé par le lieu ou l’organisateur. Vérifiez la date auprès de la source.':'Schedule advertised by the venue or organizer. Check the source before heading out.'}</p>
+<div class="actions"><a href={series.evidence.url}>{fr?'Source de l’horaire':'Schedule source'}</a><a href={'/'+lang+'/submit/?venue='+venue.id+'&series='+series.id}>{fr?'Signaler une modification':'Report a change'}</a></div>
+<p class="muted">{fr?'Source consultée le ':'Source checked '}{formatDate(series.evidence.checked,lang,{dateStyle:'long'})}</p>
+</article></Base>

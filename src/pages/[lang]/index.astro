@@ -1,0 +1,60 @@
+---
+import Base from '../../layouts/Base.astro';
+import catalogData from '../../data/catalog.json';
+import { regionIds, regionLabel, type Locale } from '../../data/regions.ts';
+import { search, normalize, type Catalog } from '../../lib/events.ts';
+import { labels } from '../../lib/labels.ts';
+import EventRow from '../../components/EventRow.astro';
+export const getStaticPaths=()=>['en','fr'].map(lang=>({params:{lang}}));
+const lang=Astro.params.lang as Locale, fr=lang==='fr';
+const catalog=catalogData as Catalog;
+const matches=search(catalog,normalize(new URLSearchParams()));
+---
+<Base {lang} alternate={fr?'/en/':'/fr/'}>
+<div id="directory" data-lang={lang}>
+<section class="intro">
+<div class="frame">
+<h1>{fr?'Trouvez votre prochaine soirée quiz.':'Find your next trivia night.'}</h1>
+<p>{fr?'Choisissez une soirée. Trouvez un pub. Rassemblez votre équipe.':'Pick a night, find a pub, and get the team together.'}</p>
+<form id="filters" class="filters" method="get" action={'/'+lang+'/#agenda'}>
+<div class="filter-main">
+<label>{fr?'Secteur':'Location'}<select name="place"><option value="all">{fr?'Toutes les régions':'All pilot regions'}</option>{regionIds.map(id=><option value={id}>{regionLabel(id,lang)}</option>)}</select></label>
+<label>{fr?'À partir du':'Starting'}<input type="date" name="from"/></label>
+<label>{fr?'Rayon':'Radius'}<select name="km">{[1,5,10,25,50,100].map(k=><option value={k} selected={k===25}>{k} km</option>)}</select></label>
+<button class="primary" type="submit">{fr?'Rechercher':'Find events'}</button>
+</div>
+<div class="filter-more">
+<details><summary>{fr?'Plus de filtres':'More filters'}</summary>
+<div class="advanced">
+<label>{fr?'Jusqu’au':'Through'}<input type="date" name="to"/></label>
+<label>{fr?'Après':'After'}<input type="time" name="after"/></label>
+<label>{fr?'Activité':'Event type'}<select name="type">{['trivia','comedy','games','all'].map(k=><option value={k}>{labels[lang][k as keyof typeof labels.en]??(fr?'Tout':'All events')}</option>)}</select></label>
+<label>{fr?'Participation':'Entry fee'}<select name="fee"><option value="">{fr?'Tous les tarifs':'Any fee'}</option>{['free','paid','unknown'].map(k=><option value={k}>{labels[lang][k as keyof typeof labels.en]}</option>)}</select></label>
+<label>{fr?'Prix à gagner':'Prize'}<select name="prize"><option value="">{fr?'Tous les événements':'Any event'}</option><option value="any">{fr?'Prix annoncé':'Prize advertised'}</option>{['cash','gift-card','other','unknown'].map(k=><option value={k}>{labels[lang][k as keyof typeof labels.en]}</option>)}</select></label>
+<label>{fr?'Prix minimum (CAD)':'Minimum prize (CAD)'}<input type="number" name="minPrize" min="0" max="100000"/></label>
+<label>{fr?'Langue de l’événement':'Event language'}<select name="language"><option value="">{fr?'Toutes les langues':'Any language'}</option>{['en','fr','bilingual','unknown'].map(k=><option value={k}>{labels[lang][k as keyof typeof labels.en]}</option>)}</select></label>
+<label>{fr?'Trier par':'Sort by'}<select name="sort"><option value="soon">{fr?'Date':'Soonest'}</option><option value="near">{fr?'Distance':'Nearest'}</option></select></label>
+</div></details>
+<button id="locate" type="button" class="text-button">{fr?'Utiliser ma position':'Use my location'}</button>
+<button id="clear-location" type="button" class="text-button" hidden>{fr?'Effacer ma position':'Clear my location'}</button>
+</div>
+</form>
+<p class="location-note" id="location-status" role="status">{fr?'Le rayon est mesuré à vol d’oiseau depuis le centre choisi.':'Radius uses straight-line distance from the selected area centre.'}</p>
+</div>
+</section>
+<section id="agenda" class="frame agenda">
+<div class="agenda-heading"><div><h2>{fr?'Le programme':'The lineup'}</h2><p id="count" aria-live="polite">{fr?matches.length+' événements annoncés':matches.length+' advertised events'}</p></div><button id="show-map" type="button" aria-controls="map-panel" aria-expanded="false">{fr?'Afficher la carte':'Show map'}</button></div>
+<div class="week" id="week" aria-label={fr?'Jour de la semaine':'Day of the week'} hidden></div>
+<div class="results-layout" id="results-layout">
+<div><ol id="results" class="event-list">{matches.slice(0,25).map(event=><EventRow {event} {lang}/>)}</ol>
+<p id="empty" class="empty" hidden={matches.length>0}>{fr?'Aucun événement annoncé. Essayez une autre date ou élargissez la recherche.':'No advertised events match. Try another date or widen the search.'}</p>
+<button id="more" type="button" hidden>{fr?'Afficher plus':'Show more'}</button>
+<p id="search-status" class="muted" role="status"></p>
+<noscript><p>{fr?'Activez JavaScript pour filtrer le programme ou afficher la carte.':'Enable JavaScript to filter the lineup or open the map.'}</p></noscript>
+</div>
+<aside id="map-panel" hidden aria-label={fr?'Carte des lieux':'Venue map'}><div id="map"></div><p id="map-status" role="status"></p></aside>
+</div>
+</section>
+</div>
+<script>import '../../scripts/directory';</script>
+</Base>
