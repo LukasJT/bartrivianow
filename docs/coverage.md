@@ -4,7 +4,16 @@ Source checks dated 2026-11-16. These counts are distinct trivia listings within
 
 | Area | Trivia listings | Evidence and follow-up |
 |---|---:|---|
-| GTA | 5 | Stout, Snakes & Lattes Annex, Squires, Left Field Leslieville, and Insomnia. |
+| GTA | 7 | 
+| Golden Horseshoe | 17 | 
+| Waterloo | 5 | 
+| London | 2 | 
+| Ottawa | 8 | 
+| Montréal | 8 | 
+| Thunder Bay | 3 | 
+| Greater Sudbury | 3 | 
+| North Bay | 2 | 
+| Timmins | 0 | Stout, Snakes & Lattes Annex, Squires, Left Field Leslieville, and Insomnia. |
 | Golden Horseshoe | 7 | GTA overlap plus The Fool & Flagon and Mick & Angelo’s. |
 | Waterloo | 1 | Private Label Trivia's Montana’s schedule. |
 | London | 1 | The Still Bar in Mount Brydges advertised a November 18 quiz. Anderson's November 26 quiz still needs a time and Powerhouse’s 2024 post needs recent corroboration. |
