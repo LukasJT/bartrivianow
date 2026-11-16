@@ -240,6 +240,178 @@
       "website": "https://thestillbar.ca/",
       "timezone": "America/Toronto",
       "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "left-field-leslieville",
+      "name": "Left Field Brewery Leslieville",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "36 Wagstaff Drive",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.673592,
+        -79.330588
+      ],
+      "website": "https://www.leftfieldbrewery.ca/contact-us",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "insomnia-toronto",
+      "name": "Insomnia Restaurant & Lounge",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "563 Bloor Street West",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.665177,
+        -79.411004
+      ],
+      "website": "https://insomniarestaurant.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "dominion-city",
+      "name": "Dominion City Brewing Co.",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "5510 Canotek Road, Unit 15",
+      "regions": [
+        "ottawa"
+      ],
+      "point": [
+        45.457516,
+        -75.584305
+      ],
+      "website": "https://www.dominioncity.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "broadway-barrhaven",
+      "name": "Broadway Bar & Grill Barrhaven",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "3777 Strandherd Drive",
+      "regions": [
+        "ottawa"
+      ],
+      "point": [
+        45.268638,
+        -75.751097
+      ],
+      "website": "https://www.broadwaybarandgrill.ca/locations",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "royal-oak-stittsville",
+      "name": "The Royal Oak Stittsville",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "6160 Hazeldean Road",
+      "regions": [
+        "ottawa"
+      ],
+      "point": [
+        45.27033,
+        -75.934642
+      ],
+      "website": "https://royaloakpubs.com/stittsville/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "royal-oak-kent",
+      "name": "The Royal Oak Kent at Slater",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "180 Kent Street, Unit 2",
+      "regions": [
+        "ottawa"
+      ],
+      "point": [
+        45.417623,
+        -75.701208
+      ],
+      "website": "https://royaloakpubs.com/kent-at-slater/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "hintonburg-public-house",
+      "name": "The Hintonburg Public House",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "1020 Wellington Street West",
+      "regions": [
+        "ottawa"
+      ],
+      "point": [
+        45.404665,
+        -75.72381
+      ],
+      "website": "https://www.hintonburgpublichouse.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "boswell-montreal",
+      "name": "Boswell Brasserie Artisanale",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "2407 avenue du Mont-Royal Est",
+      "regions": [
+        "montreal"
+      ],
+      "point": [
+        45.538147,
+        -73.569596
+      ],
+      "website": "https://brasserieboswell.com/",
+      "timezone": "America/Montreal",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "siboire-saint-laurent",
+      "name": "Siboire Saint-Laurent",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "5101 boulevard Saint-Laurent",
+      "regions": [
+        "montreal"
+      ],
+      "point": [
+        45.523047,
+        -73.592772
+      ],
+      "website": "https://siboire.ca/fr/succursales/st-laurent/",
+      "timezone": "America/Montreal",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "bar-de-courcelle",
+      "name": "Bar de Courcelle",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "4685 rue Notre-Dame Ouest",
+      "regions": [
+        "montreal"
+      ],
+      "point": [
+        45.47274,
+        -73.588763
+      ],
+      "website": "https://lesquartiersducanal.com/commerces/bar-de-courcelle/",
+      "timezone": "America/Montreal",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
     }
   ],
   "series": [
@@ -281,7 +453,19 @@
       },
       "validUntil": "2026-12-16",
       "end": "21:00",
-      "prizeCents": 5000
+      "prizeCents": 5000,
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.snakesandlattes.com/events-toronto",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "table"
+          }
+        ],
+        "note": "Tickets are sold by table size. Eventbrite fees and tax apply. Exact ticket prices need a date-specific check."
+      }
     },
     {
       "id": "burgundy-lion-event",
@@ -451,7 +635,26 @@
         "checked": "2026-11-16"
       },
       "validUntil": "2026-11-27",
-      "date": "2026-11-27"
+      "date": "2026-11-27",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.ourkidscount.ca/events/trivia-night/2026-11-27",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 7000
+          },
+          {
+            "type": "entry",
+            "unit": "table",
+            "amountCents": 60000,
+            "capacity": 10
+          }
+        ],
+        "note": "Ticket includes dinner and trivia."
+      }
     },
     {
       "id": "ridge-rock-event",
@@ -544,6 +747,235 @@
         "url": "https://thestillbar.ca/events-in-london-ontario",
         "checked": "2026-11-16"
       }
+    },
+    {
+      "id": "left-field-leslieville-trivia",
+      "venueId": "left-field-leslieville",
+      "name": "Wednesday Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/free-event-weekly-trivia-at-leslieville-tickets-1321706522789",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "teamMax": 6,
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.ca/e/free-event-weekly-trivia-at-leslieville-tickets-1321706522789",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "insomnia-toronto-trivia",
+      "venueId": "insomnia-toronto",
+      "name": "Question Everything Trivia",
+      "days": [
+        3,
+        7
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/question-everything-trivia-insomnia-twice-a-week-because-once-wasnt-enough-tickets-1033923552177",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.ca/e/question-everything-trivia-insomnia-twice-a-week-because-once-wasnt-enough-tickets-1033923552177",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "minimum-spend",
+            "unit": "person",
+            "amountCents": 2500
+          }
+        ],
+        "note": "The organizer lists a minimum spend. A separate ticket amount was not verified."
+      }
+    },
+    {
+      "id": "dominion-city-trivia",
+      "venueId": "dominion-city",
+      "name": "Taproom Trivia",
+      "days": [
+        4
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.dominioncity.ca/blogs/news/trivia-night-in-the-taproom",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "end": "21:00"
+    },
+    {
+      "id": "broadway-barrhaven-trivia",
+      "venueId": "broadway-barrhaven",
+      "name": "Monday Trivia",
+      "days": [
+        1
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.qbtrivia.ca/where-to-play/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "end": "21:00",
+      "hostId": "qb-trivia"
+    },
+    {
+      "id": "royal-oak-stittsville-trivia",
+      "venueId": "royal-oak-stittsville",
+      "name": "Tuesday Trivia",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.qbtrivia.ca/where-to-play/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "end": "21:00",
+      "hostId": "qb-trivia"
+    },
+    {
+      "id": "royal-oak-kent-trivia",
+      "venueId": "royal-oak-kent",
+      "name": "Saturday Trivia",
+      "days": [
+        6
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.qbtrivia.ca/where-to-play/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "end": "21:00",
+      "hostId": "qb-trivia"
+    },
+    {
+      "id": "hintonburg-public-house-trivia",
+      "venueId": "hintonburg-public-house",
+      "name": "Fundraiser Trivia Night",
+      "days": [],
+      "time": "21:00",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.hintonburgpublichouse.ca/events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-20",
+      "date": "2026-12-20",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.hintonburgpublichouse.ca/events",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 500
+          }
+        ],
+        "note": "Proceeds go to Parkdale Food Centre."
+      }
+    },
+    {
+      "id": "boswell-montreal-trivia",
+      "venueId": "boswell-montreal",
+      "name": "Quiz du dimanche",
+      "days": [
+        7
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.quiztonic.ca/bars",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "quiz-tonic"
+    },
+    {
+      "id": "siboire-saint-laurent-trivia",
+      "venueId": "siboire-saint-laurent",
+      "name": "Quiz du dimanche",
+      "days": [
+        7
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.quiztonic.ca/bars",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "quiz-tonic"
+    },
+    {
+      "id": "bar-de-courcelle-trivia",
+      "venueId": "bar-de-courcelle",
+      "name": "Quiz bilingue du lundi",
+      "days": [
+        1
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "bilingual",
+      "evidence": {
+        "url": "https://www.quiztonic.ca/bars",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "quiz-tonic"
     }
   ],
   "hosts": [
@@ -570,6 +1002,16 @@
       "id": "super-fun",
       "name": "Super Fun Time Trivia",
       "website": "https://www.superfuntimetrivia.com/"
+    },
+    {
+      "id": "qb-trivia",
+      "name": "QB Trivia",
+      "website": "https://www.qbtrivia.ca/where-to-play/"
+    },
+    {
+      "id": "quiz-tonic",
+      "name": "Quiz Tonic",
+      "website": "https://www.quiztonic.ca/bars"
     }
   ],
   "exceptions": []
