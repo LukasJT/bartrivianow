@@ -6,6 +6,8 @@ Install Node.js 24. Run npm ci, npm run check:catalog, npm test, and npm run bui
 
 The browser loads a small public catalog snapshot and computes current matches with the same rules as the Worker API. It keeps exact device location in memory. Static pages retain an agenda when JavaScript is unavailable. The map loads on demand. Use the list or a venue’s OpenStreetMap link if the tile provider is unavailable.
 
+Display ads request at most one creative per eligible page. The directory and regional pages choose the widest banner that fits. Venue and event pages use a 300×250 placement below the content. The ad frame blocks popups and top-level navigation. Requests are enabled on bartrivianow.com and www.bartrivianow.com. Verify a live impression after deploying to the custom domain.
+
 ## Credentials and deployment
 
 Use the Free plan in the existing Cloudflare account. Authenticate with Wrangler as the account owner or use a narrowly scoped deployment credential configured outside the repo. Run npx wrangler deploy --dry-run before a real deploy, then npx wrangler deploy. Verify the workers.dev URL and the smoke flow before attaching the apex custom domain. Review existing DNS entries first and preserve mail, TXT verification and unrelated records. Configure the www redirect as a separate step.

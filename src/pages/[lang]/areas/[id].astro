@@ -11,7 +11,7 @@ const c=data as Catalog;
 const ids=new Set(c.venues.filter(v=>v.regions.includes(id)).map(v=>v.id));
 const lineup=search({...c,series:c.series.filter(s=>ids.has(s.venueId))},normalize(new URLSearchParams('type=all')));
 ---
-<Base {lang} title={title+' | Bar Trivia Now'} alternate={'/'+(fr?'en':'fr')+'/areas/'+id+'/'}>
+<Base {lang} title={title+' | Bar Trivia Now'} alternate={'/'+(fr?'en':'fr')+'/areas/'+id+'/'} adFormat={lineup.length ? 'banner' : undefined}>
 <article class="detail frame">
 <a href={'/'+lang+'/coverage/'}>{fr?'Tous les secteurs':'All regions'}</a><h1>{title}</h1>
 <div class="actions"><a href={'/'+lang+'/?place='+id+'&km=50#agenda'}>{fr?'Rechercher près d’ici':'Search near this area'}</a><a href={'/'+lang+'/submit/'}>{fr?'Proposer un événement':'Suggest an event'}</a></div>

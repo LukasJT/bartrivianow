@@ -12,7 +12,7 @@ const series=catalog.series.filter(s=>s.venueId===venue.id);
 const upcoming=search({...catalog,series},normalize(new URLSearchParams('type=all'))).slice(0,8);
 const directions='https://www.openstreetmap.org/search?query='+encodeURIComponent(venue.address+', '+venue.city+', '+venue.province);
 ---
-<Base {lang} title={venue.name+' | Bar Trivia Now'} alternate={'/'+(fr?'en':'fr')+'/venues/'+venue.id+'/'}>
+<Base {lang} title={venue.name+' | Bar Trivia Now'} alternate={'/'+(fr?'en':'fr')+'/venues/'+venue.id+'/'} adFormat="rectangle">
 <article class="detail frame">
 <a href={'/'+lang+'/#agenda'}>{fr?'Retour au programme':'Back to the lineup'}</a>
 <h1>{venue.name}</h1><p>{venue.address}, {venue.city}, {venue.province}</p>

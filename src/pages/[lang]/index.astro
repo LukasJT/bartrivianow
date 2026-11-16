@@ -5,6 +5,7 @@ import { regionIds, regionLabel, type Locale } from '../../data/regions.ts';
 import { search, normalize, type Catalog } from '../../lib/events.ts';
 import { labels } from '../../lib/labels.ts';
 import EventRow from '../../components/EventRow.astro';
+import DisplayAd from '../../components/DisplayAd.astro';
 export const getStaticPaths=()=>['en','fr'].map(lang=>({params:{lang}}));
 const lang=Astro.params.lang as Locale, fr=lang==='fr';
 const catalog=catalogData as Catalog;
@@ -42,6 +43,7 @@ const matches=search(catalog,normalize(new URLSearchParams()));
 <p class="location-note" id="location-status" role="status">{fr?'Le rayon est mesuré à vol d’oiseau depuis le centre choisi.':'Radius uses straight-line distance from the selected area centre.'}</p>
 </div>
 </section>
+<DisplayAd {lang} format="banner"/>
 <section id="agenda" class="frame agenda">
 <div class="agenda-heading"><div><h2>{fr?'Le programme':'The lineup'}</h2><p id="count" aria-live="polite">{fr?matches.length+' événements annoncés':matches.length+' advertised events'}</p></div><button id="show-map" type="button" aria-controls="map-panel" aria-expanded="false">{fr?'Afficher la carte':'Show map'}</button></div>
 <div class="week" id="week" aria-label={fr?'Jour de la semaine':'Day of the week'} hidden></div>

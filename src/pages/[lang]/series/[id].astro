@@ -12,7 +12,7 @@ const host=catalog.hosts.find(h=>h.id===series.hostId);
 const days=series.days.map(day=>formatDate('2026-11-'+String(15+day),lang,{weekday:'long'})).join(', ');
 const upcoming=search({...catalog,series:[series]},normalize(new URLSearchParams('type=all&to='+plusDays(localDate(),55)))).slice(0,8);
 ---
-<Base {lang} title={series.name+' · '+venue.name+' | Bar Trivia Now'} alternate={'/'+(fr?'en':'fr')+'/series/'+series.id+'/'}>
+<Base {lang} title={series.name+' · '+venue.name+' | Bar Trivia Now'} alternate={'/'+(fr?'en':'fr')+'/series/'+series.id+'/'} adFormat={upcoming.length ? 'rectangle' : undefined}>
 <article class="detail frame">
 <a href={'/'+lang+'/venues/'+venue.id+'/'}>{venue.name}</a>
 <h1>{series.name}</h1><p>{venue.address}, {venue.city}</p>
