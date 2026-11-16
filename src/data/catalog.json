@@ -1491,6 +1491,98 @@
       "point": null,
       "website": "https://hochelaga.ca/commerces/commerce/ladversaire-pub-ludique/",
       "timezone": "America/Montreal"
+    },
+    {
+      "id": "rorschach-brewing",
+      "name": "Rorschach Brewing Co.",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "1001 Eastern Avenue",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://www.rorschachbrewing.com/pages/events",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "victory-cafe",
+      "name": "Victory Cafe",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "440 Bloor Street West",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://www.eventbrite.ca/e/trivia-tuesdays-at-victory-cafe-you-know-quiz-show-tickets-1997603940159",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "black-sheep-toronto",
+      "name": "Black Sheep at Brazen Head",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "165 East Liberty Street, 3rd floor",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://libertyvillagetoronto.com/business/black-sheep",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "the-pint-toronto",
+      "name": "The Pint Public House",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "277 Front Street West",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.6439768,
+        -79.3886584
+      ],
+      "website": "https://toronto.thepint.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "one-star-bar",
+      "name": "One Star Bar",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "538 Queen Street West",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://stayhappening.com/e/dirtbag-trivia-E118SB7JYNHS3",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "birroteca-yorkville",
+      "name": "Birroteca at Eataly Yorkville",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "55 Bloor Street West",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.6698571224203,
+        -79.3887485265513
+      ],
+      "website": "https://www.indiealehouse.com/pages/birroteca-by-indie-alehouse",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
     }
   ],
   "series": [
@@ -3738,6 +3830,193 @@
         "url": "https://poudingchomeur.com/lieu/l-adversaire",
         "checked": "2026-11-16"
       }
+    },
+    {
+      "id": "rorschach-brewing-trivia",
+      "venueId": "rorschach-brewing",
+      "name": "Tuesday General Trivia",
+      "days": [
+        2
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.rorschachbrewing.com/pages/events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.rorschachbrewing.com/pages/events",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "victory-cafe-trivia",
+      "venueId": "victory-cafe",
+      "name": "You Know? Trivia Tuesdays",
+      "days": [
+        2
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/trivia-tuesdays-at-victory-cafe-you-know-quiz-show-tickets-1997603940159",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://triviatoronto.ca/events/victory-cafe-trivia-tuesdays-at-victory-cafe/a72e1102-66c3-49bd-9ce5-423272b7fde8",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "end": "22:00",
+      "teamMax": 6
+    },
+    {
+      "id": "black-sheep-toronto-trivia",
+      "venueId": "black-sheep-toronto",
+      "name": "Adults Trivia",
+      "days": [],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "gift-card",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/adults-trivia-at-black-sheep-tickets-2004589413899",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-07",
+      "date": "2026-12-07",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.ca/e/adults-trivia-at-black-sheep-tickets-2004589413899",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 1000
+          }
+        ],
+        "note": "Ticket price before tax and Eventbrite fees."
+      },
+      "end": "21:30",
+      "prizeCents": 10000
+    },
+    {
+      "id": "the-pint-toronto-trivia",
+      "venueId": "the-pint-toronto",
+      "name": "Nirvanna the Band the Show the Movie Trivia",
+      "days": [],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "gift-card",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/nirvanna-the-band-the-show-the-movie-trivia-night-the-pint-tickets-2004261095891",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-24",
+      "date": "2026-11-24",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://happeningnext.com/event/nirvanna-the-band-the-show-the-movie-trivia-night-the-pint-eid1ef0l966cu0r",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 1198
+          }
+        ]
+      },
+      "teamMax": 6,
+      "end": "22:30"
+    },
+    {
+      "id": "one-star-bar-trivia",
+      "venueId": "one-star-bar",
+      "name": "Dirtbag Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://stayhappening.com/e/dirtbag-trivia-E118SB7JYNHS3",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2027-01-15",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://stayhappening.com/e/dirtbag-trivia-E118SB7JYNHS3",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "end": "22:00"
+    },
+    {
+      "id": "birroteca-yorkville-trivia",
+      "venueId": "birroteca-yorkville",
+      "name": "Birroteca Trivia Night",
+      "days": [
+        2
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eataly.ca/events/eataly-yorkville/page/2/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-01",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eataly.ca/events/eataly-yorkville/page/2/",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "end": "22:00"
     }
   ],
   "hosts": [
