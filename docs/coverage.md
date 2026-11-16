@@ -1,31 +1,22 @@
 # Pilot coverage
 
-Source checks dated 2026-11-16. These counts are distinct trivia listings within each area. GTA and Golden Horseshoe overlap.
+Sources checked on 2026-11-16. Counts include dated events and recurring series. The GTA and Golden Horseshoe overlap.
 
-| Area | Trivia listings | Evidence and follow-up |
+| Area | Trivia listings | Coverage notes |
 |---|---:|---|
-| GTA | 7 | 
-| Golden Horseshoe | 17 | 
-| Waterloo | 5 | 
-| London | 2 | 
-| Ottawa | 8 | 
-| Montréal | 8 | 
-| Thunder Bay | 3 | 
-| Greater Sudbury | 3 | 
-| North Bay | 2 | 
-| Timmins | 0 | Stout, Snakes & Lattes Annex, Squires, Left Field Leslieville, and Insomnia. |
-| Golden Horseshoe | 7 | GTA overlap plus The Fool & Flagon and Mick & Angelo’s. |
-| Waterloo | 1 | Private Label Trivia's Montana’s schedule. |
-| London | 1 | The Still Bar in Mount Brydges advertised a November 18 quiz. Anderson's November 26 quiz still needs a time and Powerhouse’s 2024 post needs recent corroboration. |
-| Ottawa | 7 | Irene’s, Ridge Rock, Dominion City, three QB Trivia venues, and the December 20 Hintonburg fundraiser. |
-| Montréal | 4 | Burgundy Lion, Boswell, Siboire Saint-Laurent, and Bar de Courcelle. |
-| Thunder Bay | 1 | One dated event at a licensed event space. Organizer/tourism sources give event and quiz start times separately. |
-| Greater Sudbury | 1 | Peddler’s Wednesday trivia. |
-| North Bay | 1 | The Moose venue and Super Fun Time Trivia host listings. |
-| Timmins | 0 | A November 12 event at Full Beard Brewing is a past lead. Check with the venue or host for their next public event. |
+| GTA | 17 | Toronto and surrounding municipalities, including Burlington and Newmarket. |
+| Golden Horseshoe | 39 | GTA overlap plus Hamilton, Ancaster, Stoney Creek and Niagara listings. |
+| Waterloo | 6 | Independent venues and recurring schedules from local breweries and cafés. |
+| London | 7 | London and surrounding communities, including Mount Brydges and Port Stanley. |
+| Ottawa | 12 | Central Ottawa and suburban listings, including Orléans and Stittsville. |
+| Montréal | 19 | Venue and Quiz Tonic schedules, including bilingual quizzes. |
+| Thunder Bay | 3 | Recurring trivia at Norteños and The Wayland, plus the November fundraiser. |
+| Greater Sudbury | 6 | Recurring and dated listings in Sudbury and Hanmer. |
+| North Bay | 2 | The Moose and Match Eatery. |
+| Timmins | 0 | Full Beard Brewing had several recent dated events. No upcoming bar trivia schedule was verified. |
 
-Street points are interpolated addresses from Natural Resources Canada’s Geolocation Service. They should be treated as approximate. Listing evidence is linked on each schedule page. Current source language alone does not establish the language the event is played in.
+Venue and host sources appear on each schedule page. Street pins from Natural Resources Canada are approximate. Listings awaiting an address match remain in regional browsing. A page’s language does not establish the language the quiz is played in.
 
 ## Buy-in research
 
-Catalog entries can carry a `buyIn` record with a pricing source, check date, currency and one or more terms. Record each term as entry or minimum spend, with its unit and amount in cents. A missing amount means the source did not establish an exact price. An amount of zero requires explicit evidence of free entry. A table price can include a capacity. Keep date-specific prices on the corresponding dated event. The current interface continues to use the general free, paid and unknown labels while this data is being collected.
+Catalog entries can carry a buyIn record with currency, pricing source, check date and one or more terms. Record each term as entry or minimum spend, with its unit and amount in cents. A missing amount means the source did not establish an exact price. A zero amount requires explicit evidence of free entry. Table rates can include a capacity. The interface currently displays the general free, paid and unknown labels.

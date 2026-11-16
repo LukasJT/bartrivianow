@@ -810,6 +810,687 @@
       "website": "https://exchangebrewery.com/events-notl/",
       "timezone": "America/Toronto",
       "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "district-burlington",
+      "name": "District Kitchen + Bar",
+      "city": "Burlington",
+      "province": "ON",
+      "address": "335 Plains Road East",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.315204,
+        -79.841576
+      ],
+      "website": "https://districtkitchenandbar.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "main-street-pub",
+      "name": "The Main Street Pub",
+      "city": "Stittsville",
+      "province": "ON",
+      "address": "1408 Stittsville Main Street, Unit 5",
+      "regions": [
+        "ottawa"
+      ],
+      "point": [
+        45.262249,
+        -75.92517
+      ],
+      "website": "https://ottawaatnight.ca/directory/main-street-pub/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "keenans-milton",
+      "name": "Keenan’s Irish Pub Milton",
+      "city": "Milton",
+      "province": "ON",
+      "address": "51 James Snow Parkway North",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.537913,
+        -79.856285
+      ],
+      "website": "https://www.keenansirishpub.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "jack-astors-london-south",
+      "name": "Jack Astor’s London South",
+      "city": "London",
+      "province": "ON",
+      "address": "1070 Wellington Road South",
+      "regions": [
+        "london"
+      ],
+      "point": null,
+      "website": "https://jackastors.com/?locationId=916",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "jack-astors-richmond-row",
+      "name": "Jack Astor’s Richmond Row",
+      "city": "London",
+      "province": "ON",
+      "address": "660 Richmond Street",
+      "regions": [
+        "london"
+      ],
+      "point": null,
+      "website": "https://jackastors.com/?locationId=939",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "jack-astors-london-north",
+      "name": "Jack Astor’s London North",
+      "city": "London",
+      "province": "ON",
+      "address": "88 Fanshawe Park Road East",
+      "regions": [
+        "london"
+      ],
+      "point": [
+        43.028076,
+        -81.277467
+      ],
+      "website": "https://jackastors.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "toboggan-brewing",
+      "name": "Toboggan Brewing Company",
+      "city": "London",
+      "province": "ON",
+      "address": "585 Richmond Street",
+      "regions": [
+        "london"
+      ],
+      "point": [
+        42.989978,
+        -81.250752
+      ],
+      "website": "https://www.tobogganbrewing.com/contact",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "tipsy-fox-oakville",
+      "name": "The Tipsy Fox Oakville",
+      "city": "Oakville",
+      "province": "ON",
+      "address": "478 Dundas Street West",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.466475,
+        -79.743167
+      ],
+      "website": "https://tipsyfoxpub.com/locations/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "boiler-whistle",
+      "name": "The Boiler & Whistle",
+      "city": "Hamilton",
+      "province": "ON",
+      "address": "1900 King Street East",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": [
+        43.231628,
+        -79.80715
+      ],
+      "website": "https://www.boilerandwhistle.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "boston-pizza-barton",
+      "name": "Boston Pizza Centre on Barton",
+      "city": "Hamilton",
+      "province": "ON",
+      "address": "1219 Barton Street East",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": [
+        43.250262,
+        -79.810811
+      ],
+      "website": "https://bostonpizza.com/en/locations/centre-on-barton.html",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "fionn-maccools-brampton",
+      "name": "Fionn MacCool’s Brampton",
+      "city": "Brampton",
+      "province": "ON",
+      "address": "120 Great Lakes Drive",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.734364,
+        -79.766691
+      ],
+      "website": "https://fionnmaccools.com/restaurants/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "st-louis-milton",
+      "name": "St. Louis Bar & Grill Milton",
+      "city": "Milton",
+      "province": "ON",
+      "address": "604 Santa Maria Boulevard",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://locations.stlouiswings.com/on-milton-5255",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "captain-hooks-stouffville",
+      "name": "Captain Hook’s Bar & Grill",
+      "city": "Stouffville",
+      "province": "ON",
+      "address": "5887 Main Street, Unit B",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.968346,
+        -79.260308
+      ],
+      "website": "https://captainhooks.ca/contact-us/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "thirsty-cactus",
+      "name": "The Thirsty Cactus",
+      "city": "Dundas",
+      "province": "ON",
+      "address": "2 King Street East",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://thirstycactus.ca/contacts.html",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "brandis",
+      "name": "Brandi’s Kitchen and Bar",
+      "city": "Brantford",
+      "province": "ON",
+      "address": "185 King George Road",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": [
+        43.172544,
+        -80.277622
+      ],
+      "website": "https://brandis.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "wunderbar-montreal",
+      "name": "Wünderbar",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "6529 rue Saint-Hubert",
+      "regions": [
+        "montreal"
+      ],
+      "point": [
+        45.53636,
+        -73.60359
+      ],
+      "website": "https://plazawunderbar.com/",
+      "timezone": "America/Montreal",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "gaggling-goose",
+      "name": "Gaggling Goose Bar & Grill",
+      "city": "Binbrook",
+      "province": "ON",
+      "address": "2537 Regional Road 56",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": [
+        43.1245931065494,
+        -79.8029892553092
+      ],
+      "website": "https://gagglinggoose.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "nickel-brook-burlington",
+      "name": "Nickel Brook Brewing Co.",
+      "city": "Burlington",
+      "province": "ON",
+      "address": "3426 Mainway",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.3681789320739,
+        -79.7992575654103
+      ],
+      "website": "https://nickelbrook.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "real-hammer-hogs",
+      "name": "The Real Hammer Hogs BBQ",
+      "city": "Caledonia",
+      "province": "ON",
+      "address": "43 Argyle Street North",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://www.eventbrite.com/o/hub-of-the-hammer-event-planning-18008483100",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "electric-diner-lister",
+      "name": "Electric Diner at the Lister Block",
+      "city": "Hamilton",
+      "province": "ON",
+      "address": "28 James Street North",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://electricdiner.ca/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "shawn-ed-brewing",
+      "name": "Shawn & Ed Brewing Co.",
+      "city": "Dundas",
+      "province": "ON",
+      "address": "65 Hatt Street",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": [
+        43.26555525,
+        -79.95776155
+      ],
+      "website": "https://lagershed.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "gametime-social-burlington",
+      "name": "GameTime Social Burlington",
+      "city": "Burlington",
+      "province": "ON",
+      "address": "3330 South Service Road",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.360438420426,
+        -79.7940374121354
+      ],
+      "website": "https://www.gametimesocial.ca/burlington",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "clifford-brewing",
+      "name": "Clifford Brewing Company",
+      "city": "Hamilton",
+      "province": "ON",
+      "address": "398 Nash Road North",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": [
+        43.2432688080606,
+        -79.7683606763985
+      ],
+      "website": "https://cliffordevents.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "montanas-hamilton-upper-james",
+      "name": "Montana’s Hamilton Upper James",
+      "city": "Hamilton",
+      "province": "ON",
+      "address": "1508 Upper James Street",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://www.opentable.com/r/montanas-bbq-and-bar-hamilton-upper-james-hamilton",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "red-tape-brewery",
+      "name": "Red Tape Brewery",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "159 Main Street",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://redtapebrewery.com/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "hemingways",
+      "name": "Hemingway’s",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "142 Cumberland Street",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.669998,
+        -79.392527
+      ],
+      "website": "https://hemingways.to/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "boston-pizza-waterdown",
+      "name": "Boston Pizza Waterdown",
+      "city": "Waterdown",
+      "province": "ON",
+      "address": "4 Horseshoe Crescent",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": [
+        43.319041,
+        -79.914
+      ],
+      "website": "https://bostonpizza.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "grain-grit",
+      "name": "Grain & Grit Beer Co.",
+      "city": "Hamilton",
+      "province": "ON",
+      "address": "11 Ewen Road",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": [
+        43.2573836,
+        -79.9321357
+      ],
+      "website": "https://www.grainandgritbeer.com/events",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "evo-kitchen",
+      "name": "EVO Kitchen & Bar",
+      "city": "Cambridge",
+      "province": "ON",
+      "address": "31 Water Street South",
+      "regions": [
+        "waterloo"
+      ],
+      "point": [
+        43.3575238147925,
+        -80.3153678936478
+      ],
+      "website": "https://www.evokitchen.com/calendar/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "daventry",
+      "name": "The Daventry Kitchen & Bar",
+      "city": "Sudbury",
+      "province": "ON",
+      "address": "1500 Regent Street",
+      "regions": [
+        "sudbury"
+      ],
+      "point": [
+        46.4590922,
+        -81.0097296
+      ],
+      "website": "https://www.thedaventry.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "la-fromagerie",
+      "name": "La Fromagerie",
+      "city": "Sudbury",
+      "province": "ON",
+      "address": "80 Elgin Street",
+      "regions": [
+        "sudbury"
+      ],
+      "point": null,
+      "website": "https://www.thefromo.ca/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "cousin-vinnys-hanmer",
+      "name": "Cousin Vinny’s Hanmer",
+      "city": "Hanmer",
+      "province": "ON",
+      "address": "22–5085 Highway 69 North",
+      "regions": [
+        "sudbury"
+      ],
+      "point": null,
+      "website": "https://www.cousinvinnys.ca/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "senate-tavern-bank",
+      "name": "The Senate Tavern on Bank",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "640 Bank Street",
+      "regions": [
+        "ottawa"
+      ],
+      "point": [
+        45.40621995,
+        -75.69020815
+      ],
+      "website": "https://intheglebe.ca/organizer/the-senate-tavern/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "art-house-cafe",
+      "name": "Art House Cafe",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "555 Somerset Street West",
+      "regions": [
+        "ottawa"
+      ],
+      "point": [
+        45.4129742,
+        -75.7021435
+      ],
+      "website": "https://www.thearthousecafe.ca/events",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "pub-saint-pierre",
+      "name": "Pub Saint Pierre at Barrelmans",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "410 Rue Saint-Pierre",
+      "regions": [
+        "montreal"
+      ],
+      "point": null,
+      "website": "https://www.pubsaintpierre.ca/",
+      "timezone": "America/Montreal"
+    },
+    {
+      "id": "quatre-origines-montreal",
+      "name": "Microbrasserie 4 Origines",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "1304 Rue Saint-Patrick",
+      "regions": [
+        "montreal"
+      ],
+      "point": null,
+      "website": "https://www.4origines.com/en-ca/taproom",
+      "timezone": "America/Montreal"
+    },
+    {
+      "id": "origine-brass-dorval",
+      "name": "Origine Brass",
+      "city": "Dorval",
+      "province": "QC",
+      "address": "2220 Boulevard Hymus",
+      "regions": [
+        "montreal"
+      ],
+      "point": [
+        45.4780621445946,
+        -73.7863486472973
+      ],
+      "website": "https://www.4origines.com/en-ca/origine-brass",
+      "timezone": "America/Montreal",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "soeurs-grises-rosemont",
+      "name": "Les Sœurs Grises Vieux-Rosemont",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "3188 Rue Masson",
+      "regions": [
+        "montreal"
+      ],
+      "point": null,
+      "website": "https://bblsg.com/en/old-rosemont/",
+      "timezone": "America/Montreal"
+    },
+    {
+      "id": "friends-sainte-therese",
+      "name": "Resto Bar Friends",
+      "city": "Sainte-Thérèse",
+      "province": "QC",
+      "address": "252 Boulevard du Curé-Labelle",
+      "regions": [
+        "montreal"
+      ],
+      "point": [
+        45.6453917188162,
+        -73.8369186445868
+      ],
+      "website": "https://restobarfriends.ca/contact",
+      "timezone": "America/Montreal",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "louks-lachine",
+      "name": "Louks Microbrasserie",
+      "city": "Lachine",
+      "province": "QC",
+      "address": "1345 Rue Notre-Dame",
+      "regions": [
+        "montreal"
+      ],
+      "point": null,
+      "website": "https://loukspub.com/en/",
+      "timezone": "America/Montreal"
+    },
+    {
+      "id": "boswell-saint-bruno",
+      "name": "Boswell Saint-Bruno",
+      "city": "Saint-Bruno-de-Montarville",
+      "province": "QC",
+      "address": "42 Boulevard Clairevue Ouest",
+      "regions": [
+        "montreal"
+      ],
+      "point": [
+        45.5291335555556,
+        -73.3463319
+      ],
+      "website": "https://brasserieboswell.com/saint-bruno",
+      "timezone": "America/Montreal",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "broue-shop",
+      "name": "Broue Shop Brasserie Artisanale",
+      "city": "Sainte-Julie",
+      "province": "QC",
+      "address": "1950-A Chemin du Fer-à-Cheval",
+      "regions": [
+        "montreal"
+      ],
+      "point": [
+        45.5756097,
+        -73.3278725
+      ],
+      "website": "https://broueshop.com/",
+      "timezone": "America/Montreal",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "ladversaire",
+      "name": "L’Adversaire – Pub et Boutique Ludiques",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "4303 Rue Sainte-Catherine Est",
+      "regions": [
+        "montreal"
+      ],
+      "point": null,
+      "website": "https://hochelaga.ca/commerces/commerce/ladversaire-pub-ludique/",
+      "timezone": "America/Montreal"
     }
   ],
   "series": [
@@ -1966,6 +2647,1096 @@
             "capacity": 8
           }
         ]
+      }
+    },
+    {
+      "id": "district-burlington-trivia",
+      "venueId": "district-burlington",
+      "name": "Weekly Pub Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:59",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://bsocialhospitality.ca/trivia/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-16",
+        "sourceUrl": "https://bsocialhospitality.ca/trivia/",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "main-street-pub-trivia",
+      "venueId": "main-street-pub",
+      "name": "POP QUIZ Tuesday",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/stittsville-ontario-pop-quiz-tuesday-the-main-st-pub-tickets-2002576486178",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "end": "21:00"
+    },
+    {
+      "id": "keenans-milton-trivia",
+      "venueId": "keenans-milton",
+      "name": "Monday Night Trivia",
+      "days": [
+        1
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://experiencemilton.com/event/monday-night-trivia-at-keenans-irish-pub-in-milton/2026-12-14/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "end": "21:00"
+    },
+    {
+      "id": "jack-astors-london-south-trivia",
+      "venueId": "jack-astors-london-south",
+      "name": "Tuesday Night Trivia",
+      "days": [
+        2
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.com/e/jacks-tuesday-night-trivia-london-south-free-tickets-474744532677",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-16",
+        "sourceUrl": "https://www.eventbrite.com/e/jacks-tuesday-night-trivia-london-south-free-tickets-474744532677",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "jack-astors-richmond-row-trivia",
+      "venueId": "jack-astors-richmond-row",
+      "name": "Tuesday Night Trivia",
+      "days": [
+        2
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://londonlive.ca/category/community/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-16",
+        "sourceUrl": "https://londonlive.ca/category/community/",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "jack-astors-london-north-trivia",
+      "venueId": "jack-astors-london-north",
+      "name": "Tuesday Night Trivia",
+      "days": [
+        2
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.com/e/jacks-tuesday-night-trivia-london-north-free-tickets-474733479617",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-16",
+        "sourceUrl": "https://www.eventbrite.com/e/jacks-tuesday-night-trivia-london-north-free-tickets-474733479617",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "toboggan-brewing-trivia",
+      "venueId": "toboggan-brewing",
+      "name": "Sunday Quizmas",
+      "days": [],
+      "time": "18:00",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/sunday-quizmas-2026-tickets-2003779463315",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-13",
+      "date": "2026-12-13",
+      "end": "20:30",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-16",
+        "sourceUrl": "https://londonlive.ca/category/community/",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 2000
+          }
+        ],
+        "note": "Calendar lists $20; verify the ticket unit with the organizer."
+      }
+    },
+    {
+      "id": "tipsy-fox-oakville-trivia",
+      "venueId": "tipsy-fox-oakville",
+      "name": "Monday Night Trivia",
+      "days": [
+        1
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16"
+    },
+    {
+      "id": "toboggan-brewing-monday-quizmas",
+      "venueId": "toboggan-brewing",
+      "name": "Monday Quizmas",
+      "kind": "trivia",
+      "days": [],
+      "time": "19:00",
+      "end": "21:30",
+      "date": "2026-12-14",
+      "validUntil": "2026-12-14",
+      "fee": "paid",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/monday-quizmas-2026-tickets-2003780334922",
+        "checked": "2026-11-16"
+      },
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-16",
+        "sourceUrl": "https://londonlive.ca/category/community/",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 2000
+          }
+        ],
+        "note": "Calendar lists $20; verify the ticket unit with the organizer."
+      }
+    },
+    {
+      "id": "boiler-whistle-trivia",
+      "venueId": "boiler-whistle",
+      "name": "Pub Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "private-label"
+    },
+    {
+      "id": "boston-pizza-barton-trivia",
+      "venueId": "boston-pizza-barton",
+      "name": "Pub Trivia",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "private-label"
+    },
+    {
+      "id": "fionn-maccools-brampton-trivia",
+      "venueId": "fionn-maccools-brampton",
+      "name": "Pub Trivia",
+      "days": [
+        3
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "private-label"
+    },
+    {
+      "id": "st-louis-milton-trivia",
+      "venueId": "st-louis-milton",
+      "name": "Pub Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "private-label"
+    },
+    {
+      "id": "captain-hooks-stouffville-trivia",
+      "venueId": "captain-hooks-stouffville",
+      "name": "Pub Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "private-label"
+    },
+    {
+      "id": "thirsty-cactus-trivia",
+      "venueId": "thirsty-cactus",
+      "name": "Pub Trivia",
+      "days": [
+        4
+      ],
+      "time": "19:59",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://thirstycactus.ca/events.html",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16"
+    },
+    {
+      "id": "brandis-trivia",
+      "venueId": "brandis",
+      "name": "Pub Trivia",
+      "days": [
+        3
+      ],
+      "time": "18:29",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://brandis.ca/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16"
+    },
+    {
+      "id": "wunderbar-montreal-trivia",
+      "venueId": "wunderbar-montreal",
+      "name": "Quiz du mercredi",
+      "days": [
+        3
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.quiztonic.ca/bars",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "quiz-tonic"
+    },
+    {
+      "id": "gaggling-goose-trivia",
+      "venueId": "gaggling-goose",
+      "name": "Wednesday Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/wednesday-trivia-at-gaggling-goose-bar-grill-binbrook-tickets-1992795433787",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.com/o/hub-of-the-hammer-event-planning-18008483100",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "nickel-brook-burlington-trivia",
+      "venueId": "nickel-brook-burlington",
+      "name": "NickelBrains Trivia",
+      "days": [
+        1
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/nickelbrains-trivia-night-at-nickelbrook-mondays-burlington-tickets-510151796757",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.com/o/hub-of-the-hammer-event-planning-18008483100",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "teamMax": 6
+    },
+    {
+      "id": "real-hammer-hogs-trivia",
+      "venueId": "real-hammer-hogs",
+      "name": "Monday Trivia",
+      "days": [
+        1
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.com/o/hub-of-the-hammer-event-planning-18008483100",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.com/o/hub-of-the-hammer-event-planning-18008483100",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "electric-diner-lister-trivia",
+      "venueId": "electric-diner-lister",
+      "name": "Tuesday Trivia",
+      "days": [
+        2
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.com/o/hub-of-the-hammer-event-planning-18008483100",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.com/o/hub-of-the-hammer-event-planning-18008483100",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "shawn-ed-brewing-trivia",
+      "venueId": "shawn-ed-brewing",
+      "name": "Wednesday Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.com/o/hub-of-the-hammer-event-planning-18008483100",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.com/o/hub-of-the-hammer-event-planning-18008483100",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "end": "21:30"
+    },
+    {
+      "id": "gametime-social-burlington-trivia",
+      "venueId": "gametime-social-burlington",
+      "name": "Thursday Trivia",
+      "days": [
+        4
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.com/o/hub-of-the-hammer-event-planning-18008483100",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.com/o/hub-of-the-hammer-event-planning-18008483100",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "clifford-brewing-trivia",
+      "venueId": "clifford-brewing",
+      "name": "Trivia on Tap",
+      "days": [],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.com/o/hub-of-the-hammer-event-planning-18008483100",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-26",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.com/o/hub-of-the-hammer-event-planning-18008483100",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ],
+        "note": "Host lists the quiz at 7:30 p.m. and the taproom lists the event at 7 p.m."
+      },
+      "date": "2026-11-26"
+    },
+    {
+      "id": "montanas-hamilton-upper-james-trivia",
+      "venueId": "montanas-hamilton-upper-james",
+      "name": "Win Your Bill Trivia",
+      "days": [],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.com/o/hub-of-the-hammer-event-planning-18008483100",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-26",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://stayhappening.com/e/montanas-trivia-win-your-bill-hamilton-E118SB52DA53P",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "date": "2026-11-26",
+      "teamMax": 4
+    },
+    {
+      "id": "red-tape-brewery-trivia",
+      "venueId": "red-tape-brewery",
+      "name": "Trivia Tuesday",
+      "days": [],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/trivia-tuesday-at-red-tape-brewery-tickets-2004712981493",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-01",
+      "date": "2026-12-01",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.ca/cc/trivia-3128019/",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "end": "22:00"
+    },
+    {
+      "id": "hemingways-trivia",
+      "venueId": "hemingways",
+      "name": "Almost Jeopardy Pub Trivia",
+      "days": [],
+      "time": "18:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/pub-trivia-hosted-by-almost-jeopardy-tickets-2004592840147",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-02",
+      "date": "2026-12-02",
+      "end": "21:00"
+    },
+    {
+      "id": "boston-pizza-waterdown-trivia",
+      "venueId": "boston-pizza-waterdown",
+      "name": "How the Grinch Stole Christmas Trivia",
+      "days": [],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/how-the-grinch-stole-christmas-trivia-night-boston-pizza-waterdown-tickets-2003686861340",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-01",
+      "date": "2026-12-01",
+      "end": "21:30"
+    },
+    {
+      "id": "grain-grit-trivia",
+      "venueId": "grain-grit",
+      "name": "Thursday Trivia",
+      "days": [
+        4
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.grainandgritbeer.com/events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.grainandgritbeer.com/events",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "end": "21:00"
+    },
+    {
+      "id": "evo-kitchen-trivia",
+      "venueId": "evo-kitchen",
+      "name": "Wednesday Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://explorewaterloo.ca/event/wednesday-trivia-2/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "end": "21:30"
+    },
+    {
+      "id": "daventry-trivia",
+      "venueId": "daventry",
+      "name": "Wednesday Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://sudbury.news/events/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "end": "21:00"
+    },
+    {
+      "id": "la-fromagerie-trivia",
+      "venueId": "la-fromagerie",
+      "name": "’80s and ’90s Trivia Night",
+      "days": [],
+      "time": "18:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://stayhappening.com/e/80s-and-90s-trivia-night-E2ISYV9B06E",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-19",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "cousin-vinnys-hanmer-trivia",
+      "venueId": "cousin-vinnys-hanmer",
+      "name": "Dirty Trivia",
+      "days": [],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.cousinvinnys.ca/events?location=hanmer&view=dates",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-18",
+      "date": "2026-11-18",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.cousinvinnys.ca/events?location=hanmer&view=dates",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "end": "21:30"
+    },
+    {
+      "id": "senate-tavern-bank-trivia",
+      "venueId": "senate-tavern-bank",
+      "name": "Trivia Night at Senate Bank",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://intheglebe.ca/organizer/the-senate-tavern/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2027-01-15",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://intheglebe.ca/organizer/the-senate-tavern/",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "anchor": "2026-11-25",
+      "interval": 2,
+      "end": "21:30"
+    },
+    {
+      "id": "art-house-cafe-trivia",
+      "venueId": "art-house-cafe",
+      "name": "Music Trivia",
+      "days": [],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.613today.ca/events/2026-11-18-music-trivia-art-house",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-18",
+      "date": "2026-11-18",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.613today.ca/events/2026-11-18-music-trivia-art-house",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "end": "21:00"
+    },
+    {
+      "id": "pub-saint-pierre-trivia",
+      "venueId": "pub-saint-pierre",
+      "name": "Trivia Tuesday at Barrelmans",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.pubsaintpierre.ca/en/welcome",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16"
+    },
+    {
+      "id": "art-house-cafe-trivia-dec-16",
+      "venueId": "art-house-cafe",
+      "name": "Music Trivia",
+      "kind": "trivia",
+      "days": [],
+      "time": "19:00",
+      "end": "21:00",
+      "date": "2026-12-16",
+      "validUntil": "2026-12-16",
+      "fee": "free",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.613today.ca/events/2026-11-18-music-trivia-art-house",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.613today.ca/events/2026-11-18-music-trivia-art-house",
+        "checked": "2026-11-16"
+      }
+    },
+    {
+      "id": "quatre-origines-montreal-trivia",
+      "venueId": "quatre-origines-montreal",
+      "name": "Quiz Tonic",
+      "days": [
+        1
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "bilingual",
+      "evidence": {
+        "url": "https://www.quiztonic.ca/bars",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "quiz-tonic"
+    },
+    {
+      "id": "origine-brass-dorval-trivia",
+      "venueId": "origine-brass-dorval",
+      "name": "Quiz Tonic",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "bilingual",
+      "evidence": {
+        "url": "https://www.quiztonic.ca/bars",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "quiz-tonic"
+    },
+    {
+      "id": "soeurs-grises-rosemont-trivia",
+      "venueId": "soeurs-grises-rosemont",
+      "name": "Quiz Tonic",
+      "days": [
+        1
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.quiztonic.ca/bars",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "quiz-tonic"
+    },
+    {
+      "id": "friends-sainte-therese-trivia",
+      "venueId": "friends-sainte-therese",
+      "name": "Quiz Tonic",
+      "days": [
+        3
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.quiztonic.ca/bars",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "quiz-tonic"
+    },
+    {
+      "id": "louks-lachine-trivia",
+      "venueId": "louks-lachine",
+      "name": "Quiz Tonic",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "bilingual",
+      "evidence": {
+        "url": "https://www.quiztonic.ca/bars",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "quiz-tonic"
+    },
+    {
+      "id": "boswell-saint-bruno-trivia",
+      "venueId": "boswell-saint-bruno",
+      "name": "Quiz Tonic",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.quiztonic.ca/bars",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "quiz-tonic"
+    },
+    {
+      "id": "broue-shop-trivia",
+      "venueId": "broue-shop",
+      "name": "Quiz Tonic",
+      "days": [
+        3
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.quiztonic.ca/bars",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "quiz-tonic"
+    },
+    {
+      "id": "ladversaire-trivia",
+      "venueId": "ladversaire",
+      "name": "Soirée quiz",
+      "days": [],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://poudingchomeur.com/lieu/l-adversaire",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-18",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "ladversaire-nov-25",
+      "venueId": "ladversaire",
+      "name": "Soirée quiz",
+      "kind": "trivia",
+      "days": [],
+      "time": "19:00",
+      "date": "2026-11-25",
+      "validUntil": "2026-11-25",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://poudingchomeur.com/lieu/l-adversaire",
+        "checked": "2026-11-16"
       }
     }
   ],
