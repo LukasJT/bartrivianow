@@ -7,7 +7,7 @@ Sources checked on 2026-11-16. Counts include dated events and recurring series.
 | GTA | 23 | Toronto and surrounding municipalities, including Burlington and Newmarket. |
 | Golden Horseshoe | 45 | GTA overlap plus Hamilton, Ancaster, Stoney Creek and Niagara listings. |
 | Waterloo | 6 | Independent venues and recurring schedules from local breweries and cafés. |
-| London | 7 | London and surrounding communities, including Mount Brydges and Port Stanley. |
+| London | 9 | London and surrounding communities, including Mount Brydges, Port Stanley and St. Marys. |
 | Ottawa | 12 | Central Ottawa and suburban listings, including Orléans and Stittsville. |
 | Montréal | 19 | Venue and Quiz Tonic schedules, including bilingual quizzes. |
 | Thunder Bay | 3 | Recurring trivia at Norteños and The Wayland, plus the November fundraiser. |

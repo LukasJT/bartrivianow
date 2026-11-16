@@ -1583,6 +1583,36 @@
       "website": "https://www.indiealehouse.com/pages/birroteca-by-indie-alehouse",
       "timezone": "America/Toronto",
       "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "powerhouse-brewing-london",
+      "name": "Powerhouse Brewing Company",
+      "city": "London",
+      "province": "ON",
+      "address": "100 Kellogg Lane, entrance on Eleanor Street",
+      "regions": [
+        "london"
+      ],
+      "point": null,
+      "website": "https://powerhousebrewery.beer/pages/contact",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "broken-rail-brewing",
+      "name": "Broken Rail Brewing",
+      "city": "St. Marys",
+      "province": "ON",
+      "address": "480 Glass Street",
+      "regions": [
+        "london"
+      ],
+      "point": [
+        43.27192707875,
+        -81.13256142125
+      ],
+      "website": "https://www.brokenrail.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
     }
   ],
   "series": [
@@ -4017,6 +4047,55 @@
         ]
       },
       "end": "22:00"
+    },
+    {
+      "id": "powerhouse-brewing-london-trivia",
+      "venueId": "powerhouse-brewing-london",
+      "name": "Tuesday Trivia",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://powerhousebrewery.beer/blogs/news/powerhouse-trivia",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-16",
+        "sourceUrl": "https://www.opentable.ca/r/powerhouse-brewery-london",
+        "terms": [
+          {
+            "type": "minimum-spend",
+            "unit": "person",
+            "amountCents": 1500
+          }
+        ],
+        "note": "Can be spent in the taproom or on takeaway beer or merchandise."
+      }
+    },
+    {
+      "id": "broken-rail-brewing-trivia",
+      "venueId": "broken-rail-brewing",
+      "name": "Trivia Night",
+      "days": [],
+      "time": "18:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.brokenrail.ca/events-2-1",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-18",
+      "date": "2026-11-18",
+      "end": "20:00"
     }
   ],
   "hosts": [
