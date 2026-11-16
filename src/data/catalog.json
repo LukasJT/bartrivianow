@@ -1613,6 +1613,254 @@
       "website": "https://www.brokenrail.ca/",
       "timezone": "America/Toronto",
       "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "wingporium-etobicoke",
+      "name": "Wingporium Etobicoke",
+      "city": "Etobicoke",
+      "province": "ON",
+      "address": "1000 Islington Avenue",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.6304485,
+        -79.5175806
+      ],
+      "website": "https://www.wingporium.ca/wingporium-best-chicken-wings-in-toronto/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "wingporium-scarborough",
+      "name": "Wingporium Scarborough",
+      "city": "Scarborough",
+      "province": "ON",
+      "address": "3490 Kingston Road",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.73833414,
+        -79.21747363
+      ],
+      "website": "https://www.wingporium.ca/sports-bar-scarborough/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "legends-paris",
+      "name": "Legends Tap House & Grill",
+      "city": "Paris",
+      "province": "ON",
+      "address": "1084 Rest Acres Road",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://legendstaphouse.com/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "wayside-talbotville",
+      "name": "Wayside Dining & Bar",
+      "city": "Talbotville",
+      "province": "ON",
+      "address": "10680 Sunset Drive",
+      "regions": [
+        "london"
+      ],
+      "point": null,
+      "website": "https://www.restaurantji.com/on/talbotville/wayside-dining-and-bar-/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "kelseys-red-hill",
+      "name": "Kelseys Red Hill",
+      "city": "Stoney Creek",
+      "province": "ON",
+      "address": "821 Paramount Drive",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": [
+        43.1922562471543,
+        -79.8074426527006
+      ],
+      "website": "https://www.kelseys.ca/en/locations/on/stoney-creek/821-paramount-drive",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "duke-on-park",
+      "name": "The Duke on Park",
+      "city": "Brantford",
+      "province": "ON",
+      "address": "505 Park Road North",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://dukeonpark.com/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "hungry-italian",
+      "name": "The Hungry Italian",
+      "city": "Oakville",
+      "province": "ON",
+      "address": "1911 Ironoak Way",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://feedyourdragon.com/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "broadway-riverside-south",
+      "name": "Broadway Bar & Grill Riverside South",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "665 Earl Armstrong Road",
+      "regions": [
+        "ottawa"
+      ],
+      "point": [
+        45.2691262784553,
+        -75.6972842469917
+      ],
+      "website": "https://www.broadwaybarandgrill.ca/locations",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "davinci-centre",
+      "name": "Da Vinci Centre",
+      "city": "Thunder Bay",
+      "province": "ON",
+      "address": "340 Waterloo Street South",
+      "regions": [
+        "thunderbay"
+      ],
+      "point": [
+        48.379459,
+        -89.26698575
+      ],
+      "website": "https://yourthunderbay.ca/events/quiz-night/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "twb-brewing",
+      "name": "TWB Co-operative Brewing",
+      "city": "Kitchener",
+      "province": "ON",
+      "address": "300 Mill Street, Unit 1",
+      "regions": [
+        "waterloo"
+      ],
+      "point": null,
+      "website": "https://www.twbbrewing.com/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "duke-of-wellington-waterloo",
+      "name": "The Duke of Wellington",
+      "city": "Waterloo",
+      "province": "ON",
+      "address": "100 King Street South",
+      "regions": [
+        "waterloo"
+      ],
+      "point": [
+        43.4624105753375,
+        -80.5216053795916
+      ],
+      "website": "https://rgd.ca/connecting-learning/events-training/rgd-trivia-night-waterloo",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "boathouse-dtk",
+      "name": "Boathouse DTK",
+      "city": "Kitchener",
+      "province": "ON",
+      "address": "57 Jubilee Drive",
+      "regions": [
+        "waterloo"
+      ],
+      "point": null,
+      "website": "https://www.boathousedtk.com/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "lakehead-beer",
+      "name": "Lakehead Beer Company",
+      "city": "Thunder Bay",
+      "province": "ON",
+      "address": "206 Park Avenue",
+      "regions": [
+        "thunderbay"
+      ],
+      "point": null,
+      "website": "https://www.lakeheadbeer.ca/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "foundry-thunder-bay",
+      "name": "The Foundry",
+      "city": "Thunder Bay",
+      "province": "ON",
+      "address": "242 Red River Road",
+      "regions": [
+        "thunderbay"
+      ],
+      "point": null,
+      "website": "https://www.thefoundrypub.com/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "broadhead-brewing",
+      "name": "Broadhead Brewing Company",
+      "city": "Orléans",
+      "province": "ON",
+      "address": "1680 Vimont Court, Unit 106",
+      "regions": [
+        "ottawa"
+      ],
+      "point": null,
+      "website": "https://broadheadbeer.com/taproom/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "broadway-prince-of-wales",
+      "name": "Broadway Bar & Grill Prince of Wales",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "1896 Prince of Wales Drive",
+      "regions": [
+        "ottawa"
+      ],
+      "point": null,
+      "website": "https://www.broadwayprince.com/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "foundry-coffee-bar",
+      "name": "Foundry Coffee Bar",
+      "city": "Carleton Place",
+      "province": "ON",
+      "address": "122 Bridge Street",
+      "regions": [
+        "ottawa"
+      ],
+      "point": null,
+      "website": "https://happeningnext.com/event/november-24-trivia-night-at-foundry-coffee-bar-eid1ef0kpw0b4wr",
+      "timezone": "America/Toronto"
     }
   ],
   "series": [
@@ -4096,6 +4344,472 @@
       "validUntil": "2026-11-18",
       "date": "2026-11-18",
       "end": "20:00"
+    },
+    {
+      "id": "wingporium-etobicoke-trivia",
+      "venueId": "wingporium-etobicoke",
+      "name": "Ruby Pub Trivia",
+      "days": [
+        2
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "wingporium-scarborough-trivia",
+      "venueId": "wingporium-scarborough",
+      "name": "Ruby Pub Trivia",
+      "days": [
+        7
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "legends-paris-trivia",
+      "venueId": "legends-paris",
+      "name": "Ruby Pub Trivia",
+      "days": [
+        2
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "wayside-talbotville-trivia",
+      "venueId": "wayside-talbotville",
+      "name": "Ruby Pub Trivia",
+      "days": [
+        2
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "kelseys-red-hill-trivia",
+      "venueId": "kelseys-red-hill",
+      "name": "Ruby Pub Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "duke-on-park-trivia",
+      "venueId": "duke-on-park",
+      "name": "Ruby Pub Trivia",
+      "days": [
+        4
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "hungry-italian-trivia",
+      "venueId": "hungry-italian",
+      "name": "Ruby Pub Trivia",
+      "days": [
+        4
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "broadway-riverside-south-trivia",
+      "venueId": "broadway-riverside-south",
+      "name": "Wednesday Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.qbtrivia.ca/where-to-play/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "hostId": "qb-trivia",
+      "end": "21:00"
+    },
+    {
+      "id": "davinci-centre-trivia",
+      "venueId": "davinci-centre",
+      "name": "Fundraising Fairies Quiz Night",
+      "days": [],
+      "time": "18:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://yourthunderbay.ca/events/quiz-night/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-26",
+      "date": "2026-11-26",
+      "end": "21:00"
+    },
+    {
+      "id": "twb-brewing-trivia",
+      "venueId": "twb-brewing",
+      "name": "Back in 2010 Trivia",
+      "days": [],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://explorewaterloo.ca/event/back-in-2010-trivia-night/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-19",
+      "date": "2026-11-19",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://explorewaterloo.ca/event/back-in-2010-trivia-night/",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 1000
+          }
+        ],
+        "note": "$10 in advance or $12 on trivia day. Includes one 12 oz beer or non-alcoholic drink."
+      },
+      "end": "21:30"
+    },
+    {
+      "id": "duke-of-wellington-waterloo-trivia",
+      "venueId": "duke-of-wellington-waterloo",
+      "name": "RGD Trivia Night: Branding Edition",
+      "days": [],
+      "time": "19:15",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "gift-card",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://rgd.ca/connecting-learning/events-training/rgd-trivia-night-waterloo",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-19",
+      "date": "2026-11-19",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://rgd.ca/connecting-learning/events-training/rgd-trivia-night-waterloo",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 1500
+          }
+        ],
+        "note": "RGD members pay $10. Tax and fees are extra for both rates."
+      },
+      "end": "21:00",
+      "teamMax": 4,
+      "prizeCents": 10000
+    },
+    {
+      "id": "boathouse-dtk-trivia",
+      "venueId": "boathouse-dtk",
+      "name": "Landmarks & Locations Trivia",
+      "days": [],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.boathousedtk.com/events/trivia-landmarks-locations",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-23",
+      "date": "2026-11-23",
+      "end": "20:30"
+    },
+    {
+      "id": "lakehead-beer-trivia",
+      "venueId": "lakehead-beer",
+      "name": "Tuesday Trivia",
+      "days": [],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://caldiscovery.com/thunder-bay-on/this-week.html",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "foundry-thunder-bay-trivia",
+      "venueId": "foundry-thunder-bay",
+      "name": "Trivia Night at The Foundry",
+      "days": [],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://caldiscovery.com/thunder-bay-on/this-week.html",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-18",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "broadhead-brewing-trivia",
+      "venueId": "broadhead-brewing",
+      "name": "Tuesday Trivia with Quizmaster Kev",
+      "days": [
+        2
+      ],
+      "time": "18:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://broadheadbeer.com/taproom/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://covertottawaguy.com/events/week/2026-11-16/",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "broadway-prince-of-wales-trivia",
+      "venueId": "broadway-prince-of-wales",
+      "name": "Games Trivia",
+      "days": [],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.broadwayprince.com/",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-26",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "foundry-coffee-bar-trivia",
+      "venueId": "foundry-coffee-bar",
+      "name": "Trivia at Foundry Coffee Bar",
+      "days": [],
+      "time": "18:30",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://happeningnext.com/event/november-24-trivia-night-at-foundry-coffee-bar-eid1ef0kpw0b4wr",
+        "checked": "2026-11-16"
+      },
+      "validUntil": "2026-11-24",
+      "date": "2026-11-24",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://happeningnext.com/event/november-24-trivia-night-at-foundry-coffee-bar-eid1ef0kpw0b4wr",
+        "checked": "2026-11-16",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 2000
+          }
+        ],
+        "note": "Includes a beverage."
+      },
+      "end": "20:30"
+    },
+    {
+      "id": "broadway-prince-christmas-movie-trivia",
+      "venueId": "broadway-prince-of-wales",
+      "name": "Christmas Movie Trivia",
+      "kind": "trivia",
+      "days": [],
+      "time": "19:00",
+      "date": "2026-12-10",
+      "validUntil": "2026-12-10",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.broadwayprince.com/",
+        "checked": "2026-11-16"
+      }
     }
   ],
   "hosts": [
@@ -4134,5 +4848,15 @@
       "website": "https://www.quiztonic.ca/bars"
     }
   ],
-  "exceptions": []
+  "exceptions": [
+    {
+      "seriesId": "broadway-riverside-south-trivia",
+      "date": "2026-11-25",
+      "cancelled": true,
+      "evidence": {
+        "url": "https://www.qbtrivia.ca/where-to-play/",
+        "checked": "2026-11-16"
+      }
+    }
+  ]
 }
