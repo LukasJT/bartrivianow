@@ -14,12 +14,18 @@ Sources checked November 16–17, 2026. Counts include dated events and recurrin
 | Greater Sudbury | 7 | Recurring and dated listings in Sudbury and Hanmer, including Tucos Taco Lounge. |
 | North Bay | 2 | The Moose and Match Eatery. |
 | Timmins | 0 | Full Beard Brewing had several recent dated events. No upcoming bar trivia schedule was verified. |
+| Barrie & Simcoe County | 2 | The Queens Hotel and Canadian Brewhouse in Barrie. |
+| Peterborough & Kawarthas | 2 | The Social Pub and Bobcaygeon Brewing’s Peterborough taproom. |
+| Kingston | 4 | Daft Brewing, Riverhead Brewing and One Eyed Jack; includes Riverhead’s alternate-week music quiz. |
+| Sarnia & Lambton County | 3 | Refined Fool The Fool, Refined Fool Sports and Black Gold Brewery in Petrolia. |
+| Windsor & Essex County | 13 | Windsor, Tecumseh, Emeryville and Harrow. Includes recurring series and dated themed quizzes. |
+| Buffalo & Western New York | 9 | Buffalo, Williamsville and Amherst; weekly and monthly trivia from venue and host schedules. |
 
-Venue and host sources appear on each schedule page. Street pins from Natural Resources Canada are approximate. Listings awaiting an address match remain in regional browsing. A page’s language does not establish the language the quiz is played in.
+Venue and host sources appear on each schedule page. Street pins from Natural Resources Canada and the U.S. Census Bureau are approximate. Listings awaiting an address match remain in regional browsing. A page’s language does not establish the language the quiz is played in.
 
 ## Buy-in research
 
-Catalog entries can carry a `buyIn` record with currency, pricing source, check date and one or more terms. Record each term as entry or minimum spend, with its unit and amount in cents. A missing amount means the source did not establish an exact price. A zero amount requires explicit evidence of free entry. Table rates can include a capacity. Use the pricing note to explain advance and door rates, eligibility or what a ticket includes. Venue and event pages display the documented terms and source.
+Catalog entries can carry a `buyIn` record with currency, pricing source, check date and one or more terms. Record each term as entry or minimum spend, with its unit and amount in cents. A missing amount means the source did not establish an exact price. A zero amount requires explicit evidence of free entry. Table and team rates can include a capacity. Use the pricing note to explain advance and door rates, eligibility or what a ticket includes. Venue and schedule pages display the documented terms, currency and source.
 
 ## November 17 expansion review
 
@@ -28,3 +34,15 @@ Added nine weekly schedules at nine venues from [Town Brewery](https://townbrewe
 Recorded explicit free entry for Town Charles Street, BOND|ST and Tracks, plus 15 existing Private Label Trivia series. [The host’s free-to-play statement](https://www.privatelabeltrivia.com/our-trivia-events) supplies pricing evidence only; these updates do not extend schedule validity. The Wednesday Town venue and Ivy Bridge retain unknown fees because free entry was established for a different venue/day.
 
 Held back Pub Fiction: its host still lists a night, but closure/rebranding reports conflict with it. Also held back new Ottawa Trivia League locations: [the league page](https://triviahalloffame.com/pubnight) explicitly dates its list to April 2024 and directs readers elsewhere for current information. That old list is a research lead, not a fresh schedule assertion. No additional Timmins schedule has been verified.
+
+## Ontario and Buffalo expansion
+
+Added **33 trivia schedules at 30 venues**, bringing the catalog to **232 trivia schedules at 215 trivia venues**. Six new regions have EN/FR browse pages and built-in city search centres. Coverage is still partial across Ontario and Buffalo.
+
+Windsor schedules were reviewed against the public iCalendar feed embedded by [Mack Flash Entertainment](https://www.mackflash.com/Events/). Reviewed recurrence rules, end dates, exclusions and occurrence overrides before importing selected schedules. Ended recurrences and members-only events were excluded. November 30 Mustache Trivia is a dated event, CAD 25 per team of up to six. The last-Friday Harrow quiz is imported only for November 27 because the current schema does not express last-weekday recurrence. Monthly Young Bloods remains separate from Eastwood’s weekly quiz. The special November 18 Loose Goose quiz is separate from its Tuesday series.
+
+Ontario sources include venue calendars for [The Queens](https://www.queensbarrie.com/), [The Social Pub](https://thesocialpub.ca/), [Bobcaygeon Brewing](https://bobcaygeonbrewing.ca/pages/taproom), [Riverhead](https://www.riverheadbrewing.com/events), [Daft](https://daftbrewing.com/events/), [Refined Fool](https://www.refinedfool.com/collections/events) and [Black Gold](https://blackgold.beer/events/). One Eyed Jack’s no-cover event is published through Kingston’s official tourism calendar. Daft permits larger teams with a points deduction, so six was not recorded as a hard maximum.
+
+Buffalo sources are [Taproom Trivia WNY](https://taproomtriviawny.com/), [Buffalo Olde Brewery](https://buffalooldebrewery.com/buffalo-lovejoy-buffalo-olde-brewery-events) and Geeks Who Drink’s venue pages. The Beer Keep and Buffalo Golf House are explicitly paused and were excluded. Spotted Octopus was held pending a current venue/schedule match after relocation reports. Six Taproom WNY events have explicit free entry, recorded in USD; unspecified Geeks Who Drink fees remain unknown. Resurgence’s advertised December 23 cancellation is retained for future rechecks.
+
+All 30 new venues have reviewed pins. U.S. street pins use [Census address geocoding](https://geocoding.geo.census.gov/geocoder/); Buffalo Olde’s `E LOVEJOY ST` matches East Lovejoy Street. Duende’s point comes directly from geographic metadata on its own website. The 519 Beerhouse address uses the host’s mailing address, with its municipality corrected to Tecumseh for geocoding. No broader completeness claim is supported.

@@ -9,6 +9,12 @@ export const zones = {
  sudbury: ['Greater Sudbury','Grand Sudbury',46.4927,-80.993],
  northbay: ['North Bay','North Bay',46.3091,-79.4608],
  timmins: ['Timmins','Timmins',48.4758,-81.3305],
+ simcoe: ['Barrie & Simcoe County','Barrie et comté de Simcoe',44.3894,-79.6903],
+ kawarthas: ['Peterborough & Kawarthas','Peterborough et Kawarthas',44.3091,-78.3197],
+ kingston: ['Kingston area','Région de Kingston',44.2312,-76.4860],
+ sarnia: ['Sarnia & Lambton County','Sarnia et comté de Lambton',42.9745,-82.4066],
+ windsor: ['Windsor & Essex County','Windsor et comté d’Essex',42.3149,-83.0364],
+ buffalo: ['Buffalo & Western New York','Buffalo et ouest de l’État de New York',42.8864,-78.8784],
 } as const;
 export type Region = keyof typeof zones;
 export type Locale = 'en' | 'fr';

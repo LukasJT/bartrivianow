@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import EventRow from '../../../components/EventRow.astro';
+import PricingTerms from '../../../components/PricingTerms.astro';
 import data from '../../../data/catalog.json';
 import {formatDate, formatTime, normalize, search, type Catalog, type Venue} from '../../../lib/events';
 import {labels} from '../../../lib/labels';
@@ -32,13 +33,7 @@ const weekdays=(days:number[])=>days.map(day=>formatDate('2026-11-'+String(15+da
   <strong><a href={'/'+lang+'/series/'+s.id+'/'}>{s.name}</a></strong>
   <p>{s.date?formatDate(s.date,lang,{dateStyle:'long'}):weekdays(s.days)} · {formatTime(s.time,lang)}{s.interval===2?(fr?' · toutes les deux semaines':' · every other week'):''}{s.monthWeeks?.length?(fr?' · semaines ':' · weeks ')+s.monthWeeks.join(', '):''}</p>
   <p>{labels[lang][s.fee]}{s.prize!=='unknown'?' · '+labels[lang][s.prize]:''}{s.language!=='unknown'?' · '+labels[lang][s.language]:''}</p>
-  {s.buyIn&&<ul>{s.buyIn.terms.map(term=><li>
-    {term.type==='entry'?(fr?'Entrée':'Entry'):(fr?'Dépense minimale':'Minimum spend')}
-    {' · '}{term.amountCents===undefined?(fr?'Montant non indiqué':'Amount not listed'):new Intl.NumberFormat(lang,{style:'currency',currency:s.buyIn!.currency}).format(term.amountCents/100)}
-    {term.unit==='person'?(fr?' par personne':' per person'):term.unit==='table'?(fr?' par table':' per table'):''}
-    {term.capacity?' ('+term.capacity+(fr?' places)':' seats)'):''}
-  </li>)}{s.buyIn.note&&<li>{s.buyIn.note}</li>}
-  <li><a href={s.buyIn.sourceUrl}>{fr?'Source du tarif':'Pricing source'}</a></li></ul>}
+  {s.buyIn&&<PricingTerms pricing={s.buyIn} {lang}/>}
   <p><a href={s.evidence.url}>{fr?'Source de l’horaire':'Schedule source'}</a> · {fr?'Consultée le ':'Checked '}{formatDate(s.evidence.checked,lang,{dateStyle:'medium'})}</p>
 </li>)}</ul>
 </>}

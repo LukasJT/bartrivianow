@@ -3052,6 +3052,516 @@
       "website": "https://haltoncrownpub.com/",
       "timezone": "America/Toronto",
       "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "queens-barrie",
+      "name": "The Queens Hotel",
+      "city": "Barrie",
+      "province": "ON",
+      "address": "94 Dunlop Street East",
+      "regions": [
+        "simcoe"
+      ],
+      "point": [
+        44.389297574137956,
+        -79.68711287241379
+      ],
+      "website": "https://www.queensbarrie.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "canadian-brewhouse-barrie",
+      "name": "The Canadian Brewhouse Barrie",
+      "city": "Barrie",
+      "province": "ON",
+      "address": "125 Park Place Boulevard",
+      "regions": [
+        "simcoe"
+      ],
+      "point": [
+        44.338120169230756,
+        -79.6815265846154
+      ],
+      "website": "https://thecanadianbrewhouse.com/locations/barrie/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "social-pub-peterborough",
+      "name": "The Social Pub",
+      "city": "Peterborough",
+      "province": "ON",
+      "address": "295 George Street North",
+      "regions": [
+        "kawarthas"
+      ],
+      "point": [
+        44.302585476315784,
+        -78.31982769210526
+      ],
+      "website": "https://thesocialpub.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "bobcaygeon-peterborough",
+      "name": "Bobcaygeon Brewing Peterborough",
+      "city": "Peterborough",
+      "province": "ON",
+      "address": "649 The Parkway",
+      "regions": [
+        "kawarthas"
+      ],
+      "point": [
+        44.27554999756388,
+        -78.34078079122216
+      ],
+      "website": "https://bobcaygeonbrewing.ca/pages/taproom",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "riverhead-kingston",
+      "name": "Riverhead Brewing Company",
+      "city": "Kingston",
+      "province": "ON",
+      "address": "631 Fortune Crescent",
+      "regions": [
+        "kingston"
+      ],
+      "point": [
+        44.271836500000006,
+        -76.5653911
+      ],
+      "website": "https://www.riverheadbrewing.com/events",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "daft-kingston",
+      "name": "Daft Brewing",
+      "city": "Kingston",
+      "province": "ON",
+      "address": "768 Princess Street",
+      "regions": [
+        "kingston"
+      ],
+      "point": [
+        44.239280067543845,
+        -76.50716479298245
+      ],
+      "website": "https://daftbrewing.com/events/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "one-eyed-jack-kingston",
+      "name": "One Eyed Jack Kingston",
+      "city": "Kingston",
+      "province": "ON",
+      "address": "417 Weller Avenue",
+      "regions": [
+        "kingston"
+      ],
+      "point": [
+        44.26245207043199,
+        -76.49736393169405
+      ],
+      "website": "https://www.oneeyedjackpub.com/kingston",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "refined-fool-london-road",
+      "name": "Refined Fool The Fool",
+      "city": "Sarnia",
+      "province": "ON",
+      "address": "1326 London Road",
+      "regions": [
+        "sarnia"
+      ],
+      "point": [
+        42.98007898650068,
+        -82.35559793947839
+      ],
+      "website": "https://www.refinedfool.com/pages/the-fool",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "refined-fool-sports",
+      "name": "Refined Fool Sports",
+      "city": "Sarnia",
+      "province": "ON",
+      "address": "1326 London Road",
+      "regions": [
+        "sarnia"
+      ],
+      "point": [
+        42.98007898650068,
+        -82.35559793947839
+      ],
+      "website": "https://www.refinedfool.com/pages/sports",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "black-gold-petrolia",
+      "name": "Black Gold Brewery",
+      "city": "Petrolia",
+      "province": "ON",
+      "address": "395 Fletcher Street",
+      "regions": [
+        "sarnia"
+      ],
+      "point": [
+        42.88189310000001,
+        -82.14667109999999
+      ],
+      "website": "https://blackgold.beer/events/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "rivers-edge-windsor",
+      "name": "River’s Edge Tap & Table",
+      "city": "Windsor",
+      "province": "ON",
+      "address": "494 Riverdale Avenue",
+      "regions": [
+        "windsor"
+      ],
+      "point": [
+        42.33584050000002,
+        -82.9306742
+      ],
+      "website": "https://www.mackflash.com/Events/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "walkerville-brewery",
+      "name": "Walkerville Brewery",
+      "city": "Windsor",
+      "province": "ON",
+      "address": "525 Argyle Road",
+      "regions": [
+        "windsor"
+      ],
+      "point": [
+        42.323863149999994,
+        -83.0112321
+      ],
+      "website": "https://www.walkervillebrewery.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "factory-house-windsor",
+      "name": "Factory House",
+      "city": "Windsor",
+      "province": "ON",
+      "address": "5240 Tecumseh Road East",
+      "regions": [
+        "windsor"
+      ],
+      "point": [
+        42.308650693749996,
+        -82.96118823541667
+      ],
+      "website": "https://www.mackflash.com/Events/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "canadian-brewhouse-windsor",
+      "name": "The Canadian Brewhouse Windsor",
+      "city": "Windsor",
+      "province": "ON",
+      "address": "3100 Howard Avenue",
+      "regions": [
+        "windsor"
+      ],
+      "point": [
+        42.27461004,
+        -83.005562175
+      ],
+      "website": "https://thecanadianbrewhouse.com/locations/windsor/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "twiggs-emeryville",
+      "name": "Twigg’s Bar & Grill",
+      "city": "Emeryville",
+      "province": "ON",
+      "address": "1207 County Road 22",
+      "regions": [
+        "windsor"
+      ],
+      "point": [
+        42.2975463,
+        -82.7606345
+      ],
+      "website": "https://www.mackflash.com/Events/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "eastwoods-windsor",
+      "name": "Eastwood’s Grill and Lounge",
+      "city": "Windsor",
+      "province": "ON",
+      "address": "63 Riverside Drive East",
+      "regions": [
+        "windsor"
+      ],
+      "point": [
+        42.319931085714266,
+        -83.03877574285715
+      ],
+      "website": "https://www.mackflash.com/Events/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "dominion-house-windsor",
+      "name": "Dominion House Tavern",
+      "city": "Windsor",
+      "province": "ON",
+      "address": "3140 Sandwich Street",
+      "regions": [
+        "windsor"
+      ],
+      "point": [
+        42.303440098681335,
+        -83.0747616317298
+      ],
+      "website": "https://www.mackflash.com/Events/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "519-beerhouse",
+      "name": "The 519 Beerhouse",
+      "city": "Tecumseh",
+      "province": "ON",
+      "address": "11828 Tecumseh Road East",
+      "regions": [
+        "windsor"
+      ],
+      "point": [
+        42.31193339291781,
+        -82.89683303056627
+      ],
+      "website": "https://www.mackflash.com/Events/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "parks-rec-windsor",
+      "name": "Parks & Rec Gastropub",
+      "city": "Windsor",
+      "province": "ON",
+      "address": "3087 Forest Glade Drive",
+      "regions": [
+        "windsor"
+      ],
+      "point": [
+        42.306029330116395,
+        -82.91314298839636
+      ],
+      "website": "https://parksrec.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "beerded-dog-harrow",
+      "name": "The Beerded Dog Brewing Co.",
+      "city": "Harrow",
+      "province": "ON",
+      "address": "21 King Street East",
+      "regions": [
+        "windsor"
+      ],
+      "point": [
+        42.0353924,
+        -82.9174531
+      ],
+      "website": "https://www.mackflash.com/Events/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "loose-goose-walkerville",
+      "name": "The Loose Goose Walkerville",
+      "city": "Windsor",
+      "province": "ON",
+      "address": "624 Chilver Road",
+      "regions": [
+        "windsor"
+      ],
+      "point": [
+        42.3221317,
+        -83.01396605
+      ],
+      "website": "https://www.theloosegoose.ca/goosewalkerville",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "lloyd-elmwood",
+      "name": "lloyd Taco Factory Elmwood",
+      "city": "Buffalo",
+      "province": "NY",
+      "address": "492 Elmwood Avenue",
+      "regions": [
+        "buffalo"
+      ],
+      "point": [
+        42.910500547628,
+        -78.877168361471
+      ],
+      "website": "https://whereslloyd.com/",
+      "timezone": "America/New_York",
+      "locationEvidence": "https://geocoding.geo.census.gov/geocoder/"
+    },
+    {
+      "id": "lloyd-williamsville",
+      "name": "lloyd Taco Factory Williamsville",
+      "city": "Williamsville",
+      "province": "NY",
+      "address": "5933 Main Street",
+      "regions": [
+        "buffalo"
+      ],
+      "point": [
+        42.964791055889,
+        -78.732484249451
+      ],
+      "website": "https://whereslloyd.com/",
+      "timezone": "America/New_York",
+      "locationEvidence": "https://geocoding.geo.census.gov/geocoder/"
+    },
+    {
+      "id": "colter-bay-buffalo",
+      "name": "Colter Bay",
+      "city": "Buffalo",
+      "province": "NY",
+      "address": "561 Delaware Avenue",
+      "regions": [
+        "buffalo"
+      ],
+      "point": [
+        42.899574565852,
+        -78.873805116209
+      ],
+      "website": "https://colterbaybuffalo.com/",
+      "timezone": "America/New_York",
+      "locationEvidence": "https://geocoding.geo.census.gov/geocoder/"
+    },
+    {
+      "id": "jack-rabbit-buffalo",
+      "name": "Jack Rabbit",
+      "city": "Buffalo",
+      "province": "NY",
+      "address": "1010 Elmwood Avenue",
+      "regions": [
+        "buffalo"
+      ],
+      "point": [
+        42.924577253052,
+        -78.877084960078
+      ],
+      "website": "https://www.jackrabbitbuffalo.com/",
+      "timezone": "America/New_York",
+      "locationEvidence": "https://geocoding.geo.census.gov/geocoder/"
+    },
+    {
+      "id": "moor-room-buffalo",
+      "name": "Moor Room",
+      "city": "Buffalo",
+      "province": "NY",
+      "address": "1535 Hertel Avenue",
+      "regions": [
+        "buffalo"
+      ],
+      "point": [
+        42.947604319972,
+        -78.851242575798
+      ],
+      "website": "https://www.moorroombuffalo.com/",
+      "timezone": "America/New_York",
+      "locationEvidence": "https://geocoding.geo.census.gov/geocoder/"
+    },
+    {
+      "id": "duende-buffalo",
+      "name": "Duende at Silo City",
+      "city": "Buffalo",
+      "province": "NY",
+      "address": "85 Silo City Row",
+      "regions": [
+        "buffalo"
+      ],
+      "point": [
+        42.8612892199197,
+        -78.8636673528115
+      ],
+      "website": "https://duendesilo.city/",
+      "timezone": "America/New_York",
+      "locationEvidence": "https://duendesilo.city/"
+    },
+    {
+      "id": "buffalo-olde-brewery",
+      "name": "Buffalo Olde Brewery",
+      "city": "Buffalo",
+      "province": "NY",
+      "address": "1221 East Lovejoy Street",
+      "regions": [
+        "buffalo"
+      ],
+      "point": [
+        42.889712892473,
+        -78.80300213846
+      ],
+      "website": "https://buffalooldebrewery.com/buffalo-lovejoy-buffalo-olde-brewery-events",
+      "timezone": "America/New_York",
+      "locationEvidence": "https://geocoding.geo.census.gov/geocoder/"
+    },
+    {
+      "id": "resurgence-buffalo",
+      "name": "Resurgence Brewing Company",
+      "city": "Buffalo",
+      "province": "NY",
+      "address": "55 Chicago Street",
+      "regions": [
+        "buffalo"
+      ],
+      "point": [
+        42.869890448172,
+        -78.868737302788
+      ],
+      "website": "https://www.geekswhodrink.com/venues/1249442789/",
+      "timezone": "America/New_York",
+      "locationEvidence": "https://geocoding.geo.census.gov/geocoder/"
+    },
+    {
+      "id": "bar-1818-amherst",
+      "name": "Bar 1818 at Whole Foods",
+      "city": "Amherst",
+      "province": "NY",
+      "address": "3139 Sheridan Drive",
+      "regions": [
+        "buffalo"
+      ],
+      "point": [
+        42.980329810282,
+        -78.817133503118
+      ],
+      "website": "https://www.geekswhodrink.com/venues/2461750980/",
+      "timezone": "America/New_York",
+      "locationEvidence": "https://geocoding.geo.census.gov/geocoder/"
     }
   ],
   "series": [
@@ -8181,6 +8691,843 @@
       "validUntil": "2026-12-17",
       "end": "21:30",
       "hostId": "quizzical-mind"
+    },
+    {
+      "id": "queens-barrie-trivia",
+      "venueId": "queens-barrie",
+      "name": "Thursday Trivia",
+      "kind": "trivia",
+      "days": [
+        4
+      ],
+      "time": "19:00",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.queensbarrie.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
+    },
+    {
+      "id": "canadian-brewhouse-barrie-trivia",
+      "venueId": "canadian-brewhouse-barrie",
+      "name": "Tuesday Trivia",
+      "kind": "trivia",
+      "days": [
+        2
+      ],
+      "time": "17:30",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "social-pub-peterborough-trivia",
+      "venueId": "social-pub-peterborough",
+      "name": "Tuesday Trivia",
+      "kind": "trivia",
+      "days": [
+        2
+      ],
+      "time": "20:00",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://thesocialpub.ca/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://thesocialpub.ca/",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "bobcaygeon-peterborough-trivia",
+      "venueId": "bobcaygeon-peterborough",
+      "name": "Wednesday Trivia",
+      "kind": "trivia",
+      "days": [
+        3
+      ],
+      "time": "18:00",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://bobcaygeonbrewing.ca/pages/taproom",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
+    },
+    {
+      "id": "riverhead-kingston-trivia",
+      "venueId": "riverhead-kingston",
+      "name": "Thursday Trivia",
+      "kind": "trivia",
+      "days": [
+        4
+      ],
+      "time": "19:00",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.riverheadbrewing.com/events",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
+    },
+    {
+      "id": "riverhead-kingston-music-trivia",
+      "venueId": "riverhead-kingston",
+      "name": "Music Trivia",
+      "kind": "trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.riverheadbrewing.com/events",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "interval": 2,
+      "anchor": "2026-11-25"
+    },
+    {
+      "id": "daft-kingston-trivia",
+      "venueId": "daft-kingston",
+      "name": "Wednesday General Trivia",
+      "kind": "trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://daftbrewing.com/events/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "21:30",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://daftbrewing.com/events/",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "one-eyed-jack-kingston-trivia",
+      "venueId": "one-eyed-jack-kingston",
+      "name": "Monday Trivia Games",
+      "kind": "trivia",
+      "days": [
+        1
+      ],
+      "time": "19:00",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "en",
+      "evidence": {
+        "url": "https://www.visitkingston.ca/events/trivia-games-at-one-eyed-jack-every-monday/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.visitkingston.ca/events/trivia-games-at-one-eyed-jack-every-monday/",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "refined-fool-london-road-trivia",
+      "venueId": "refined-fool-london-road",
+      "name": "Sarnia’s Best Trivia",
+      "kind": "trivia",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.refinedfool.com/collections/events",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "monthWeeks": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "refined-fool-sports-trivia",
+      "venueId": "refined-fool-sports",
+      "name": "Sports Trivia",
+      "kind": "trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.refinedfool.com/collections/events",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "monthWeeks": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "black-gold-petrolia-trivia",
+      "venueId": "black-gold-petrolia",
+      "name": "Monday Night Trivia",
+      "kind": "trivia",
+      "days": [
+        1
+      ],
+      "time": "19:00",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://blackgold.beer/event/monday-night-trivia-2025/2026-11-23/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "20:30"
+    },
+    {
+      "id": "rivers-edge-windsor-trivia",
+      "venueId": "rivers-edge-windsor",
+      "name": "Aces of Trivia",
+      "kind": "trivia",
+      "days": [
+        4
+      ],
+      "time": "19:00",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://calendar.google.com/calendar/ical/ticpov8fghrqfg63nj8an3ip6g%40group.calendar.google.com/public/basic.ics",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "hostId": "mack-flash",
+      "end": "21:00"
+    },
+    {
+      "id": "walkerville-brewery-trivia",
+      "venueId": "walkerville-brewery",
+      "name": "Seriously Trivia",
+      "kind": "trivia",
+      "days": [
+        4
+      ],
+      "time": "18:30",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://calendar.google.com/calendar/ical/ticpov8fghrqfg63nj8an3ip6g%40group.calendar.google.com/public/basic.ics",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "teamMax": 6,
+      "hostId": "mack-flash",
+      "end": "20:30",
+      "monthWeeks": [
+        1
+      ]
+    },
+    {
+      "id": "factory-house-windsor-trivia",
+      "venueId": "factory-house-windsor",
+      "name": "Sports and Pop-Culture Trivia",
+      "kind": "trivia",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://calendar.google.com/calendar/ical/ticpov8fghrqfg63nj8an3ip6g%40group.calendar.google.com/public/basic.ics",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "teamMax": 6,
+      "hostId": "mack-flash",
+      "end": "21:00"
+    },
+    {
+      "id": "canadian-brewhouse-windsor-trivia",
+      "venueId": "canadian-brewhouse-windsor",
+      "name": "Mack Flash Trivia",
+      "kind": "trivia",
+      "days": [
+        1
+      ],
+      "time": "18:00",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://calendar.google.com/calendar/ical/ticpov8fghrqfg63nj8an3ip6g%40group.calendar.google.com/public/basic.ics",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "teamMax": 6,
+      "hostId": "mack-flash",
+      "end": "20:00"
+    },
+    {
+      "id": "twiggs-emeryville-trivia",
+      "venueId": "twiggs-emeryville",
+      "name": "Mack Flash Trivia",
+      "kind": "trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://calendar.google.com/calendar/ical/ticpov8fghrqfg63nj8an3ip6g%40group.calendar.google.com/public/basic.ics",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "teamMax": 6,
+      "hostId": "mack-flash",
+      "end": "21:00",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://calendar.google.com/calendar/ical/ticpov8fghrqfg63nj8an3ip6g%40group.calendar.google.com/public/basic.ics",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "eastwoods-windsor-trivia",
+      "venueId": "eastwoods-windsor",
+      "name": "Mack Flash Trivia",
+      "kind": "trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://calendar.google.com/calendar/ical/ticpov8fghrqfg63nj8an3ip6g%40group.calendar.google.com/public/basic.ics",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "hostId": "mack-flash",
+      "end": "21:00"
+    },
+    {
+      "id": "eastwoods-windsor-young-bloods",
+      "venueId": "eastwoods-windsor",
+      "name": "Young Bloods Trivia",
+      "kind": "trivia",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://calendar.google.com/calendar/ical/ticpov8fghrqfg63nj8an3ip6g%40group.calendar.google.com/public/basic.ics",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "teamMax": 6,
+      "hostId": "mack-flash",
+      "end": "21:00",
+      "monthWeeks": [
+        3
+      ]
+    },
+    {
+      "id": "dominion-house-windsor-trivia",
+      "venueId": "dominion-house-windsor",
+      "name": "Mustache Trivia",
+      "kind": "trivia",
+      "days": [],
+      "time": "19:00",
+      "fee": "paid",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://calendar.google.com/calendar/ical/ticpov8fghrqfg63nj8an3ip6g%40group.calendar.google.com/public/basic.ics",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-30",
+      "date": "2026-11-30",
+      "teamMax": 6,
+      "hostId": "mack-flash",
+      "end": "21:00",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://calendar.google.com/calendar/ical/ticpov8fghrqfg63nj8an3ip6g%40group.calendar.google.com/public/basic.ics",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "team",
+            "amountCents": 2500,
+            "capacity": 6
+          }
+        ],
+        "note": "Advance team registration required through the host. One fee covers a team of up to six."
+      }
+    },
+    {
+      "id": "519-beerhouse-trivia",
+      "venueId": "519-beerhouse",
+      "name": "Aces of Trivia",
+      "kind": "trivia",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://calendar.google.com/calendar/ical/ticpov8fghrqfg63nj8an3ip6g%40group.calendar.google.com/public/basic.ics",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "hostId": "mack-flash",
+      "end": "21:00"
+    },
+    {
+      "id": "parks-rec-windsor-trivia",
+      "venueId": "parks-rec-windsor",
+      "name": "Mack Flash Trivia",
+      "kind": "trivia",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://parksrec.ca/events/category/event-night/page/2/?tribe-bar-date=2026-10-18",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "hostId": "mack-flash",
+      "end": "21:00",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://parksrec.ca/events/category/event-night/page/2/?tribe-bar-date=2026-10-18",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "beerded-dog-harrow-trivia",
+      "venueId": "beerded-dog-harrow",
+      "name": "Seriously Trivia",
+      "kind": "trivia",
+      "days": [],
+      "time": "19:00",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://calendar.google.com/calendar/ical/ticpov8fghrqfg63nj8an3ip6g%40group.calendar.google.com/public/basic.ics",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-27",
+      "date": "2026-11-27",
+      "hostId": "mack-flash",
+      "end": "21:30"
+    },
+    {
+      "id": "loose-goose-walkerville-trivia",
+      "venueId": "loose-goose-walkerville",
+      "name": "Mack Flash Trivia",
+      "kind": "trivia",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://calendar.google.com/calendar/ical/ticpov8fghrqfg63nj8an3ip6g%40group.calendar.google.com/public/basic.ics",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "hostId": "mack-flash",
+      "end": "21:00",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://calendar.google.com/calendar/ical/ticpov8fghrqfg63nj8an3ip6g%40group.calendar.google.com/public/basic.ics",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "loose-goose-walkerville-2000s-nov-18",
+      "venueId": "loose-goose-walkerville",
+      "name": "Pop-Culture 2000s Trivia",
+      "kind": "trivia",
+      "days": [],
+      "time": "19:00",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://calendar.google.com/calendar/ical/ticpov8fghrqfg63nj8an3ip6g%40group.calendar.google.com/public/basic.ics",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-18",
+      "date": "2026-11-18",
+      "hostId": "mack-flash",
+      "end": "21:00",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://calendar.google.com/calendar/ical/ticpov8fghrqfg63nj8an3ip6g%40group.calendar.google.com/public/basic.ics",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "lloyd-elmwood-trivia",
+      "venueId": "lloyd-elmwood",
+      "name": "Taproom Trivia",
+      "kind": "trivia",
+      "days": [
+        1
+      ],
+      "time": "19:00",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://taproomtriviawny.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "hostId": "taproom-wny",
+      "buyIn": {
+        "currency": "USD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://taproomtriviawny.com/",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "lloyd-williamsville-trivia",
+      "venueId": "lloyd-williamsville",
+      "name": "Taproom Trivia",
+      "kind": "trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://taproomtriviawny.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "hostId": "taproom-wny",
+      "buyIn": {
+        "currency": "USD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://taproomtriviawny.com/",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "colter-bay-buffalo-trivia",
+      "venueId": "colter-bay-buffalo",
+      "name": "Taproom Trivia",
+      "kind": "trivia",
+      "days": [
+        2
+      ],
+      "time": "20:00",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://taproomtriviawny.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "hostId": "taproom-wny",
+      "buyIn": {
+        "currency": "USD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://taproomtriviawny.com/",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "jack-rabbit-buffalo-trivia",
+      "venueId": "jack-rabbit-buffalo",
+      "name": "Taproom Trivia",
+      "kind": "trivia",
+      "days": [
+        3
+      ],
+      "time": "19:30",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://taproomtriviawny.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "hostId": "taproom-wny",
+      "buyIn": {
+        "currency": "USD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://taproomtriviawny.com/",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "moor-room-buffalo-trivia",
+      "venueId": "moor-room-buffalo",
+      "name": "Taproom Trivia",
+      "kind": "trivia",
+      "days": [
+        3
+      ],
+      "time": "19:30",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://taproomtriviawny.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "hostId": "taproom-wny",
+      "buyIn": {
+        "currency": "USD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://taproomtriviawny.com/",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "duende-buffalo-trivia",
+      "venueId": "duende-buffalo",
+      "name": "Taproom Trivia",
+      "kind": "trivia",
+      "days": [
+        3
+      ],
+      "time": "18:00",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://taproomtriviawny.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "hostId": "taproom-wny",
+      "monthWeeks": [
+        2
+      ],
+      "buyIn": {
+        "currency": "USD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://taproomtriviawny.com/",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "buffalo-olde-brewery-trivia",
+      "venueId": "buffalo-olde-brewery",
+      "name": "Geeks Who Drink Trivia",
+      "kind": "trivia",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://buffalooldebrewery.com/buffalo-lovejoy-buffalo-olde-brewery-events",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "hostId": "geeks-who-drink",
+      "end": "21:00"
+    },
+    {
+      "id": "resurgence-buffalo-trivia",
+      "venueId": "resurgence-buffalo",
+      "name": "Pub Trivia",
+      "kind": "trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.geekswhodrink.com/venues/1249442789/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "hostId": "geeks-who-drink"
+    },
+    {
+      "id": "bar-1818-amherst-trivia",
+      "venueId": "bar-1818-amherst",
+      "name": "Pub Trivia",
+      "kind": "trivia",
+      "days": [
+        4
+      ],
+      "time": "18:30",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.geekswhodrink.com/venues/2461750980/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "hostId": "geeks-who-drink"
     }
   ],
   "hosts": [
@@ -8245,6 +9592,21 @@
       "id": "quizzical-mind",
       "name": "Quizzical Mind Trivia",
       "website": "https://quizzicalmind.com/"
+    },
+    {
+      "id": "mack-flash",
+      "name": "Mack Flash Entertainment",
+      "website": "https://www.mackflash.com/Events/"
+    },
+    {
+      "id": "taproom-wny",
+      "name": "Taproom Trivia WNY",
+      "website": "https://taproomtriviawny.com/"
+    },
+    {
+      "id": "geeks-who-drink",
+      "name": "Geeks Who Drink",
+      "website": "https://www.geekswhodrink.com/"
     }
   ],
   "exceptions": [
@@ -8273,6 +9635,15 @@
       "evidence": {
         "checked": "2026-11-17",
         "url": "https://www.eventbrite.ca/e/monday-quizmas-2026-tickets-2003780334922"
+      }
+    },
+    {
+      "seriesId": "resurgence-buffalo-trivia",
+      "date": "2026-12-23",
+      "cancelled": true,
+      "evidence": {
+        "url": "https://www.geekswhodrink.com/venues/1249442789/",
+        "checked": "2026-11-17"
       }
     }
   ]
