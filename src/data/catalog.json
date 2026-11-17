@@ -3562,6 +3562,91 @@
       "website": "https://www.geekswhodrink.com/venues/2461750980/",
       "timezone": "America/New_York",
       "locationEvidence": "https://geocoding.geo.census.gov/geocoder/"
+    },
+    {
+      "id": "hog-penny-orillia",
+      "name": "The Hog & Penny",
+      "city": "Orillia",
+      "province": "ON",
+      "address": "9 Matchedash Street North",
+      "regions": [
+        "simcoe"
+      ],
+      "point": [
+        44.61018573999998,
+        -79.41586679999999
+      ],
+      "website": "https://www.thehogandpenny.com/home",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "brewery-bay-orillia",
+      "name": "Brewery Bay Food Co. / Couchiching Brewing",
+      "city": "Orillia",
+      "province": "ON",
+      "address": "162 Mississaga Street East",
+      "regions": [
+        "simcoe"
+      ],
+      "point": [
+        44.609967892857114,
+        -79.41563349642857
+      ],
+      "website": "https://www.brewerybay.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "brch-wyn-stratford",
+      "name": "Brch & Wyn",
+      "city": "Stratford",
+      "province": "ON",
+      "address": "245 Downie Street",
+      "regions": [
+        "stratford"
+      ],
+      "point": [
+        43.3661086,
+        -80.9794021
+      ],
+      "website": "https://www.brchandwyn.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "jobsite-stratford",
+      "name": "Jobsite Brewing Company",
+      "city": "Stratford",
+      "province": "ON",
+      "address": "45 Cambria Street",
+      "regions": [
+        "stratford"
+      ],
+      "point": [
+        43.363602000000014,
+        -80.983385
+      ],
+      "website": "https://www.jobsitebrewing.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "bunker-stratford",
+      "name": "The Bunker Performance Lounge & Cafe",
+      "city": "Stratford",
+      "province": "ON",
+      "address": "104 Wellington Street",
+      "regions": [
+        "stratford"
+      ],
+      "point": [
+        43.368794059999985,
+        -80.98364348000003
+      ],
+      "website": "https://www.bunkerstratford.com/shows",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
     }
   ],
   "series": [
@@ -9528,6 +9613,178 @@
       },
       "validUntil": "2026-12-17",
       "hostId": "geeks-who-drink"
+    },
+    {
+      "id": "hog-penny-orillia-trivia",
+      "venueId": "hog-penny-orillia",
+      "name": "Paul’s Thursday Quiz",
+      "kind": "trivia",
+      "days": [
+        4
+      ],
+      "time": "19:30",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.thehogandpenny.com/home",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
+    },
+    {
+      "id": "brewery-bay-orillia-trivia-2026-11-17",
+      "venueId": "brewery-bay-orillia",
+      "name": "Big Dumb Face Trivia",
+      "kind": "trivia",
+      "days": [],
+      "time": "19:30",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.bigdumbfacetrivia.com/events/couchiching-trivia-november-17-2026",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-17",
+      "date": "2026-11-17",
+      "end": "21:30",
+      "hostId": "big-dumb-face",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.bigdumbfacetrivia.com/events/couchiching-trivia-november-17-2026",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ],
+        "note": "Reservations required through the venue. Arrive within 10 minutes of your reservation time. Trivia is held in Higher Ground on the second floor."
+      }
+    },
+    {
+      "id": "brewery-bay-orillia-trivia-2026-11-24",
+      "venueId": "brewery-bay-orillia",
+      "name": "Big Dumb Face Trivia",
+      "kind": "trivia",
+      "days": [],
+      "time": "19:30",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.bigdumbfacetrivia.com/events/couchiching-trivia-november-24-2026",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-24",
+      "date": "2026-11-24",
+      "end": "21:30",
+      "hostId": "big-dumb-face",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.bigdumbfacetrivia.com/events/couchiching-trivia-november-24-2026",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ],
+        "note": "Reservations required through the venue. Arrive within 10 minutes of your reservation time. Trivia is held in Higher Ground on the second floor."
+      }
+    },
+    {
+      "id": "brch-wyn-stratford-trivia",
+      "venueId": "brch-wyn-stratford",
+      "name": "Thursday Trivia",
+      "kind": "trivia",
+      "days": [
+        4
+      ],
+      "time": "19:00",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://visitstratford.ca/events/trivia-night-6/?occurrence=2026-11-19",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "teamMax": 4,
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://visitstratford.ca/events/trivia-night-6/?occurrence=2026-11-19",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "jobsite-stratford-trivia",
+      "venueId": "jobsite-stratford",
+      "name": "Rotaract Trivia Night",
+      "kind": "trivia",
+      "days": [
+        3
+      ],
+      "time": "18:30",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://portal.clubrunner.ca/12940/CalendarItem/Details?CalendarItemId=cbe1c642-8f78-4f79-830c-5da73a2eca4b&End=2026-12-09&Start=2026-12-09",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "21:30",
+      "monthWeeks": [
+        2
+      ],
+      "hostId": "rotaract-stratford"
+    },
+    {
+      "id": "bunker-stratford-trivia",
+      "venueId": "bunker-stratford",
+      "name": "Trivia Night",
+      "kind": "trivia",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "fee": "paid",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.bunkerstratford.com/event-details/trivia-night-at-the-bunker-2026-11-24-19-00",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "23:00",
+      "monthWeeks": [
+        2,
+        4
+      ],
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.bunkerstratford.com/event-details/trivia-night-at-the-bunker-2026-11-24-19-00",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 500
+          }
+        ],
+        "note": "The venue advertises $5 to play and no door cover; the price unit is not specified."
+      }
     }
   ],
   "hosts": [
@@ -9607,6 +9864,16 @@
       "id": "geeks-who-drink",
       "name": "Geeks Who Drink",
       "website": "https://www.geekswhodrink.com/"
+    },
+    {
+      "id": "big-dumb-face",
+      "name": "Big Dumb Face Trivia",
+      "website": "https://www.bigdumbfacetrivia.com/events"
+    },
+    {
+      "id": "rotaract-stratford",
+      "name": "Rotaract Club of Stratford",
+      "website": "https://portal.clubrunner.ca/12940"
     }
   ],
   "exceptions": [

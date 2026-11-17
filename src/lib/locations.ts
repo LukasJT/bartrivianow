@@ -33,6 +33,11 @@ const supportedCities = [
   ['Buffalo', 'NY', zones.buffalo[2], zones.buffalo[3]],
   ['Williamsville', 'NY', 42.9639, -78.7378],
   ['Amherst', 'NY', 42.9784, -78.7998],
+  ['Stratford', 'ON', zones.stratford[2], zones.stratford[3]],
+  ['Orillia', 'ON', 44.6082, -79.4197],
+  ['Collingwood', 'ON', 44.5010, -80.2169],
+  ['Belleville', 'ON', 44.1628, -77.3832],
+  ['Cobourg', 'ON', 43.9598, -78.1652],
 ] as const;
 
 export const citySuggestions = supportedCities.map(([name, province]) => name+', '+province);
