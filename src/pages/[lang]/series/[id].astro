@@ -11,6 +11,7 @@ const venue=catalog.venues.find(v=>v.id===series.venueId)!;
 const host=catalog.hosts.find(h=>h.id===series.hostId);
 const days=series.days.map(day=>formatDate('2026-11-'+String(15+day),lang,{weekday:'long'})).join(', ');
 const upcoming=search({...catalog,series:[series]},normalize(new URLSearchParams('type=all&to='+plusDays(localDate(),55)))).slice(0,8);
+const calendarPath=import.meta.env.PUBLIC_STATIC_HOST==='github-pages'?'/calendar/':'/api/v1/calendar/';
 ---
 <Base {lang} title={series.name+' · '+venue.name+' | Bar Trivia Now'} alternate={'/'+(fr?'en':'fr')+'/series/'+series.id+'/'} adFormat={upcoming.length ? 'rectangle' : undefined}>
 <article class="detail frame">
@@ -26,7 +27,7 @@ const upcoming=search({...catalog,series:[series]},normalize(new URLSearchParams
 {series.teamMax&&<><dt>{fr?'Équipe':'Team size'}</dt><dd>{fr?'Maximum de ':'Up to '}{series.teamMax}</dd></>}
 </dl>
 <h2>{fr?'Prochaines dates':'Upcoming dates'}</h2>
-{upcoming.length?<ul>{upcoming.map(e=><li><time datetime={e.startsAt}>{formatDate(e.date,lang,{dateStyle:'full'})} · {formatTime(e.time,lang)}</time> · <a href={'/api/v1/calendar/'+e.id+'.ics'}>{fr?'Calendrier':'Calendar'}</a></li>)}</ul>:<p>{fr?'Aucune prochaine date publiée.':'No upcoming dates published.'}</p>}
+{upcoming.length?<ul>{upcoming.map(e=><li><time datetime={e.startsAt}>{formatDate(e.date,lang,{dateStyle:'full'})} · {formatTime(e.time,lang)}</time> · <a href={calendarPath+e.id+'.ics'} download>{fr?'Calendrier':'Calendar'}</a></li>)}</ul>:<p>{fr?'Aucune prochaine date publiée.':'No upcoming dates published.'}</p>}
 <p class="notice">{fr?'Horaire annoncé par le lieu ou l’organisateur. Vérifiez la date auprès de la source.':'Schedule advertised by the venue or organizer. Check the source before heading out.'}</p>
 <div class="actions"><a href={series.evidence.url}>{fr?'Source de l’horaire':'Schedule source'}</a><a href={'/'+lang+'/submit/?venue='+venue.id+'&series='+series.id}>{fr?'Signaler une modification':'Report a change'}</a></div>
 <p class="muted">{fr?'Source consultée le ':'Source checked '}{formatDate(series.evidence.checked,lang,{dateStyle:'long'})}</p>

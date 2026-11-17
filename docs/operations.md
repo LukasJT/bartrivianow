@@ -10,6 +10,8 @@ Display ads request at most one creative per eligible page. The directory and re
 
 ## Credentials and deployment
 
+The public GitHub Pages deployment builds from main and refreshes its dated pages daily. Its custom domain is bartrivianow.com. It serves the public catalog, search, maps and calendar downloads. Private corrections and the Worker API require a separate backend.
+
 Use the Free plan in the existing Cloudflare account. Authenticate with Wrangler as the account owner or use a narrowly scoped deployment credential configured outside the repo. Run npx wrangler deploy --dry-run before a real deploy, then npx wrangler deploy. Verify the workers.dev URL and the smoke flow before attaching the apex custom domain. Review existing DNS entries first and preserve mail, TXT verification and unrelated records. Configure the www redirect as a separate step.
 
 For durable corrections, create a Supabase Free project, apply the migration under supabase/migrations, and set SUPABASE_URL, SUPABASE_SERVER_KEY, and a high-entropy ADMIN_TOKEN as Wrangler secrets. An admin opens /admin/ and enters the token for the session. Use a different token between preview and production. Never store credentials in a GitHub issue or in a public repository. The free pilot can browse and search before database setup. The form correctly returns unavailable until private storage and admin configuration are connected.

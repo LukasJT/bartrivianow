@@ -3,10 +3,12 @@ import Base from '../../layouts/Base.astro';
 import type {Locale} from '../../data/regions';
 export const getStaticPaths=()=>['en','fr'].map(lang=>({params:{lang}}));
 const lang=Astro.params.lang as Locale,fr=lang==='fr';
+const staticHost=import.meta.env.PUBLIC_STATIC_HOST==='github-pages';
 ---
 <Base {lang} alternate={'/'+(fr?'en':'fr')+'/submit/'} title={(fr?'Proposer une modification':'Suggest a listing or correction')+' | Bar Trivia Now'}>
 <article class="detail frame" data-locale={lang}>
 <h1>{fr?'Aidez-nous à mettre le programme à jour.':'Help keep the lineup current.'}</h1>
+{staticHost ? <p class="notice">{fr?'Les suggestions et corrections sont temporairement indisponibles.':'Listing suggestions and corrections are temporarily unavailable.'}</p> : <>
 <p>{fr?'Indiquez un lieu, ce qui change et un lien public qui confirme les détails.':'Tell us the venue, what’s changing, and a public link that supports the details.'}</p>
 <p class="muted">{fr?'Évitez d’inclure des renseignements personnels.':'Please leave personal information out of your report.'}</p>
 <form class="submission" id="submission">
@@ -17,9 +19,11 @@ const lang=Astro.params.lang as Locale,fr=lang==='fr';
 <p id="form-status" role="status"></p>
 </form>
 <noscript><p>{fr?'JavaScript est nécessaire pour envoyer ce formulaire.':'JavaScript is required to send this form.'}</p></noscript>
+</>}
 </article>
 <script>
-const form=document.querySelector<HTMLFormElement>('#submission')!;
+const form=document.querySelector<HTMLFormElement>('#submission');
+if(form){
 const status=document.querySelector<HTMLElement>('#form-status')!;
 const button=form.querySelector<HTMLButtonElement>('button')!;
 const fr=document.documentElement.lang==='fr';
@@ -34,4 +38,5 @@ form.addEventListener('submit',async e=>{
   }catch{status.textContent=fr?'Envoi indisponible. Votre texte est conservé dans le formulaire.':'Submission is unavailable. Your text is still in the form.';}
   finally{button.disabled=false;}
 });
+}
 </script></Base>
