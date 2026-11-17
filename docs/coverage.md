@@ -4,13 +4,13 @@ Sources checked November 16–17, 2026. Counts include dated events and recurrin
 
 | Area | Trivia listings | Coverage notes |
 |---|---:|---|
-| GTA | 41 | Toronto and surrounding municipalities, including Burlington, Newmarket and Port Perry. |
-| Golden Horseshoe | 68 | GTA overlap plus Hamilton, Ancaster, Stoney Creek and Niagara listings. |
+| GTA | 46 | Toronto and surrounding municipalities, including Burlington, Newmarket and Port Perry. |
+| Golden Horseshoe | 76 | GTA overlap plus Hamilton, Ancaster, Stoney Creek, Niagara-on-the-Lake and St. Catharines. |
 | Waterloo | 11 | Independent venues and recurring schedules from local pubs, breweries and cafés. |
-| London | 10 | London and surrounding communities, including Mount Brydges, Port Stanley and St. Marys. |
+| London | 13 | London, including Hyde Park and Sherwood, plus Mount Brydges, Port Stanley and St. Marys. |
 | Ottawa | 33 | Ottawa, Nepean, Kanata, Orléans, Stittsville and Carleton Place. |
-| Montréal | 20 | Venue and Quiz Tonic schedules, including bilingual quizzes. |
-| Thunder Bay | 6 | Recurring nights and dated quizzes at six Thunder Bay venues. |
+| Montréal | 24 | Venue and Quiz Tonic schedules, including bilingual quizzes and themed events. |
+| Thunder Bay | 7 | Recurring nights and dated quizzes at seven venues, including Dawson Trail. |
 | Greater Sudbury | 6 | Recurring and dated listings in Sudbury and Hanmer. |
 | North Bay | 2 | The Moose and Match Eatery. |
 | Timmins | 0 | Full Beard Brewing had several recent dated events. No upcoming bar trivia schedule was verified. |
