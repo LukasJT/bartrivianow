@@ -16,16 +16,17 @@ const matches=search(catalog,normalize(new URLSearchParams()));
 <Base {lang} alternate={fr?'/en/':'/fr/'}>
 <div id="directory" data-lang={lang}>
 <section class="intro">
-<div class="frame">
-<h1>{fr?'Trouvez votre prochaine soirée quiz.':'Find your next trivia night.'}</h1>
-<p>{fr?'Choisissez une soirée. Trouvez un pub. Rassemblez votre équipe.':'Pick a night, find a pub, and get the team together.'}</p>
+<div class="frame intro-layout">
+<div class="intro-copy">
+<h1>{fr?'Des quiz de pub':'Pub quizzes'} <em>{fr?'près de chez vous':'near you'}</em></h1>
+<p>{fr?'Des soirées vérifiées auprès des pubs et des organisateurs, en Ontario et dans le Grand Montréal.':'Trivia nights in Ontario and Greater Montréal, verified with pubs and hosts.'}</p>
+</div>
 <form id="filters" class="filters" method="get" action={'/'+lang+'/#agenda'}>
 <datalist id="pilot-cities">{citySuggestions.map(city=><option value={city}/>)}</datalist>
 <div class="filter-main">
 <div id="locations" class="location-fields"><SearchLocationInput {fr}/></div>
 <label>{fr?'Rayon':'Radius'}<select name="km">{[1,5,10,25,50,100].map(k=><option value={k} selected={k===25}>{k} km</option>)}</select></label>
 <label>{fr?'Activité':'Event type'}<select name="type"><option value="trivia" selected>{labels[lang].trivia}</option><option value="comedy">{labels[lang].comedy}</option><option value="games">{labels[lang].games}</option><option value="all">{fr?'Tous les événements':'All events'}</option></select></label>
-<button class="primary" type="submit">{fr?'Rechercher':'Find events'}</button>
 </div>
 <template id="location-template"><SearchLocationInput {fr} removable/></template>
 <div class="location-actions">
@@ -54,6 +55,7 @@ const matches=search(catalog,normalize(new URLSearchParams()));
 <label>{fr?'Langue de l’événement':'Event language'}<select name="language"><option value="">{fr?'Toutes les langues':'Any language'}</option>{['en','fr','bilingual','unknown'].map(k=><option value={k}>{labels[lang][k as keyof typeof labels.en]}</option>)}</select></label>
 <label>{fr?'Trier par':'Sort by'}<select name="sort"><option value="soon">{fr?'Date':'Soonest'}</option><option value="near">{fr?'Distance':'Nearest'}</option></select></label>
 </div></details>
+<button class="primary" type="submit">{fr?'Rechercher':'Find events'}</button>
 </div>
 </form>
 </div>
@@ -76,25 +78,32 @@ const matches=search(catalog,normalize(new URLSearchParams()));
 </Base>
 
 <style is:global>
-  .filter-main { grid-template-columns: minmax(240px, 2fr) minmax(86px, .55fr) minmax(130px, .8fr) auto; align-items: start; }
-  .filter-main > button { align-self: start; margin-top: calc(1.45em + .23rem); }
+  .intro-layout { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 6fr); align-items: start; gap: clamp(2rem, 5vw, 4rem); }
+  .intro-copy h1 { text-wrap: initial; }
+  .intro-copy h1 em { display: block; color: var(--wine); font-weight: 400; }
+  .intro-copy p { max-width: 23rem; }
+  .filter-main { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, .75fr) minmax(0, 1fr); align-items: start; gap: .65rem; }
   .location-fields, .location-entry { display: grid; gap: .55rem; min-width: 0; }
   .location-input-line { display: flex; align-items: end; gap: .65rem; }
   .location-input-line > label { flex: 1; min-width: 0; }
-  .location-actions { display: flex; flex-wrap: wrap; gap: .15rem 1.05rem; margin-top: .35rem; }
+  .location-actions { display: flex; flex-wrap: wrap; column-gap: 1rem; }
   .day-filter { border: 0; margin: 1rem 0 0; padding: 0; min-width: 0; }
   .day-filter legend { font-weight: 670; padding: 0; margin-bottom: .35rem; }
   .day-options { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: .3rem; max-width: 460px; }
   .day-options label { position: relative; cursor: pointer; }
   .day-options input { position: absolute; margin: 0; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
-  .day-options span { display: grid; place-items: center; min-height: 44px; border: 1px solid #8d9489; border-radius: 6px; background: var(--white); }
-  .day-options input:checked + span { background: var(--ink); color: var(--white); border-color: var(--ink); }
+  .day-options span { display: grid; place-items: center; min-height: 44px; border: 1px solid var(--control-line); background: var(--white); }
+  .day-options label:hover span { border-color: var(--wine); }
+  .day-options input:checked + span { background: var(--wine); color: var(--white); border-color: var(--wine); }
   .day-options input:focus-visible + span { outline: 3px solid var(--wine); outline-offset: 2px; }
   .location-actions button:disabled { opacity: .6; cursor: default; }
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
+    .intro-layout { grid-template-columns: 1fr; gap: 1.5rem; }
+    .intro-copy p { max-width: 33rem; }
+  }
+  @media (max-width: 540px) {
     .filter-main { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
-    .location-fields, .filter-main > button { grid-column: 1 / -1; }
-    .filter-main > button { margin-top: 0; }
+    .location-fields { grid-column: 1 / -1; }
     .day-options { gap: .2rem; font-size: .86rem; }
   }
 </style>
