@@ -1,0 +1,38 @@
+---
+import type { Locale } from '../data/regions';
+
+interface Props {
+  lang: Locale;
+  format: 'banner' | 'rectangle';
+}
+
+const { lang, format } = Astro.props;
+const label = lang === 'fr' ? 'Publicité' : 'Advertisement';
+---
+
+<aside class="display-ad" aria-label={label} data-display-ad={format} hidden>
+  <small>{label}</small>
+</aside>
+
+<style>
+  .display-ad {
+    display: grid;
+    justify-items: center;
+    gap: .25rem;
+    margin: 1rem auto 1.5rem;
+    color: var(--muted);
+  }
+
+  .display-ad small {
+    font-size: .82rem;
+  }
+
+  .display-ad :global(iframe) {
+    display: block;
+    border: 0;
+  }
+</style>
+
+<script>
+  import '../scripts/display-ads';
+</script>

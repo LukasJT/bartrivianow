@@ -1,0 +1,20 @@
+---
+import Base from '../../../layouts/Base.astro';
+import EventRow from '../../../components/EventRow.astro';
+import data from '../../../data/catalog.json';
+import { regionIds, regionLabel, type Locale, type Region } from '../../../data/regions';
+import { normalize, search, type Catalog } from '../../../lib/events';
+export const getStaticPaths=()=>['en','fr'].flatMap(lang=>regionIds.map(id=>({params:{lang,id}})));
+const lang=Astro.params.lang as Locale,fr=lang==='fr',id=Astro.params.id as Region;
+const title=regionLabel(id,lang);
+const c=data as Catalog;
+const ids=new Set(c.venues.filter(v=>v.regions.includes(id)).map(v=>v.id));
+const lineup=search({...c,series:c.series.filter(s=>ids.has(s.venueId))},normalize(new URLSearchParams('type=all')));
+---
+<Base {lang} title={title+' | Bar Trivia Now'} alternate={'/'+(fr?'en':'fr')+'/areas/'+id+'/'} adFormat={lineup.length ? 'banner' : undefined}>
+<article class="detail frame">
+<a href={'/'+lang+'/coverage/'}>{fr?'Tous les secteurs':'All regions'}</a><h1>{title}</h1>
+<div class="actions"><a href={'/'+lang+'/?place='+id+'&km=50#agenda'}>{fr?'Rechercher près d’ici':'Search near this area'}</a><a href={'/'+lang+'/submit/'}>{fr?'Proposer un événement':'Suggest an event'}</a></div>
+<h2>{fr?'Cette semaine':'This week'}</h2>
+{lineup.length?<ol class="event-list">{lineup.map(event=><EventRow {event} {lang}/>)}</ol>:<p>{fr?'Aucun événement annoncé pour cette semaine.':'No events advertised for this week.'}</p>}
+</article></Base>

@@ -1,0 +1,24 @@
+---
+import Base from '../../../layouts/Base.astro';
+import data from '../../../data/catalog.json';
+import { localDate, plusDays, normalize, search, formatDate, formatTime, type Catalog, type Match } from '../../../lib/events';
+import type {Locale} from '../../../data/regions';
+export function getStaticPaths() {
+ const today=localDate();
+ const dates=search(data as Catalog,normalize(new URLSearchParams({type:'all',from:today,to:plusDays(today,13)})));
+ return ['en','fr'].flatMap(lang=>dates.map(event=>({params:{lang,id:event.id},props:{event}})));
+}
+const {event}=Astro.props as {event:Match};
+const lang=Astro.params.lang as Locale,fr=lang==='fr';
+const {series,venue}=event;
+const calendarPath=import.meta.env.PUBLIC_STATIC_HOST==='github-pages'?'/calendar/':'/api/v1/calendar/';
+---
+<Base {lang} title={series.name+' · '+event.date+' | Bar Trivia Now'} alternate={'/'+(fr?'en':'fr')+'/events/'+event.id+'/'} adFormat="rectangle">
+<article class="detail frame">
+<a href={'/'+lang+'/series/'+series.id+'/'}>{fr?'Horaire et source':'Schedule and source'}</a>
+<h1>{series.name}</h1>
+<p><time datetime={event.startsAt}>{formatDate(event.date,lang,{dateStyle:'full'})} · {formatTime(event.time,lang)}</time></p>
+<p><a href={'/'+lang+'/venues/'+venue.id+'/'}>{venue.name}</a><br/>{venue.address}, {venue.city}</p>
+<p class="notice">{fr?'Date calculée à partir de l’horaire annoncé. Vérifiez auprès de la source.':'Date based on the advertised schedule. Check the source before going.'}</p>
+<div class="actions"><a href={series.evidence.url}>{fr?'Consulter la source':'Check the source'}</a><a href={calendarPath+event.id+'.ics'} download>{fr?'Ajouter au calendrier':'Add to calendar'}</a></div>
+</article></Base>

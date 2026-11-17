@@ -1,0 +1,19 @@
+name: Source review dates
+on:
+  schedule:
+    - cron: '17 12 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: npm ci
+      - run: npm run check:catalog >> "$GITHUB_STEP_SUMMARY"
+      - run: npm run source:health >> "$GITHUB_STEP_SUMMARY"

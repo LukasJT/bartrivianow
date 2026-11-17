@@ -1,0 +1,51 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Review corrections | Bar Trivia Now" noindex>
+<article class="detail frame">
+<h1>Review corrections</h1>
+<p>Review the public evidence before updating the catalog. Resolve a report once its correction is published.</p>
+<form id="access" class="submission">
+<label>Administrator token<input id="token" type="password" required autocomplete="off"/></label>
+<button type="submit" class="primary">Load review queue</button>
+</form>
+<p id="admin-status" role="status"></p><ul id="queue"></ul>
+</article>
+<script>
+type Report={id:string;venue:string;details:string;source_url:string;series_id:string|null;created_at:string};
+const form=document.querySelector<HTMLFormElement>('#access')!;
+const token=document.querySelector<HTMLInputElement>('#token')!;
+const status=document.querySelector<HTMLElement>('#admin-status')!;
+const queue=document.querySelector<HTMLUListElement>('#queue')!;
+let secret='';
+async function request(method='GET',value?:unknown){
+ const res=await fetch('/api/v1/admin/reports',{method,headers:{Authorization:'Bearer '+secret,'Content-Type':'application/json'},body:value?JSON.stringify(value):undefined});
+ if(!res.ok)throw Error();
+ return res.json();
+}
+async function load(){
+  status.textContent='Loading…';
+  try{
+    const rows=await request() as Report[];
+    queue.replaceChildren(...rows.map(row=>{
+      const li=document.createElement('li');
+      const title=document.createElement('strong');title.textContent=row.venue;
+      const notes=document.createElement('p');notes.textContent=row.details;
+      const source=document.createElement('p');source.textContent=row.source_url;
+      li.append(title,notes,source);
+      for(const next of ['resolved','dismissed']){
+        const button=document.createElement('button');button.textContent=next==='resolved'?'Resolve':'Dismiss';
+        button.onclick=async()=>{
+          button.disabled=true;
+          try{await request('PATCH',{id:row.id,status:next});await load();}
+          catch{status.textContent='The report could not be updated.';button.disabled=false;}
+        };
+        li.append(button);
+      }
+      return li;
+    }));
+    status.textContent=rows.length?rows.length+' pending reports.':'No pending reports.';
+  }catch{status.textContent='The review queue is unavailable. Check the token and configuration.';}
+}
+form.onsubmit=event=>{event.preventDefault();secret=token.value;token.value='';queue.replaceChildren();void load();};
+</script></Base>

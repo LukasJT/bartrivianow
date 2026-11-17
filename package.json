@@ -1,0 +1,40 @@
+{
+  "name": "bartrivianow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "wrangler dev",
+    "check:catalog": "node tools/catalog.ts check",
+    "source:health": "node tools/source-health.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukasJT/bartrivianow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/LukasJT/bartrivianow/issues"
+  },
+  "homepage": "https://github.com/LukasJT/bartrivianow#readme",
+  "dependencies": {
+    "@fontsource-variable/source-sans-3": "5.3.1",
+    "@fontsource/instrument-serif": "5.3.0",
+    "@js-temporal/polyfill": "0.5.1",
+    "astro": "7.4.12",
+    "maplibre-gl": "6.18.0"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.16",
+    "@electric-sql/pglite-postgis": "0.2.16",
+    "@types/node": "26.6.6",
+    "typescript": "7.0.2",
+    "wrangler": "4.163.0"
+  }
+}

@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+export const getStaticPaths=()=>['en','fr'].map(lang=>({params:{lang}}));
+const lang=Astro.params.lang!, fr=lang==='fr';
+const title=fr?'Confidentialité':'Privacy';
+---
+<Base {lang} title={title+' | Bar Trivia Now'} alternate={'/'+(fr?'en':'fr')+'/privacy/'}>
+<article class="detail frame">
+<h1>{title}</h1>
+<h2>{fr?'Votre position':'Your location'}</h2>
+<p>{fr?'Si vous choisissez d’utiliser votre position, votre navigateur vous demande la permission. La recherche par rayon utilise votre position dans cette page. Les liens de recherche partagés n’incluent pas vos coordonnées.':'If you choose to use your location, your browser asks for permission. Radius search uses the location in this page. Shared search links omit your coordinates.'}</p>
+<h2>{fr?'Carte':'Map'}</h2>
+<p>{fr?'L’ouverture de la carte charge des données d’':'Opening the map requests tiles from '}<a href="https://openfreemap.org/">OpenFreeMap</a>.</p>
+<h2>{fr?'Publicité':'Advertising'}</h2>
+<p>{fr?'Certaines pages affichent des publicités fournies par Adsterra. Lors du chargement d’une publicité, votre navigateur communique directement avec le réseau publicitaire, qui peut recevoir votre adresse IP et des informations sur votre navigateur. ':'Some pages show display ads supplied by Adsterra. When an ad loads, your browser connects directly to the ad network, which can receive your IP address and browser information. '}<a href="https://adsterra.com/privacy-policy-managed/">{fr?'Politique de confidentialité d’Adsterra':'Adsterra’s privacy policy'}</a>.</p>
+<h2>{fr?'Corrections':'Corrections'}</h2>
+<p>{fr?'Votre signalement et son lien public sont transmis à une file de révision privée. Un identifiant dérivé de l’adresse IP limite les envois répétés. Évitez les renseignements personnels.':'Your report and its public source link go to a private review queue. An identifier derived from the IP address limits repeated submissions. Please omit personal information.'}</p>
+</article></Base>
