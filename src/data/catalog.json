@@ -1861,6 +1861,293 @@
       "point": null,
       "website": "https://happeningnext.com/event/november-24-trivia-night-at-foundry-coffee-bar-eid1ef0kpw0b4wr",
       "timezone": "America/Toronto"
+    },
+    {
+      "id": "level-one-game-pub",
+      "name": "Level One Game Pub",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "14 Waller Street",
+      "regions": [
+        "ottawa"
+      ],
+      "point": [
+        45.4271521786328,
+        -75.6885113450632
+      ],
+      "website": "https://www.levelonegamepub.com/team-trivia-challenge",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "pour-boy-somerset",
+      "name": "Pour Boy Pub",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "495 Somerset Street West",
+      "regions": [
+        "ottawa"
+      ],
+      "point": [
+        45.4137071341417,
+        -75.7003868613759
+      ],
+      "website": "https://pourboypub.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "royal-oak-188-bank",
+      "name": "The Royal Oak at Bank and Gloucester",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "188 Bank Street",
+      "regions": [
+        "ottawa"
+      ],
+      "point": [
+        45.4179108,
+        -75.6985594
+      ],
+      "website": "https://royaloakpubs.com/bank-at-gloucester/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "barley-mow-merivale",
+      "name": "The Barley Mow Merivale",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "1541 Merivale Road",
+      "regions": [
+        "ottawa"
+      ],
+      "point": [
+        45.3554988,
+        -75.7361414
+      ],
+      "website": "https://barleymow.com/merivale-barley-mow-pub-ottawa/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "barley-mow-orleans",
+      "name": "The Barley Mow Orléans",
+      "city": "Orléans",
+      "province": "ON",
+      "address": "2034 Tenth Line Road",
+      "regions": [
+        "ottawa"
+      ],
+      "point": null,
+      "website": "https://barleymow.com/barley-mow-pub-orleans/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "great-lakes-brewpub",
+      "name": "Great Lakes Brewpub",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "11 Lower Jarvis Street, Units 5–8",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://www.greatlakesbrewpub.com/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "great-lakes-etobicoke",
+      "name": "Great Lakes Brewery Etobicoke",
+      "city": "Etobicoke",
+      "province": "ON",
+      "address": "30 Queen Elizabeth Boulevard",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://www.greatlakesbeer.com/brewery-events/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "food-and-liquor",
+      "name": "Food & Liquor",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "1610 Queen Street West",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.6395413142857,
+        -79.4419098714285
+      ],
+      "website": "https://admitone.com/events/toronto/community/trivia/trivia-sundays-at-food-liquor/729REL",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "grumpys-montreal",
+      "name": "Grumpy’s Bar",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "1242 Rue Bishop",
+      "regions": [
+        "montreal"
+      ],
+      "point": [
+        45.4961844247834,
+        -73.5755674392385
+      ],
+      "website": "https://www.eventbrite.ca/e/the-best-damn-trivia-in-montreal-at-grumpys-tickets-951941371267",
+      "timezone": "America/Montreal",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "barley-mow-westboro",
+      "name": "The Barley Mow Westboro",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "399 Richmond Road",
+      "regions": [
+        "ottawa"
+      ],
+      "point": null,
+      "website": "https://barleymow.com/westboro/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "jack-astors-brampton",
+      "name": "Jack Astor’s Brampton",
+      "city": "Brampton",
+      "province": "ON",
+      "address": "154 West Drive",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://jackastors.com/?locationId=919",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "hardy-johns-oshawa",
+      "name": "Hardy John’s Oshawa",
+      "city": "Oshawa",
+      "province": "ON",
+      "address": "50 Taunton Road East, Unit 1",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.9332393734146,
+        -78.8774777334725
+      ],
+      "website": "https://hardyjohns.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "one-eyed-jack-oshawa",
+      "name": "One Eyed Jack Oshawa",
+      "city": "Oshawa",
+      "province": "ON",
+      "address": "33 Taunton Road West",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.9326411776494,
+        -78.880205254128
+      ],
+      "website": "https://stayhappening.com/e/trivia-night-oshawa-on-one-eyed-jack-E118SB4P251HQ",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "dublin-calling-danforth",
+      "name": "Dublin Calling Danforth",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "526 Danforth Avenue",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.6782656,
+        -79.3482995
+      ],
+      "website": "https://www.dublincalling.com/danforth/danforth-home",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "gibbons-irish-pub",
+      "name": "Gibbons Irish Pub",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "26 Duncan Street",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.6486538990031,
+        -79.3888520550035
+      ],
+      "website": "https://admitone.com/events/toronto/community/party/sports-trivia-gibbons-irish-pub/6a80e870d4e212aec44bdb92",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "beyond-the-pale",
+      "name": "Beyond the Pale City Centre",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "250 City Centre Avenue, Unit 108",
+      "regions": [
+        "ottawa"
+      ],
+      "point": [
+        45.40940905,
+        -75.7181336
+      ],
+      "website": "https://btpbeer.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "east-end-social",
+      "name": "East End Social Bar & Grill",
+      "city": "Hamilton",
+      "province": "ON",
+      "address": "1342 Main Street East",
+      "regions": [
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://eastendsocialhamilton.ca/",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "st-louis-burlington-walkers",
+      "name": "St. Louis Bar & Grill Walker’s Line",
+      "city": "Burlington",
+      "province": "ON",
+      "address": "1831 Walkers Line",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": null,
+      "website": "https://www.eventbrite.ca/e/thursday-night-trivia-at-st-louis-bar-grill-walkers-line-in-burlington-tickets-1984227726544",
+      "timezone": "America/Toronto"
     }
   ],
   "series": [
@@ -4809,6 +5096,562 @@
       "evidence": {
         "url": "https://www.broadwayprince.com/",
         "checked": "2026-11-16"
+      }
+    },
+    {
+      "id": "level-one-game-pub-trivia",
+      "venueId": "level-one-game-pub",
+      "name": "Team Trivia Challenge",
+      "days": [
+        1
+      ],
+      "time": "18:30",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.levelonegamepub.com/team-trivia-challenge",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.levelonegamepub.com/team-trivia-challenge",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 300
+          }
+        ]
+      },
+      "end": "20:00",
+      "teamMax": 6
+    },
+    {
+      "id": "pour-boy-somerset-trivia",
+      "venueId": "pour-boy-somerset",
+      "name": "Tuesday Trivia, Early Seating",
+      "days": [
+        2
+      ],
+      "time": "18:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://pourboypub.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://pourboypub.com/",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "end": "20:00"
+    },
+    {
+      "id": "royal-oak-188-bank-trivia",
+      "venueId": "royal-oak-188-bank",
+      "name": "Trivia at 188 Bank",
+      "days": [
+        2,
+        7
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://royaloakpubs.com/event/trivia-188-bank-2/2026-11-29/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://royaloakpubs.com/event/trivia-188-bank-2/2026-11-29/",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "end": "20:30"
+    },
+    {
+      "id": "barley-mow-merivale-trivia",
+      "venueId": "barley-mow-merivale",
+      "name": "Trivia Tuesdays",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "gift-card",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://barleymow.com/merivale-barley-mow-pub-ottawa/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
+    },
+    {
+      "id": "barley-mow-orleans-trivia",
+      "venueId": "barley-mow-orleans",
+      "name": "Trivia Tuesdays",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://barleymow.com/ottawa-live-music/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
+    },
+    {
+      "id": "great-lakes-brewpub-trivia",
+      "venueId": "great-lakes-brewpub",
+      "name": "GLB Trivia Night",
+      "days": [
+        3
+      ],
+      "time": "18:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.greatlakesbeer.com/events/sunny-day-event-2/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.greatlakesbeer.com/events/sunny-day-event-2/",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "great-lakes-etobicoke-trivia",
+      "venueId": "great-lakes-etobicoke",
+      "name": "Drew’s Clues Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.greatlakesbeer.com/events/drews-clues-trivia-glb-etobicoke/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "21:00"
+    },
+    {
+      "id": "food-and-liquor-trivia",
+      "venueId": "food-and-liquor",
+      "name": "Trivia Sundays",
+      "days": [
+        7
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://admitone.com/events/toronto/community/trivia/trivia-sundays-at-food-liquor/729REL",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-06",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://admitone.com/events/toronto/community/trivia/trivia-sundays-at-food-liquor/729REL",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "anchor": "2026-11-22",
+      "end": "20:45"
+    },
+    {
+      "id": "pour-boy-somerset-late-trivia",
+      "venueId": "pour-boy-somerset",
+      "name": "Tuesday Trivia, Late Seating",
+      "kind": "trivia",
+      "days": [
+        2
+      ],
+      "time": "20:30",
+      "end": "22:00",
+      "validUntil": "2026-12-17",
+      "fee": "free",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://pourboypub.com/",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://pourboypub.com/",
+        "checked": "2026-11-17"
+      }
+    },
+    {
+      "id": "grumpys-montreal-trivia",
+      "venueId": "grumpys-montreal",
+      "name": "The Best Damn Trivia in Montréal",
+      "days": [
+        7
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/the-best-damn-trivia-in-montreal-at-grumpys-tickets-951941371267",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.ca/e/the-best-damn-trivia-in-montreal-at-grumpys-tickets-951941371267",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "barley-mow-westboro-trivia",
+      "venueId": "barley-mow-westboro",
+      "name": "Trivia Tuesdays",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "gift-card",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://barleymow.com/westboro/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "monthWeeks": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "jack-astors-brampton-trivia",
+      "venueId": "jack-astors-brampton",
+      "name": "Tuesday Trivia, Early Game",
+      "days": [
+        2
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.com/e/jacks-tuesday-night-trivia-brampton-free-tickets-474754331987",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.com/e/jacks-tuesday-night-trivia-brampton-free-tickets-474754331987",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "hardy-johns-oshawa-trivia",
+      "venueId": "hardy-johns-oshawa",
+      "name": "POP QUIZ Thursday",
+      "days": [
+        4
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/oshawa-ontario-pop-quiz-thursday-hardy-johns-tickets-2000057687383",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.ca/e/oshawa-ontario-pop-quiz-thursday-hardy-johns-tickets-2000057687383",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "end": "22:00",
+      "teamMax": 6
+    },
+    {
+      "id": "one-eyed-jack-oshawa-trivia",
+      "venueId": "one-eyed-jack-oshawa",
+      "name": "Wednesday Trivia",
+      "days": [
+        3
+      ],
+      "time": "18:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://stayhappening.com/e/trivia-night-oshawa-on-one-eyed-jack-E118SB4P251HQ",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://stayhappening.com/e/trivia-night-oshawa-on-one-eyed-jack-E118SB4P251HQ",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "dublin-calling-danforth-trivia",
+      "venueId": "dublin-calling-danforth",
+      "name": "Wednesday General Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://admitone.com/events/toronto/community/trivia/general-trivia-with-the-sociable-host/6aadbad0ca0f7bb9d20c2735",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-16",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://admitone.com/events/toronto/community/trivia/general-trivia-with-the-sociable-host/6aadbad0ca0f7bb9d20c2735",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "anchor": "2026-11-25"
+    },
+    {
+      "id": "gibbons-irish-pub-trivia",
+      "venueId": "gibbons-irish-pub",
+      "name": "Sports & Trivia",
+      "days": [
+        1
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://admitone.com/events/toronto/community/party/sports-trivia-gibbons-irish-pub/6a80e870d4e212aec44bdb92",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-14",
+      "anchor": "2026-11-30"
+    },
+    {
+      "id": "beyond-the-pale-trivia",
+      "venueId": "beyond-the-pale",
+      "name": "Outside the Box Trivia",
+      "days": [],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.613today.ca/things-to-do/trivia-nights-ottawa",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-25",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.613today.ca/things-to-do/trivia-nights-ottawa",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "date": "2026-11-25"
+    },
+    {
+      "id": "east-end-social-trivia",
+      "venueId": "east-end-social",
+      "name": "Ruby Pub Trivia",
+      "days": [
+        2
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/tuesday-night-trivia-at-east-end-social-in-hamilton-tickets-1980323902100",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.ca/e/tuesday-night-trivia-at-east-end-social-in-hamilton-tickets-1980323902100",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "st-louis-burlington-walkers-trivia",
+      "venueId": "st-louis-burlington-walkers",
+      "name": "Ruby Pub Trivia",
+      "days": [
+        4
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/thursday-night-trivia-at-st-louis-bar-grill-walkers-line-in-burlington-tickets-1984227726544",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.ca/e/thursday-night-trivia-at-st-louis-bar-grill-walkers-line-in-burlington-tickets-1984227726544",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "jack-astors-brampton-late-trivia",
+      "venueId": "jack-astors-brampton",
+      "name": "Tuesday Trivia, Late Game",
+      "kind": "trivia",
+      "days": [
+        2
+      ],
+      "time": "20:30",
+      "validUntil": "2026-12-17",
+      "fee": "free",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.com/e/jacks-tuesday-night-trivia-brampton-free-tickets-474754331987",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      },
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.com/e/jacks-tuesday-night-trivia-brampton-free-tickets-474754331987",
+        "checked": "2026-11-17"
       }
     }
   ],

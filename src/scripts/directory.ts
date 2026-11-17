@@ -1,4 +1,5 @@
-import { calendar, formatDate, formatTime, normalize, search, weekday, type Catalog, type Match } from '../lib/events';
+import { calendar, formatDate, formatTime, normalize, search, type Catalog, type Match, type Point } from '../lib/events';
+import { findLocations, type SearchLocation } from '../lib/locations';
 import { labels, money } from '../lib/labels';
 import { regionLabel, type Locale } from '../data/regions';
 import mapWorkerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
@@ -7,12 +8,18 @@ const get = <T extends HTMLElement>(id:string) => document.getElementById(id) as
 const lang = get('directory').dataset.lang as Locale;
 const fr = lang==='fr';
 const form=get<HTMLFormElement>('filters'), results=get<HTMLOListElement>('results');
-const count=get('count'), empty=get('empty'), status=get('search-status'), week=get('week');
+const count=get('count'), empty=get('empty'), status=get('search-status');
 const mapPanel=get('map-panel'), mapStatus=get('map-status'), showMap=get<HTMLButtonElement>('show-map');
 const more=get<HTMLButtonElement>('more'), clearLocation=get<HTMLButtonElement>('clear-location');
 const locationStatus=get('location-status');
+const locations=get('locations'), addLocation=get<HTMLButtonElement>('add-location');
+const locationTemplate=get<HTMLTemplateElement>('location-template');
+const findButton=form.querySelector<HTMLButtonElement>('button[type="submit"]')!;
+const maxLocations=5;
 let params = new URLSearchParams(location.search);
-let origin:[number,number]|undefined, current:Match[]=[];
+let origin:Point|undefined, centres:SearchLocation[]=[], current:Match[]=[];
+let lookup:AbortController|undefined;
+const resolved = new Map<HTMLElement,{query:string; options:SearchLocation[]}>();
 let limit=25, sequence=0;
 let snapshot:Promise<Catalog>|undefined;
 let map:import('maplibre-gl').Map|undefined;
@@ -67,32 +74,28 @@ function renderRows(){
   results.replaceChildren(...current.slice(0,limit).map(row));
   more.hidden=current.length<=limit; empty.hidden=current.length>0; markSelected();
 }
-function renderWeek(all:Match[]){
-  const active=normalize(params).day;
-  const buttons=[0,1,2,3,4,5,6,7].map(day=>{
-    const dayLabel=day?formatDate('2026-11-'+String(15+day),lang,{weekday:'short'}):(fr?'Tous':'All');
-    const button=node('button',dayLabel);button.type='button';
-    button.dataset.day=String(day);button.setAttribute('aria-pressed',String(day===active));
-    button.append(node('span',String(day?all.filter(e=>weekday(e.date)===day).length:all.length)));
-    button.onclick=()=>{if(day)params.set('day',String(day));else params.delete('day');updateUrl();void run(day);};
-    return button;
-  });
-  week.hidden=false;week.replaceChildren(...buttons);
-}
 function updateUrl(){
-  history.pushState(null,'', location.pathname+(params.size?'?'+params.toString():'')+'#agenda');
+  const next = location.pathname+(params.size?'?'+params.toString():'')+'#agenda';
+  if (next!==location.pathname+location.search+location.hash) history.pushState(null,'',next);
 }
 function syncForm(){
   for(const control of Array.from(form.elements)) {
     if(control instanceof HTMLInputElement||control instanceof HTMLSelectElement){
+      if(!control.name)continue;
+      if(control instanceof HTMLInputElement&&control.type==='checkbox'){
+        control.checked=params.getAll(control.name).includes(control.value);
+        continue;
+      }
       const fallback=control instanceof HTMLInputElement?control.defaultValue:[...control.options].find(o=>o.defaultSelected)?.value??control.options[0]?.value;
       control.value=params.get(control.name)??fallback??'';
     }
   }
 }
-async function run(focusDay?:number){
+async function run(){
   const token=++sequence;limit=25;
-  const includeAll=new URLSearchParams(params);includeAll.delete('day');
+  const p=normalize(params);
+  const points=centres.map(centre=>centre.point);
+  if(origin)points.push(origin);
   results.setAttribute('aria-busy','true');
   status.textContent=fr?'Recherche en cours…':'Searching…';
   try{
@@ -101,18 +104,19 @@ async function run(focusDay?:number){
       if(!res.ok)throw Error('snapshot');return res.json() as Promise<Catalog>;
     }).catch(error=>{snapshot=undefined;throw error;});
     const data=await snapshot;
-    const all=search(data,normalize(includeAll),new Date(),origin);
+    const all=search(data,p,new Date(),points);
     if(token!==sequence)return;
-    const p=normalize(params);
-    current=p.day?all.filter(e=>weekday(e.date)===p.day):all;
+    current=all;
     if(!current.some(e=>e.venue.id===selected))selected=undefined;
     count.textContent=fr?current.length+' événements annoncés':current.length+' advertised events';
-    renderWeek(all);renderRows();renderMarkers();
-    if(focusDay!==undefined)week.querySelector<HTMLButtonElement>('[data-day="'+focusDay+'"]')?.focus();
+    renderRows();renderMarkers();
     status.textContent=fr?'Horaires publiés par les organisateurs. Vérifiez avant de partir.':'Schedules come from venues and hosts. Check with them before heading out.';
-    if(!origin) locationStatus.textContent=p.place==='all'
-      ?(fr?'Choisissez un secteur pour appliquer un rayon.':'Choose an area to apply a radius.')
-      :(fr?'Distance à vol d’oiseau depuis ':'Straight-line distance from ')+regionLabel(p.place,lang)+'.';
+    const names=centres.map(centre=>centre.label);
+    if(origin) names.push(fr?'votre position':'your location');
+    if(!names.length && p.place!=='all') names.push(regionLabel(p.place,lang));
+    locationStatus.textContent=names.length
+      ?(fr?'Rayon de ':'Radius of ')+p.radius+' km '+(fr?'autour de ':'around ')+new Intl.ListFormat(lang).format(names)+'.'
+      :(fr?'Saisissez un lieu pour limiter le rayon de recherche.':'Enter a location to apply a search radius.');
   }catch{
     if(token===sequence)status.textContent=fr?'Recherche indisponible. Rechargez la page pour réessayer.':'Search is unavailable. Reload to try again.';
   }finally{if(token===sequence)results.removeAttribute('aria-busy');}
@@ -162,23 +166,100 @@ showMap.onclick=()=>{
  mapPanel.hidden=true;showMap.setAttribute('aria-expanded','false');showMap.textContent=fr?'Afficher la carte':'Show map';
 };
 more.onclick=()=>{limit+=25;renderRows();results.children[limit-25]?.querySelector('a')?.focus();};
-form.addEventListener('submit',event=>{
+function locationEntries(){
+  return Array.from(locations.querySelectorAll<HTMLElement>('[data-location-entry]'));
+}
+function wireLocation(entry:HTMLElement) {
+  const field=entry.querySelector<HTMLInputElement>('[data-location-query]')!;
+  const choice=entry.querySelector<HTMLElement>('[data-location-choice]')!;
+  field.addEventListener('input',()=>{
+    lookup?.abort();
+    resolved.delete(entry);
+    choice.hidden=true;
+    choice.querySelector('select')!.replaceChildren();
+  });
+  entry.querySelector('button')?.addEventListener('click',()=>{
+    lookup?.abort();
+    resolved.delete(entry);
+    entry.remove();
+    addLocation.disabled=false;
+    addLocation.focus();
+  });
+}
+wireLocation(locationEntries()[0]);
+addLocation.onclick=()=>{
+  if(locationEntries().length>=maxLocations)return;
+  const entry=locationTemplate.content.firstElementChild!.cloneNode(true) as HTMLElement;
+  locations.append(entry);
+  wireLocation(entry);
+  entry.querySelector('input')!.focus();
+  addLocation.disabled=locationEntries().length>=maxLocations;
+};
+
+async function resolveEntry(entry:HTMLElement, signal:AbortSignal) {
+  const field=entry.querySelector<HTMLInputElement>('[data-location-query]')!;
+  const container=entry.querySelector<HTMLElement>('[data-location-choice]')!;
+  const choice=container.querySelector('select')!;
+  const query=field.value.trim();
+  if(!query)return {};
+  let found=resolved.get(entry);
+  if(!found || found.query!==query){
+    const options=await findLocations(query,lang,signal);
+    if(signal.aborted)return {};
+    found={query,options};
+    if(options.length)resolved.set(entry,found);
+    if(options.length>1){
+      choice.replaceChildren(new Option(fr?'Sélectionner un résultat':'Select a match',''),
+        ...options.map((option,index)=>new Option(option.label,String(index))));
+      container.hidden=false;
+    }
+  }
+  if(!found.options.length)return {field,query};
+  if(found.options.length>1&&choice.value==='')return {choice};
+  return {location:found.options[Number(choice.value)]};
+}
+
+form.addEventListener('submit',async event=>{
   event.preventDefault();
-  const next=new URLSearchParams();
-  for(const [key,value] of new FormData(form))if(typeof value==='string'&&value)next.set(key,value);
-  if(params.has('day'))next.set('day',params.get('day')!);
-  if(next.get('place')!=='all'){origin=undefined;clearLocation.hidden=true;}
-  params=next;updateUrl();void run();
+  lookup?.abort();
+  const request=new AbortController();
+  lookup=request;
+  findButton.disabled=true;
+  locationStatus.textContent=fr?'Recherche des lieux…':'Looking up locations…';
+  const timeout=setTimeout(()=>request.abort('timeout'),8000);
+  try{
+    const entries=await Promise.all(locationEntries().map(entry=>resolveEntry(entry,request.signal)));
+    if(request.signal.aborted)return;
+    const unresolved=entries.find(entry=>entry.choice||entry.field);
+    if(unresolved){
+      locationStatus.textContent=unresolved.choice
+        ?(fr?'Choisissez le lieu qui correspond à votre recherche.':'Choose the location you meant, then search again.')
+        :(fr?'Lieu introuvable. Précisez la ville et la province.':'Location not found. Add the city and province, then try again.');
+      (unresolved.choice??unresolved.field)?.focus();
+      return;
+    }
+    centres=entries.flatMap(entry=>entry.location?[entry.location]:[]);
+    const next=new URLSearchParams();
+    for(const [name,value] of new FormData(form))if(typeof value==='string'&&value)next.append(name,value);
+    if(!centres.length&&!origin&&params.has('place'))next.set('place',params.get('place')!);
+    params=next;updateUrl();await run();
+  }catch{
+    if(!request.signal.aborted||request.signal.reason==='timeout')
+      locationStatus.textContent=fr?'La recherche de lieux est indisponible. Réessayez ou choisissez une ville suggérée.':'Address lookup is unavailable. Try again or choose a suggested city.';
+  }finally{
+    clearTimeout(timeout);
+    if(lookup===request){findButton.disabled=false;lookup=undefined;}
+  }
 });
 get('locate').onclick=()=>{
-  const fail=()=>{locationStatus.textContent=fr?'Position indisponible. Choisissez un secteur.':'Location unavailable. Choose an area to search.';};
+  const fail=()=>{locationStatus.textContent=fr?'Position indisponible. Saisissez une ville ou une adresse.':'Location unavailable. Enter a city or address.';};
   if(!navigator.geolocation){fail();return;}
   navigator.geolocation.getCurrentPosition(({coords})=>{
-    origin=[coords.latitude,coords.longitude];params.delete('place');syncForm();clearLocation.hidden=false;
+    origin=[coords.latitude,coords.longitude];params.delete('place');clearLocation.hidden=false;
     locationStatus.textContent=fr?'Distance mesurée depuis votre position.':'Distance uses your current location.';
     void run();
   },fail,{timeout:8000,maximumAge:60000});
 };
 clearLocation.onclick=()=>{origin=undefined;clearLocation.hidden=true;void run();};
-window.addEventListener('popstate',()=>{origin=undefined;clearLocation.hidden=true;params=new URLSearchParams(location.search);syncForm();void run();});
+window.addEventListener('popstate',()=>{params=new URLSearchParams(location.search);syncForm();void run();});
 syncForm();void run();

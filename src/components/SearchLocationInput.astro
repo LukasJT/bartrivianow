@@ -1,0 +1,17 @@
+---
+const { fr, removable = false } = Astro.props as { fr:boolean; removable?:boolean };
+---
+<div class="location-entry" data-location-entry>
+  <div class="location-input-line">
+    <label>
+      {removable ? (fr?'Autre lieu':'Additional location') : (fr?'Ville ou adresse':'City or address')}
+      <input data-location-query type="search" list="pilot-cities" maxlength="160" autocomplete="off"
+        placeholder={fr?'Ex. Montréal ou 100, rue Queen, Ottawa':'E.g. Toronto or 100 Queen Street, Ottawa'}/>
+    </label>
+    {removable && <button data-remove-location type="button" class="text-button">{fr?'Retirer':'Remove'}</button>}
+  </div>
+  <label data-location-choice hidden>
+    {fr?'Choisir le lieu recherché':'Choose the matching location'}
+    <select></select>
+  </label>
+</div>

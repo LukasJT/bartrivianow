@@ -1,11 +1,13 @@
 ---
 import Base from '../../layouts/Base.astro';
 import catalogData from '../../data/catalog.json';
-import { regionIds, regionLabel, type Locale } from '../../data/regions.ts';
-import { search, normalize, type Catalog } from '../../lib/events.ts';
+import type { Locale } from '../../data/regions.ts';
+import { citySuggestions } from '../../lib/locations';
+import { formatDate, search, normalize, type Catalog } from '../../lib/events.ts';
 import { labels } from '../../lib/labels.ts';
 import EventRow from '../../components/EventRow.astro';
 import DisplayAd from '../../components/DisplayAd.astro';
+import SearchLocationInput from '../../components/SearchLocationInput.astro';
 export const getStaticPaths=()=>['en','fr'].map(lang=>({params:{lang}}));
 const lang=Astro.params.lang as Locale, fr=lang==='fr';
 const catalog=catalogData as Catalog;
@@ -18,38 +20,50 @@ const matches=search(catalog,normalize(new URLSearchParams()));
 <h1>{fr?'Trouvez votre prochaine soirée quiz.':'Find your next trivia night.'}</h1>
 <p>{fr?'Choisissez une soirée. Trouvez un pub. Rassemblez votre équipe.':'Pick a night, find a pub, and get the team together.'}</p>
 <form id="filters" class="filters" method="get" action={'/'+lang+'/#agenda'}>
+<datalist id="pilot-cities">{citySuggestions.map(city=><option value={city}/>)}</datalist>
 <div class="filter-main">
-<label>{fr?'Secteur':'Location'}<select name="place"><option value="all">{fr?'Toutes les régions':'All pilot regions'}</option>{regionIds.map(id=><option value={id}>{regionLabel(id,lang)}</option>)}</select></label>
-<label>{fr?'À partir du':'Starting'}<input type="date" name="from"/></label>
+<div id="locations" class="location-fields"><SearchLocationInput {fr}/></div>
 <label>{fr?'Rayon':'Radius'}<select name="km">{[1,5,10,25,50,100].map(k=><option value={k} selected={k===25}>{k} km</option>)}</select></label>
+<label>{fr?'Activité':'Event type'}<select name="type"><option value="trivia" selected>{labels[lang].trivia}</option><option value="comedy">{labels[lang].comedy}</option><option value="games">{labels[lang].games}</option><option value="all">{fr?'Tous les événements':'All events'}</option></select></label>
 <button class="primary" type="submit">{fr?'Rechercher':'Find events'}</button>
 </div>
+<template id="location-template"><SearchLocationInput {fr} removable/></template>
+<div class="location-actions">
+  <button id="add-location" type="button" class="text-button">{fr?'Ajouter une ville ou une adresse':'Add a city or address'}</button>
+  <button id="locate" type="button" class="text-button">{fr?'Utiliser ma position':'Use my location'}</button>
+  <button id="clear-location" type="button" class="text-button" hidden>{fr?'Effacer ma position':'Clear my location'}</button>
+</div>
+<p class="location-note" id="location-status" role="status">{fr?'Le rayon s’applique autour de chaque lieu indiqué.':'The radius applies around each location you enter.'}</p>
+<fieldset class="day-filter" aria-describedby="day-help">
+  <legend>{fr?'Jours de la semaine':'Days of the week'}</legend>
+  <div class="day-options">
+    {[7,1,2,3,4,5,6].map(day=>{
+      const date='2026-11-'+String(day===7?15:15+day);
+      return <label><input type="checkbox" name="day" value={String(day)} aria-label={formatDate(date,lang,{weekday:'long'})}/><span>{formatDate(date,lang,{weekday:'short'})}</span></label>;
+    })}
+  </div>
+  <p class="location-note" id="day-help">{fr?'Sélectionnez les jours qui vous conviennent. Sans sélection, tous les jours sont inclus.':'Pick any days that work for you. Leave them clear to include every day.'}</p>
+</fieldset>
 <div class="filter-more">
 <details><summary>{fr?'Plus de filtres':'More filters'}</summary>
 <div class="advanced">
-<label>{fr?'Jusqu’au':'Through'}<input type="date" name="to"/></label>
 <label>{fr?'Après':'After'}<input type="time" name="after"/></label>
-<label>{fr?'Activité':'Event type'}<select name="type">{['trivia','comedy','games','all'].map(k=><option value={k}>{labels[lang][k as keyof typeof labels.en]??(fr?'Tout':'All events')}</option>)}</select></label>
 <label>{fr?'Participation':'Entry fee'}<select name="fee"><option value="">{fr?'Tous les tarifs':'Any fee'}</option>{['free','paid','unknown'].map(k=><option value={k}>{labels[lang][k as keyof typeof labels.en]}</option>)}</select></label>
 <label>{fr?'Prix à gagner':'Prize'}<select name="prize"><option value="">{fr?'Tous les événements':'Any event'}</option><option value="any">{fr?'Prix annoncé':'Prize advertised'}</option>{['cash','gift-card','other','unknown'].map(k=><option value={k}>{labels[lang][k as keyof typeof labels.en]}</option>)}</select></label>
 <label>{fr?'Prix minimum (CAD)':'Minimum prize (CAD)'}<input type="number" name="minPrize" min="0" max="100000"/></label>
 <label>{fr?'Langue de l’événement':'Event language'}<select name="language"><option value="">{fr?'Toutes les langues':'Any language'}</option>{['en','fr','bilingual','unknown'].map(k=><option value={k}>{labels[lang][k as keyof typeof labels.en]}</option>)}</select></label>
 <label>{fr?'Trier par':'Sort by'}<select name="sort"><option value="soon">{fr?'Date':'Soonest'}</option><option value="near">{fr?'Distance':'Nearest'}</option></select></label>
 </div></details>
-<button id="locate" type="button" class="text-button">{fr?'Utiliser ma position':'Use my location'}</button>
-<button id="clear-location" type="button" class="text-button" hidden>{fr?'Effacer ma position':'Clear my location'}</button>
 </div>
 </form>
-<p class="location-note" id="location-status" role="status">{fr?'Le rayon est mesuré à vol d’oiseau depuis le centre choisi.':'Radius uses straight-line distance from the selected area centre.'}</p>
 </div>
 </section>
 <DisplayAd {lang} format="banner"/>
 <section id="agenda" class="frame agenda">
 <div class="agenda-heading"><div><h2>{fr?'Le programme':'The lineup'}</h2><p id="count" aria-live="polite">{fr?matches.length+' événements annoncés':matches.length+' advertised events'}</p></div><button id="show-map" type="button" aria-controls="map-panel" aria-expanded="false">{fr?'Afficher la carte':'Show map'}</button></div>
-<div class="week" id="week" aria-label={fr?'Jour de la semaine':'Day of the week'} hidden></div>
 <div class="results-layout" id="results-layout">
 <div><ol id="results" class="event-list">{matches.slice(0,25).map(event=><EventRow {event} {lang}/>)}</ol>
-<p id="empty" class="empty" hidden={matches.length>0}>{fr?'Aucun événement annoncé. Essayez une autre date ou élargissez la recherche.':'No advertised events match. Try another date or widen the search.'}</p>
+<p id="empty" class="empty" hidden={matches.length>0}>{fr?'Aucun événement annoncé. Essayez d’autres jours ou élargissez le rayon.':'No advertised events match. Try other days or widen the radius.'}</p>
 <button id="more" type="button" hidden>{fr?'Afficher plus':'Show more'}</button>
 <p id="search-status" class="muted" role="status"></p>
 <noscript><p>{fr?'Activez JavaScript pour filtrer le programme ou afficher la carte.':'Enable JavaScript to filter the lineup or open the map.'}</p></noscript>
@@ -60,3 +74,27 @@ const matches=search(catalog,normalize(new URLSearchParams()));
 </div>
 <script>import '../../scripts/directory';</script>
 </Base>
+
+<style is:global>
+  .filter-main { grid-template-columns: minmax(240px, 2fr) minmax(86px, .55fr) minmax(130px, .8fr) auto; align-items: start; }
+  .filter-main > button { align-self: start; margin-top: calc(1.45em + .23rem); }
+  .location-fields, .location-entry { display: grid; gap: .55rem; min-width: 0; }
+  .location-input-line { display: flex; align-items: end; gap: .65rem; }
+  .location-input-line > label { flex: 1; min-width: 0; }
+  .location-actions { display: flex; flex-wrap: wrap; gap: .15rem 1.05rem; margin-top: .35rem; }
+  .day-filter { border: 0; margin: 1rem 0 0; padding: 0; min-width: 0; }
+  .day-filter legend { font-weight: 670; padding: 0; margin-bottom: .35rem; }
+  .day-options { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: .3rem; max-width: 460px; }
+  .day-options label { position: relative; cursor: pointer; }
+  .day-options input { position: absolute; margin: 0; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
+  .day-options span { display: grid; place-items: center; min-height: 44px; border: 1px solid #8d9489; border-radius: 6px; background: var(--white); }
+  .day-options input:checked + span { background: var(--ink); color: var(--white); border-color: var(--ink); }
+  .day-options input:focus-visible + span { outline: 3px solid var(--wine); outline-offset: 2px; }
+  .location-actions button:disabled { opacity: .6; cursor: default; }
+  @media (max-width: 700px) {
+    .filter-main { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+    .location-fields, .filter-main > button { grid-column: 1 / -1; }
+    .filter-main > button { margin-top: 0; }
+    .day-options { gap: .2rem; font-size: .86rem; }
+  }
+</style>

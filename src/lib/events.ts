@@ -5,9 +5,10 @@ export type Kind = 'trivia' | 'comedy' | 'games';
 export type Fee = 'free' | 'paid' | 'unknown';
 export type Prize = 'cash' | 'gift-card' | 'other' | 'unknown';
 export type Evidence = { url: string; checked: string };
+export type Point = [number, number];
 export interface Venue {
   id: string; name: string; city: string; province: string; address: string;
-  regions: Region[]; point: [number, number] | null; locationEvidence?: string;
+  regions: Region[]; point: Point | null; locationEvidence?: string;
   timezone: string; website: string;
 }
 export interface Series {
@@ -16,6 +17,10 @@ export interface Series {
   interval?: 2; monthWeeks?: number[];
   fee: Fee; prize: Prize; prizeCents?: number; language: 'en'|'fr'|'bilingual'|'unknown';
   teamMax?: number; evidence: Evidence; validUntil: string;
+  buyIn?: {
+    currency: 'CAD' | 'USD'; checked: string; sourceUrl: string; note?: string;
+    terms: {type: 'entry' | 'minimum-spend'; unit: 'person' | 'table' | 'unspecified'; amountCents?: number; capacity?: number}[];
+  };
 }
 export interface Exception { seriesId: string; date: string; cancelled?: boolean; movedTo?: string; time?: string; evidence: Evidence }
 export interface Catalog {
@@ -45,31 +50,32 @@ export function normalize(params:URLSearchParams, today = localDate()) {
   const until = validDate(params.get('to')) ?? plusDays(from, 6);
   const to = until < from ? from : until > plusDays(from,55) ? plusDays(from,55) : until;
   const radius = Number(params.get('km') ?? 25);
-  const day = Number(params.get('day'));
+  const days = [...new Set(params.getAll('day').map(Number).filter(day=>Number.isInteger(day)&&day>=1&&day<=7))];
   return {place, from, to, radius:[1,5,10,25,50,100].includes(radius)?radius:25,
-    day:day>=1&&day<=7&&Number.isInteger(day)?day:0,
+    day:days[0]??0, days,
     kind:params.get('type') || 'trivia', fee:params.get('fee') || '',
     prize:params.get('prize') || '', language:params.get('language') || '',
     minPrize:Math.min(100000,Math.max(0,Number(params.get('minPrize')) || 0)),
     sort:params.get('sort') || 'soon', after:/^\d\d:\d\d$/.test(params.get('after')??'')?params.get('after')!:''};
 }
-export function search(catalog:Catalog, p:ReturnType<typeof normalize>, now = new Date(), origin?:[number,number]): Match[] {
+export function search(catalog:Catalog, p:ReturnType<typeof normalize>, now = new Date(), origins:readonly Point[] = []): Match[] {
   const venues = new Map(catalog.venues.map(v=>[v.id,v]));
   const edits = new Map(catalog.exceptions.map(e=>[e.seriesId+':'+e.date,e]));
   const result:Match[] = [];
-  const centre = origin ?? (p.place === 'all' ? undefined : [zones[p.place][2],zones[p.place][3]] as [number,number]);
+  const centres:readonly Point[] = origins.length || p.place==='all' ? origins : [[zones[p.place][2],zones[p.place][3]]];
   for(const s of catalog.series){
     const v=venues.get(s.venueId);
     if(!v || (p.kind!=='all'&&s.kind!==p.kind) || (p.fee&&s.fee!==p.fee)
       || (p.prize==='any'&&s.prize==='unknown') || (p.prize&&p.prize!=='any'&&s.prize!==p.prize)
       || (p.minPrize&&(!s.prizeCents||s.prizeCents<p.minPrize*100))
       || (p.language&&s.language!==p.language&&(s.language!=='bilingual'||!['en','fr'].includes(p.language)))) continue;
-    const distance = centre&&v.point ? distanceKm(centre,v.point) : undefined;
-    if (centre && (distance===undefined || distance>p.radius)) continue;
+    const point = v.point;
+    const distance = centres.length&&point ? Math.min(...centres.map(centre=>distanceKm(centre,point))) : undefined;
+    if (centres.length && (distance===undefined || distance>p.radius)) continue;
     function add(key:string, edit?:Exception) {
       const date=edit?.movedTo??key, time=edit?.time??s.time;
       if(edit?.cancelled || date<p.from || date>p.to || date>s.validUntil
-        || (s.anchor&&key<s.anchor) || (p.day&&weekday(date)!==p.day) || (p.after&&time<p.after)) return;
+        || (s.anchor&&key<s.anchor) || (p.days.length&&!p.days.includes(weekday(date))) || (p.after&&time<p.after)) return;
       try {
         const start=zoned(date,time,v!.timezone);
         const end=s.end&&!edit?.time ? zoned(s.end<=time?plusDays(date,1):date,s.end,v!.timezone) : undefined;
