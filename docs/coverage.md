@@ -1,15 +1,15 @@
 # Pilot coverage
 
-Sources checked on 2026-11-16. Counts include dated events and recurring series. The GTA and Golden Horseshoe overlap.
+Sources checked November 16–17, 2026. Counts include dated events and recurring series. The GTA and Golden Horseshoe overlap.
 
 | Area | Trivia listings | Coverage notes |
 |---|---:|---|
-| GTA | 26 | Toronto and surrounding municipalities, including Burlington and Newmarket. |
-| Golden Horseshoe | 51 | GTA overlap plus Hamilton, Ancaster, Stoney Creek and Niagara listings. |
+| GTA | 36 | Toronto and surrounding municipalities, including Burlington and Newmarket. |
+| Golden Horseshoe | 62 | GTA overlap plus Hamilton, Ancaster, Stoney Creek and Niagara listings. |
 | Waterloo | 9 | Independent venues and recurring schedules from local breweries and cafés. |
 | London | 10 | London and surrounding communities, including Mount Brydges, Port Stanley and St. Marys. |
-| Ottawa | 17 | Ottawa, Orléans, Stittsville and Carleton Place. |
-| Montréal | 19 | Venue and Quiz Tonic schedules, including bilingual quizzes. |
+| Ottawa | 25 | Ottawa, Orléans, Stittsville and Carleton Place. |
+| Montréal | 20 | Venue and Quiz Tonic schedules, including bilingual quizzes. |
 | Thunder Bay | 6 | Recurring nights and dated quizzes at six Thunder Bay venues. |
 | Greater Sudbury | 6 | Recurring and dated listings in Sudbury and Hanmer. |
 | North Bay | 2 | The Moose and Match Eatery. |

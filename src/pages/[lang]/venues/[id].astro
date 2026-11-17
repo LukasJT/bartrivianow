@@ -2,24 +2,52 @@
 import Base from '../../../layouts/Base.astro';
 import EventRow from '../../../components/EventRow.astro';
 import data from '../../../data/catalog.json';
-import {normalize, search, type Catalog, type Venue} from '../../../lib/events';
+import {formatDate, formatTime, normalize, search, type Catalog, type Venue} from '../../../lib/events';
+import {labels} from '../../../lib/labels';
 import type {Locale} from '../../../data/regions';
 export const getStaticPaths=()=>['en','fr'].flatMap(lang=>data.venues.map(venue=>({params:{lang,id:venue.id},props:{venue}})));
 const {venue}=Astro.props as {venue:Venue};
 const lang=Astro.params.lang as Locale, fr=lang==='fr';
 const catalog=data as Catalog;
 const series=catalog.series.filter(s=>s.venueId===venue.id);
+const trivia=series.filter(s=>s.kind==='trivia');
 const upcoming=search({...catalog,series},normalize(new URLSearchParams('type=all'))).slice(0,8);
 const directions='https://www.openstreetmap.org/search?query='+encodeURIComponent(venue.address+', '+venue.city+', '+venue.province);
+const title=venue.name+' · '+(fr?'Quiz à ':'Trivia in ')+venue.city+' | Bar Trivia Now';
+const description=fr
+  ?'Consultez les soirées quiz annoncées chez '+venue.name+' à '+venue.city+', les horaires et les modalités de participation.'
+  :'See advertised trivia at '+venue.name+' in '+venue.city+', including schedules, entry fees and sources.';
+const weekdays=(days:number[])=>days.map(day=>formatDate('2026-11-'+String(15+day),lang,{weekday:'long'})).join(', ');
 ---
-<Base {lang} title={venue.name+' | Bar Trivia Now'} alternate={'/'+(fr?'en':'fr')+'/venues/'+venue.id+'/'} adFormat="rectangle">
+<Base {lang} {title} {description} alternate={'/'+(fr?'en':'fr')+'/venues/'+venue.id+'/'} adFormat="rectangle">
 <article class="detail frame">
 <a href={'/'+lang+'/#agenda'}>{fr?'Retour au programme':'Back to the lineup'}</a>
 <h1>{venue.name}</h1><p>{venue.address}, {venue.city}, {venue.province}</p>
 <div class="actions"><a href={directions}>{fr?'Carte et itinéraire':'Map and directions'}</a><a href={venue.website}>{fr?'Site du lieu':'Venue website'}</a></div>
 <h2>{fr?'Cette semaine':'This week'}</h2>
 {upcoming.length?<ol class="event-list">{upcoming.map(event=><EventRow {event} {lang}/>)}</ol>:<p>{fr?'Aucun événement annoncé pour cette semaine.':'No events advertised for this week.'}</p>}
-<h2>{fr?'Événements et sources':'Events and sources'}</h2>
-<ul>{series.map(s=><li><a href={'/'+lang+'/series/'+s.id+'/'}>{s.name}</a></li>)}</ul>
+{trivia.length>0&&<>
+<h2>{fr?'Soirées quiz':'Trivia at '+venue.name}</h2>
+<ul class="venue-trivia">{trivia.map(s=><li>
+  <strong><a href={'/'+lang+'/series/'+s.id+'/'}>{s.name}</a></strong>
+  <p>{s.date?formatDate(s.date,lang,{dateStyle:'long'}):weekdays(s.days)} · {formatTime(s.time,lang)}{s.interval===2?(fr?' · toutes les deux semaines':' · every other week'):''}{s.monthWeeks?.length?(fr?' · semaines ':' · weeks ')+s.monthWeeks.join(', '):''}</p>
+  <p>{labels[lang][s.fee]}{s.prize!=='unknown'?' · '+labels[lang][s.prize]:''}{s.language!=='unknown'?' · '+labels[lang][s.language]:''}</p>
+  {s.buyIn&&<ul>{s.buyIn.terms.map(term=><li>
+    {term.type==='entry'?(fr?'Entrée':'Entry'):(fr?'Dépense minimale':'Minimum spend')}
+    {' · '}{term.amountCents===undefined?(fr?'Montant non indiqué':'Amount not listed'):new Intl.NumberFormat(lang,{style:'currency',currency:s.buyIn!.currency}).format(term.amountCents/100)}
+    {term.unit==='person'?(fr?' par personne':' per person'):term.unit==='table'?(fr?' par table':' per table'):''}
+    {term.capacity?' ('+term.capacity+(fr?' places)':' seats)'):''}
+  </li>)}{s.buyIn.note&&<li>{s.buyIn.note}</li>}
+  <li><a href={s.buyIn.sourceUrl}>{fr?'Source du tarif':'Pricing source'}</a></li></ul>}
+  <p><a href={s.evidence.url}>{fr?'Source de l’horaire':'Schedule source'}</a> · {fr?'Consultée le ':'Checked '}{formatDate(s.evidence.checked,lang,{dateStyle:'medium'})}</p>
+</li>)}</ul>
+</>}
+{series.some(s=>s.kind!=='trivia')&&<><h2>{fr?'Autres activités':'Other events'}</h2>
+<ul>{series.filter(s=>s.kind!=='trivia').map(s=><li><a href={'/'+lang+'/series/'+s.id+'/'}>{s.name}</a></li>)}</ul></>}
 <p><a href={'/'+lang+'/submit/?venue='+venue.id}>{fr?'Signaler une modification':'Report a change'}</a></p>
 </article></Base>
+
+<style>
+  .detail .venue-trivia { list-style: none; padding: 0; }
+  .venue-trivia > li { padding: 1rem 0; border-top: 1px solid var(--line); }
+</style>

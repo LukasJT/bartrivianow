@@ -35,3 +35,12 @@ test('validates and bounds the requested search window',()=>{
  const p=normalize(new URLSearchParams('from=2026-02-30&to=2028-05-01&day=1.5&km=500'),'2026-03-01');
  assert.deepEqual([p.from,p.to,p.day,p.radius],['2026-03-01','2026-04-25',0,25]);
 });
+test('filters by any selected weekday and uses the closest search location',()=>{
+ const nearby:[number,number]=[43.6532,-79.3832];
+ const distant:[number,number]=[45.4215,-75.6972];
+ const base='from=2026-03-04&to=2026-03-11&km=5';
+ const get=(suffix:string)=>search(catalog,normalize(new URLSearchParams(base+suffix),'2026-03-01'),now,[distant,nearby,nearby]);
+ assert.deepEqual(get('&day=1&day=3&day=7').map(event=>event.distance),[0,0]);
+ assert.equal(get('&day=1&day=7').length,0);
+ assert.equal(get('').length,2);
+});
