@@ -2148,6 +2148,249 @@
       "point": null,
       "website": "https://www.eventbrite.ca/e/thursday-night-trivia-at-st-louis-bar-grill-walkers-line-in-burlington-tickets-1984227726544",
       "timezone": "America/Toronto"
+    },
+    {
+      "id": "prohibition-warehouse",
+      "name": "The Prohibition Warehouse",
+      "city": "Waterloo",
+      "province": "ON",
+      "address": "56 King Street North",
+      "regions": [
+        "waterloo"
+      ],
+      "website": "https://www.prohibitionwarehouse.com/",
+      "timezone": "America/Toronto",
+      "point": [
+        43.4668375,
+        -80.52282150000002
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "malt-and-barley",
+      "name": "Malt & Barley Public House",
+      "city": "Kitchener",
+      "province": "ON",
+      "address": "1187 Fischer-Hallman Road",
+      "regions": [
+        "waterloo"
+      ],
+      "website": "https://www.maltandbarley.ca/",
+      "timezone": "America/Toronto",
+      "point": [
+        43.406090800000015,
+        -80.49967779999997
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "blk-swan-downtown",
+      "name": "BLK Swan Kitchen Hub Downtown",
+      "city": "Burlington",
+      "province": "ON",
+      "address": "380 Brant Street",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "website": "https://www.blkswan.ca/downtownburlingtonhub/entertainment.html",
+      "timezone": "America/Toronto",
+      "point": [
+        43.3252376090909,
+        -79.79720127272728
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "the-well-hamilton",
+      "name": "The Well Hamilton",
+      "city": "Hamilton",
+      "province": "ON",
+      "address": "161 Wellington Street North",
+      "regions": [
+        "horseshoe"
+      ],
+      "website": "https://drinkatthewell.com/wellington/",
+      "timezone": "America/Toronto",
+      "point": [
+        43.2583439,
+        -79.85726090000003
+      ],
+      "locationEvidence": "https://pub-hamilton.escribemeetings.com/filestream.ashx?DocumentId=275853"
+    },
+    {
+      "id": "market-brewing",
+      "name": "Market Brewing Company",
+      "city": "Newmarket",
+      "province": "ON",
+      "address": "17775 Leslie Street",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "website": "https://www.marketbrewingco.com/pages/location",
+      "timezone": "America/Toronto",
+      "point": [
+        44.0730740142857,
+        -79.43373664285714
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "old-flame-port-perry",
+      "name": "Old Flame Brewing Co. Port Perry",
+      "city": "Port Perry",
+      "province": "ON",
+      "address": "135 Perry Street",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "website": "https://oldflamebrewingco.ca/pages/port-perry",
+      "timezone": "America/Toronto",
+      "point": [
+        44.1039313,
+        -78.9434759
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "old-flame-newmarket",
+      "name": "Old Flame Brewing Co. Newmarket",
+      "city": "Newmarket",
+      "province": "ON",
+      "address": "140 Main Street South",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "website": "https://oldflamebrewingco.ca/pages/newmarket",
+      "timezone": "America/Toronto",
+      "point": [
+        44.05460640000001,
+        -79.4583532
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "old-flame-distillery",
+      "name": "Old Flame Brewing Co. Distillery District",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "43 Tank House Lane",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "website": "https://oldflamebrewingco.ca/pages/distillery-district",
+      "timezone": "America/Toronto",
+      "point": [
+        43.650751542857144,
+        -79.35752208571431
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "royal-oak-hunt-club",
+      "name": "The Royal Oak Hunt Club at Uplands",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "800 Hunt Club Road",
+      "regions": [
+        "ottawa"
+      ],
+      "website": "https://royaloakpubs.com/hunt-club-at-uplands/",
+      "timezone": "America/Toronto",
+      "point": [
+        45.344964600000026,
+        -75.66597389999998
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "royal-oak-beechwood",
+      "name": "The Royal Oak Beechwood",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "1 Beechwood Avenue",
+      "regions": [
+        "ottawa"
+      ],
+      "website": "https://royaloakpubs.com/beechwood/",
+      "timezone": "America/Toronto",
+      "point": [
+        45.438356699999986,
+        -75.67776659999998
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "royal-oak-maclaren",
+      "name": "The Royal Oak Bank at MacLaren",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "318 Bank Street",
+      "regions": [
+        "ottawa"
+      ],
+      "website": "https://royaloakpubs.com/bank-at-maclaren/",
+      "timezone": "America/Toronto",
+      "point": [
+        45.41462845576923,
+        -75.69574313461537
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "royal-oak-centrepointe",
+      "name": "The Royal Oak Centrepointe",
+      "city": "Nepean",
+      "province": "ON",
+      "address": "117 Centrepointe Drive, Unit 105",
+      "regions": [
+        "ottawa"
+      ],
+      "website": "https://royaloakpubs.com/centrepointe/",
+      "timezone": "America/Toronto",
+      "point": [
+        45.343650193868775,
+        -75.76379695009992
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "royal-oak-kanata",
+      "name": "The Royal Oak Kanata",
+      "city": "Kanata",
+      "province": "ON",
+      "address": "329 March Road",
+      "regions": [
+        "ottawa"
+      ],
+      "website": "https://royaloakpubs.com/kanata/",
+      "timezone": "America/Toronto",
+      "point": [
+        45.3353802,
+        -75.9084464
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "royal-oak-wellington",
+      "name": "The Royal Oak Wellington at Hinton",
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "1217 Wellington Street West",
+      "regions": [
+        "ottawa"
+      ],
+      "website": "https://royaloakpubs.com/wellington-at-hinton/",
+      "timezone": "America/Toronto",
+      "point": [
+        45.40009140000001,
+        -75.7309874
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
     }
   ],
   "series": [
@@ -2367,15 +2610,15 @@
       "prize": "other",
       "language": "unknown",
       "evidence": {
-        "url": "https://www.visitthunderbay.com/event/trivia-night-in-support-of-our-kids-count/",
-        "checked": "2026-11-16"
+        "url": "https://www.zeffy.com/en-CA/ticketing/trivia-night-in-support-of-our-kids-count",
+        "checked": "2026-11-17"
       },
       "validUntil": "2026-11-27",
       "date": "2026-11-27",
       "buyIn": {
         "currency": "CAD",
-        "sourceUrl": "https://www.ourkidscount.ca/events/trivia-night/2026-11-27",
-        "checked": "2026-11-16",
+        "sourceUrl": "https://www.zeffy.com/en-CA/ticketing/trivia-night-in-support-of-our-kids-count",
+        "checked": "2026-11-17",
         "terms": [
           {
             "type": "entry",
@@ -2389,8 +2632,9 @@
             "capacity": 10
           }
         ],
-        "note": "Ticket includes dinner and trivia."
-      }
+        "note": "Dinner included. Doors open at 6:00 PM."
+      },
+      "end": "22:00"
     },
     {
       "id": "ridge-rock-event",
@@ -4890,7 +5134,7 @@
     {
       "id": "twb-brewing-trivia",
       "venueId": "twb-brewing",
-      "name": "Back in 2010 Trivia",
+      "name": "Back in 2010 Trivia Night",
       "days": [],
       "time": "19:00",
       "kind": "trivia",
@@ -4899,29 +5143,34 @@
       "language": "unknown",
       "evidence": {
         "url": "https://explorewaterloo.ca/event/back-in-2010-trivia-night/",
-        "checked": "2026-11-16"
+        "checked": "2026-11-17"
       },
       "validUntil": "2026-11-19",
       "date": "2026-11-19",
       "buyIn": {
         "currency": "CAD",
         "sourceUrl": "https://explorewaterloo.ca/event/back-in-2010-trivia-night/",
-        "checked": "2026-11-16",
+        "checked": "2026-11-17",
         "terms": [
           {
             "type": "entry",
             "unit": "person",
             "amountCents": 1000
+          },
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 1200
           }
         ],
-        "note": "$10 in advance or $12 on trivia day. Includes one 12 oz beer or non-alcoholic drink."
+        "note": "$10 in advance or $12 on trivia day. Ticket includes a beer or a non-alcoholic drink. Ages 19 and over."
       },
       "end": "21:30"
     },
     {
       "id": "duke-of-wellington-waterloo-trivia",
       "venueId": "duke-of-wellington-waterloo",
-      "name": "RGD Trivia Night: Branding Edition",
+      "name": "RGD Branding Trivia Night",
       "days": [],
       "time": "19:15",
       "kind": "trivia",
@@ -4930,14 +5179,14 @@
       "language": "unknown",
       "evidence": {
         "url": "https://rgd.ca/connecting-learning/events-training/rgd-trivia-night-waterloo",
-        "checked": "2026-11-16"
+        "checked": "2026-11-17"
       },
       "validUntil": "2026-11-19",
       "date": "2026-11-19",
       "buyIn": {
         "currency": "CAD",
         "sourceUrl": "https://rgd.ca/connecting-learning/events-training/rgd-trivia-night-waterloo",
-        "checked": "2026-11-16",
+        "checked": "2026-11-17",
         "terms": [
           {
             "type": "entry",
@@ -4945,7 +5194,7 @@
             "amountCents": 1500
           }
         ],
-        "note": "RGD members pay $10. Tax and fees are extra for both rates."
+        "note": "Public admission is $15 plus taxes and fees. RGD members pay $10 plus taxes and fees."
       },
       "end": "21:00",
       "teamMax": 4,
@@ -5653,6 +5902,359 @@
         "url": "https://www.eventbrite.com/e/jacks-tuesday-night-trivia-brampton-free-tickets-474754331987",
         "checked": "2026-11-17"
       }
+    },
+    {
+      "id": "prohibition-warehouse-trivia",
+      "venueId": "prohibition-warehouse",
+      "name": "Trivia Tuesdays",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.prohibitionwarehouse.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
+    },
+    {
+      "id": "malt-and-barley-trivia",
+      "venueId": "malt-and-barley",
+      "name": "Trivia Night",
+      "days": [],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://maltbarleypublichouse.scvr.co/events/24500/november-22-to-29-at-the-malt",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "id": "blk-swan-downtown-trivia",
+      "venueId": "blk-swan-downtown",
+      "name": "Wednesday Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.blkswan.ca/downtownburlingtonhub/entertainment.html",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
+    },
+    {
+      "id": "the-well-hamilton-trivia",
+      "venueId": "the-well-hamilton",
+      "name": "Trivia Night",
+      "days": [],
+      "time": "18:00",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://drinkatthewell.com/product/trivia-night-hamilton/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-18",
+      "date": "2026-11-18",
+      "end": "21:00",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://drinkatthewell.com/product/trivia-night-hamilton/",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "unit": "person",
+            "amountCents": 1000,
+            "type": "entry"
+          }
+        ]
+      }
+    },
+    {
+      "id": "market-brewing-trivia",
+      "venueId": "market-brewing",
+      "name": "Tuesday Trivia",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.marketbrewingco.com/pages/event-calendar",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
+    },
+    {
+      "id": "old-flame-port-perry-trivia",
+      "venueId": "old-flame-port-perry",
+      "name": "Wednesday Trivia",
+      "days": [
+        3
+      ],
+      "time": "18:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://oldflame.eventcalendarapp.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "21:00"
+    },
+    {
+      "id": "old-flame-newmarket-trivia",
+      "venueId": "old-flame-newmarket",
+      "name": "Wednesday Trivia",
+      "days": [
+        3
+      ],
+      "time": "18:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://oldflame.eventcalendarapp.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "21:00"
+    },
+    {
+      "id": "old-flame-distillery-trivia",
+      "venueId": "old-flame-distillery",
+      "name": "Wednesday Trivia",
+      "days": [
+        3
+      ],
+      "time": "18:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://oldflame.eventcalendarapp.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "21:00"
+    },
+    {
+      "id": "royal-oak-hunt-club-trivia",
+      "venueId": "royal-oak-hunt-club",
+      "name": "Tuesday Pub Trivia",
+      "days": [
+        2
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://royaloakpubs.com/hunt-club-at-uplands/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "21:30",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://royaloakpubs.com/event/trivia-hunt-club/2026-11-24/",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "unit": "unspecified",
+            "amountCents": 0,
+            "type": "entry"
+          }
+        ]
+      }
+    },
+    {
+      "id": "royal-oak-hunt-club-trivia-feud-2026-11-27",
+      "venueId": "royal-oak-hunt-club",
+      "name": "Trivia Feud",
+      "days": [],
+      "time": "18:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.hostentertainment.ca/event-details/trivia-feud-71",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-27",
+      "date": "2026-11-27",
+      "end": "21:30",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.hostentertainment.ca/event-details/trivia-feud-71",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "unit": "unspecified",
+            "amountCents": 0,
+            "type": "entry"
+          }
+        ]
+      }
+    },
+    {
+      "id": "royal-oak-hunt-club-trivia-feud-2026-12-18",
+      "venueId": "royal-oak-hunt-club",
+      "name": "Trivia Feud",
+      "days": [],
+      "time": "18:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.hostentertainment.ca/event-details/trivia-feud-72",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-18",
+      "date": "2026-12-18",
+      "end": "21:30",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.hostentertainment.ca/event-details/trivia-feud-72",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "unit": "unspecified",
+            "amountCents": 0,
+            "type": "entry"
+          }
+        ]
+      }
+    },
+    {
+      "id": "royal-oak-beechwood-trivia",
+      "venueId": "royal-oak-beechwood",
+      "name": "Pub Trivia",
+      "days": [],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://royaloakpubs.com/event/trivia-beechwood/2026-11-24/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-24",
+      "date": "2026-11-24",
+      "end": "20:30",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://royaloakpubs.com/event/trivia-beechwood/2026-11-24/",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "unit": "unspecified",
+            "amountCents": 0,
+            "type": "entry"
+          }
+        ]
+      }
+    },
+    {
+      "id": "royal-oak-maclaren-trivia",
+      "venueId": "royal-oak-maclaren",
+      "name": "Wednesday Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://royaloakpubs.com/bank-at-maclaren/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
+    },
+    {
+      "id": "royal-oak-centrepointe-trivia",
+      "venueId": "royal-oak-centrepointe",
+      "name": "Double Trivia Nights",
+      "days": [
+        2,
+        3
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "gift-card",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://royaloakpubs.com/centrepointe/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "prizeCents": 2500
+    },
+    {
+      "id": "royal-oak-kanata-trivia",
+      "venueId": "royal-oak-kanata",
+      "name": "Saturday Trivia",
+      "days": [
+        6
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://royaloakpubs.com/kanata/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
+    },
+    {
+      "id": "royal-oak-wellington-trivia",
+      "venueId": "royal-oak-wellington",
+      "name": "Sunday Trivia",
+      "days": [
+        7
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://royaloakpubs.com/wellington-at-hinton/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
     }
   ],
   "hosts": [
