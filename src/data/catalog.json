@@ -2890,6 +2890,168 @@
         -73.44919213952603
       ],
       "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "town-charles",
+      "name": "Town Brewery Charles Street",
+      "city": "Whitby",
+      "province": "ON",
+      "address": "1632 Charles Street",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.861118602040804,
+        -78.93597636530612
+      ],
+      "website": "https://townbrewery.ca/blogs/events/every-tuesday-team-trivia-night",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "town-the-office",
+      "name": "Town Brewery The Office",
+      "city": "Whitby",
+      "province": "ON",
+      "address": "244 Brock Street South",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.87833284081632,
+        -78.94158889387754
+      ],
+      "website": "https://townbrewery.ca/blogs/events/wednesday-night-trivia-the-office",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "bond-st-snack-bar",
+      "name": "BOND|ST Snack Bar",
+      "city": "Oshawa",
+      "province": "ON",
+      "address": "44 Bond Street East",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.89884385000002,
+        -78.8622748375
+      ],
+      "website": "https://www.bondst.ca/snackbar",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "tracks-brewpub",
+      "name": "Tracks Brewpub",
+      "city": "Brampton",
+      "province": "ON",
+      "address": "60 Queen Street East",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.68765904955529,
+        -79.75801353155393
+      ],
+      "website": "https://www.bramptontrivia.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "ivy-bridge",
+      "name": "Ivy Bridge",
+      "city": "Brampton",
+      "province": "ON",
+      "address": "160 Main Street South",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.67764265999998,
+        -79.7488362
+      ],
+      "website": "https://www.bramptontrivia.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "peppinos-oven",
+      "name": "Peppino’s Oven",
+      "city": "Oakville",
+      "province": "ON",
+      "address": "2015 Kingsridge Drive",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.445605,
+        -79.75720565
+      ],
+      "website": "https://www.peppinosoven.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "marine-tavern",
+      "name": "Marine Tavern",
+      "city": "Oakville",
+      "province": "ON",
+      "address": "49 Bronte Road",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.3940193,
+        -79.7097948
+      ],
+      "website": "https://marinetavern.ca/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "blk-swan-oakville",
+      "name": "BLK Swan Kitchen Hub Oakville",
+      "city": "Oakville",
+      "province": "ON",
+      "address": "3420 Rebecca Street",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.38479000000001,
+        -79.73435110000003
+      ],
+      "website": "https://www.blkswan.ca/oakville/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "halton-crown",
+      "name": "Halton Crown Pub",
+      "city": "Burlington",
+      "province": "ON",
+      "address": "4057 New Street",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "point": [
+        43.354240544444465,
+        -79.76795821111111
+      ],
+      "website": "https://haltoncrownpub.com/",
+      "timezone": "America/Toronto",
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
     }
   ],
   "series": [
@@ -3012,7 +3174,7 @@
       ],
       "time": "19:30",
       "kind": "trivia",
-      "fee": "unknown",
+      "fee": "free",
       "prize": "unknown",
       "language": "unknown",
       "evidence": {
@@ -3020,7 +3182,19 @@
         "checked": "2026-11-16"
       },
       "validUntil": "2026-12-16",
-      "hostId": "private-label"
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
     },
     {
       "id": "squires-burlington-event",
@@ -3031,7 +3205,7 @@
       ],
       "time": "19:30",
       "kind": "trivia",
-      "fee": "unknown",
+      "fee": "free",
       "prize": "unknown",
       "language": "unknown",
       "evidence": {
@@ -3039,7 +3213,19 @@
         "checked": "2026-11-16"
       },
       "validUntil": "2026-12-16",
-      "hostId": "private-label"
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
     },
     {
       "id": "montanas-waterloo-event",
@@ -3050,7 +3236,7 @@
       ],
       "time": "19:30",
       "kind": "trivia",
-      "fee": "unknown",
+      "fee": "free",
       "prize": "unknown",
       "language": "unknown",
       "evidence": {
@@ -3058,7 +3244,19 @@
         "checked": "2026-11-16"
       },
       "validUntil": "2026-12-16",
-      "hostId": "private-label"
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
     },
     {
       "id": "mick-angelos-event",
@@ -3069,7 +3267,7 @@
       ],
       "time": "19:30",
       "kind": "trivia",
-      "fee": "unknown",
+      "fee": "free",
       "prize": "unknown",
       "language": "unknown",
       "evidence": {
@@ -3077,7 +3275,19 @@
         "checked": "2026-11-16"
       },
       "validUntil": "2026-12-16",
-      "hostId": "private-label"
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
     },
     {
       "id": "moose-north-bay-event",
@@ -3465,7 +3675,7 @@
       ],
       "time": "19:30",
       "kind": "trivia",
-      "fee": "unknown",
+      "fee": "free",
       "prize": "unknown",
       "language": "unknown",
       "evidence": {
@@ -3477,7 +3687,19 @@
       "monthWeeks": [
         2,
         4
-      ]
+      ],
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
     },
     {
       "id": "st-louis-sudbury-trivia",
@@ -3488,7 +3710,7 @@
       ],
       "time": "19:30",
       "kind": "trivia",
-      "fee": "unknown",
+      "fee": "free",
       "prize": "unknown",
       "language": "unknown",
       "evidence": {
@@ -3496,7 +3718,19 @@
         "checked": "2026-11-16"
       },
       "validUntil": "2026-12-16",
-      "hostId": "private-label"
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
     },
     {
       "id": "st-louis-hanmer-trivia",
@@ -3507,7 +3741,7 @@
       ],
       "time": "19:30",
       "kind": "trivia",
-      "fee": "unknown",
+      "fee": "free",
       "prize": "unknown",
       "language": "unknown",
       "evidence": {
@@ -3515,7 +3749,19 @@
         "checked": "2026-11-16"
       },
       "validUntil": "2026-12-16",
-      "hostId": "private-label"
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
     },
     {
       "id": "the-wayland-trivia",
@@ -3714,7 +3960,7 @@
       ],
       "time": "20:00",
       "kind": "trivia",
-      "fee": "unknown",
+      "fee": "free",
       "prize": "unknown",
       "language": "unknown",
       "evidence": {
@@ -3722,7 +3968,19 @@
         "checked": "2026-11-16"
       },
       "validUntil": "2026-12-16",
-      "hostId": "private-label"
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
     },
     {
       "id": "lion-newmarket-trivia",
@@ -3733,7 +3991,7 @@
       ],
       "time": "20:00",
       "kind": "trivia",
-      "fee": "unknown",
+      "fee": "free",
       "prize": "unknown",
       "language": "unknown",
       "evidence": {
@@ -3741,7 +3999,19 @@
         "checked": "2026-11-16"
       },
       "validUntil": "2026-12-16",
-      "hostId": "private-label"
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
     },
     {
       "id": "sala-61-trivia",
@@ -3752,7 +4022,7 @@
       ],
       "time": "19:00",
       "kind": "trivia",
-      "fee": "unknown",
+      "fee": "free",
       "prize": "unknown",
       "language": "unknown",
       "evidence": {
@@ -3760,7 +4030,19 @@
         "checked": "2026-11-16"
       },
       "validUntil": "2026-12-16",
-      "hostId": "private-label"
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
     },
     {
       "id": "royal-oak-orleans-trivia",
@@ -4304,7 +4586,7 @@
       ],
       "time": "19:30",
       "kind": "trivia",
-      "fee": "unknown",
+      "fee": "free",
       "prize": "unknown",
       "language": "unknown",
       "evidence": {
@@ -4312,7 +4594,19 @@
         "checked": "2026-11-16"
       },
       "validUntil": "2026-12-16",
-      "hostId": "private-label"
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
     },
     {
       "id": "boston-pizza-barton-trivia",
@@ -4323,7 +4617,7 @@
       ],
       "time": "19:00",
       "kind": "trivia",
-      "fee": "unknown",
+      "fee": "free",
       "prize": "unknown",
       "language": "unknown",
       "evidence": {
@@ -4331,7 +4625,19 @@
         "checked": "2026-11-16"
       },
       "validUntil": "2026-12-16",
-      "hostId": "private-label"
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
     },
     {
       "id": "fionn-maccools-brampton-trivia",
@@ -4342,7 +4648,7 @@
       ],
       "time": "20:00",
       "kind": "trivia",
-      "fee": "unknown",
+      "fee": "free",
       "prize": "unknown",
       "language": "unknown",
       "evidence": {
@@ -4350,7 +4656,19 @@
         "checked": "2026-11-16"
       },
       "validUntil": "2026-12-16",
-      "hostId": "private-label"
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
     },
     {
       "id": "st-louis-milton-trivia",
@@ -4361,7 +4679,7 @@
       ],
       "time": "19:30",
       "kind": "trivia",
-      "fee": "unknown",
+      "fee": "free",
       "prize": "unknown",
       "language": "unknown",
       "evidence": {
@@ -4369,7 +4687,19 @@
         "checked": "2026-11-16"
       },
       "validUntil": "2026-12-16",
-      "hostId": "private-label"
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
     },
     {
       "id": "captain-hooks-stouffville-trivia",
@@ -4380,7 +4710,7 @@
       ],
       "time": "19:30",
       "kind": "trivia",
-      "fee": "unknown",
+      "fee": "free",
       "prize": "unknown",
       "language": "unknown",
       "evidence": {
@@ -4388,7 +4718,19 @@
         "checked": "2026-11-16"
       },
       "validUntil": "2026-12-16",
-      "hostId": "private-label"
+      "hostId": "private-label",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.privatelabeltrivia.com/our-trivia-events",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
     },
     {
       "id": "thirsty-cactus-trivia",
@@ -7628,6 +7970,217 @@
         "checked": "2026-11-17"
       },
       "validUntil": "2026-12-14"
+    },
+    {
+      "id": "town-charles-trivia",
+      "venueId": "town-charles",
+      "name": "Team Trivia",
+      "kind": "trivia",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://townbrewery.ca/blogs/events/every-tuesday-team-trivia-night",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "teamMax": 6,
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://townbrewery.ca/blogs/events/every-tuesday-team-trivia-night",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "town-the-office-trivia",
+      "venueId": "town-the-office",
+      "name": "Wednesday Night Trivia",
+      "kind": "trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://townbrewery.ca/blogs/events/wednesday-night-trivia-the-office",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
+    },
+    {
+      "id": "bond-st-snack-bar-trivia",
+      "venueId": "bond-st-snack-bar",
+      "name": "Eddy’s Pop Culture Trivia",
+      "kind": "trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.bondst.ca/trivia",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.bondst.ca/trivia",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "tracks-brewpub-trivia",
+      "venueId": "tracks-brewpub",
+      "name": "Tracks Trivia",
+      "kind": "trivia",
+      "days": [
+        3
+      ],
+      "time": "19:30",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.bramptontrivia.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "teamMax": 4,
+      "hostId": "brampton-trivia",
+      "buyIn": {
+        "currency": "CAD",
+        "checked": "2026-11-17",
+        "sourceUrl": "https://www.bramptontrivia.com/",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "ivy-bridge-trivia",
+      "venueId": "ivy-bridge",
+      "name": "Ivy Bridge Trivia",
+      "kind": "trivia",
+      "days": [
+        7
+      ],
+      "time": "15:30",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.bramptontrivia.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "teamMax": 4,
+      "hostId": "brampton-trivia"
+    },
+    {
+      "id": "peppinos-oven-trivia",
+      "venueId": "peppinos-oven",
+      "name": "Monday Pub Quiz",
+      "kind": "trivia",
+      "days": [
+        1
+      ],
+      "time": "20:00",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://quizzicalmind.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "22:00",
+      "hostId": "quizzical-mind"
+    },
+    {
+      "id": "marine-tavern-trivia",
+      "venueId": "marine-tavern",
+      "name": "Tuesday Pub Quiz",
+      "kind": "trivia",
+      "days": [
+        2
+      ],
+      "time": "19:30",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://quizzicalmind.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "21:30",
+      "hostId": "quizzical-mind"
+    },
+    {
+      "id": "blk-swan-oakville-trivia",
+      "venueId": "blk-swan-oakville",
+      "name": "Wednesday Pub Quiz",
+      "kind": "trivia",
+      "days": [
+        3
+      ],
+      "time": "20:00",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://quizzicalmind.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "22:00",
+      "hostId": "quizzical-mind"
+    },
+    {
+      "id": "halton-crown-trivia",
+      "venueId": "halton-crown",
+      "name": "Thursday Pub Quiz",
+      "kind": "trivia",
+      "days": [
+        4
+      ],
+      "time": "19:30",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://quizzicalmind.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "21:30",
+      "hostId": "quizzical-mind"
     }
   ],
   "hosts": [
@@ -7682,6 +8235,16 @@
       "id": "worlds-smallest",
       "name": "World's Smallest Comedy Club",
       "website": "https://worldssmallest.club/"
+    },
+    {
+      "id": "brampton-trivia",
+      "name": "Brampton Trivia",
+      "website": "https://www.bramptontrivia.com/"
+    },
+    {
+      "id": "quizzical-mind",
+      "name": "Quizzical Mind Trivia",
+      "website": "https://quizzicalmind.com/"
     }
   ],
   "exceptions": [
