@@ -2391,6 +2391,248 @@
         -75.7309874
       ],
       "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "careys-london",
+      "name": "Carey's Bar & Grill",
+      "city": "London",
+      "province": "ON",
+      "address": "1569 Oxford Street East",
+      "regions": [
+        "london"
+      ],
+      "website": "https://careysbarandgrill.ca/",
+      "timezone": "America/Toronto",
+      "point": [
+        43.011123600000005,
+        -81.19958664285716
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "bernies-sherwood",
+      "name": "Bernie's Bar & Grill Sherwood",
+      "city": "London",
+      "province": "ON",
+      "address": "1225 Wonderland Road North",
+      "regions": [
+        "london"
+      ],
+      "website": "https://www.berniesbarandgrill.com/",
+      "timezone": "America/Toronto",
+      "point": [
+        43.00448779999999,
+        -81.3031727
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "montanas-london-hyde-park",
+      "name": "Montana's London Hyde Park",
+      "city": "London",
+      "province": "ON",
+      "address": "1335 Fanshawe Park Road West",
+      "regions": [
+        "london"
+      ],
+      "website": "https://www.montanas.ca/en/locations/on/london/1335-fanshawe-park-road",
+      "timezone": "America/Toronto",
+      "point": [
+        43.01148132727274,
+        -81.33451219090911
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "vices-et-versa",
+      "name": "Vices & Versa",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "6631 Boulevard Saint-Laurent",
+      "regions": [
+        "montreal"
+      ],
+      "website": "https://vicesetversa.com/",
+      "timezone": "America/Montreal",
+      "point": [
+        45.53151906955151,
+        -73.61137242117739
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "chez-ernest",
+      "name": "Chez Ernest",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "6596 Rue Saint-Hubert",
+      "regions": [
+        "montreal"
+      ],
+      "website": "https://chezernest.ca/",
+      "timezone": "America/Montreal",
+      "point": [
+        45.5368733,
+        -73.6050014
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "brutopia",
+      "name": "Brutopia",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "1219 Rue Crescent",
+      "regions": [
+        "montreal"
+      ],
+      "website": "https://www.brutopia.net/",
+      "timezone": "America/Montreal",
+      "point": [
+        45.496514970009414,
+        -73.57433305819346
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "turbo-haus",
+      "name": "Turbo Haüs",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "2040 Rue Saint-Denis",
+      "regions": [
+        "montreal"
+      ],
+      "website": "https://turbohaus.ca/calendrier",
+      "timezone": "America/Montreal",
+      "point": [
+        45.51616133636459,
+        -73.56580487285235
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "dawson-trail",
+      "name": "Dawson Trail Craft Brewery",
+      "city": "Thunder Bay",
+      "province": "ON",
+      "address": "1181 Golf Links Road",
+      "regions": [
+        "thunderbay"
+      ],
+      "website": "https://dawsontrailcraftbrewery.com/",
+      "timezone": "America/Toronto",
+      "point": [
+        48.4191,
+        -89.2755
+      ],
+      "locationEvidence": "https://untappd.com/v/dawson-trail-craft-brewery/12642389"
+    },
+    {
+      "id": "decew-falls",
+      "name": "Decew Falls Brewing Company",
+      "city": "St. Catharines",
+      "province": "ON",
+      "address": "207 St Paul Street West",
+      "regions": [
+        "horseshoe"
+      ],
+      "website": "https://decewfallsbrewing.ca/",
+      "timezone": "America/Toronto",
+      "point": [
+        43.1460036,
+        -79.2568307
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "brunswick-bierworks",
+      "name": "Brunswick Bierworks",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "25 Curity Avenue",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "website": "https://www.brunswickbierworks.com/taproom",
+      "timezone": "America/Toronto",
+      "point": [
+        43.71044039999998,
+        -79.3171111
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "local-leaside",
+      "name": "LOCAL Public Eatery Leaside",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "180 Laird Drive",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "website": "https://localpubliceatery.com/neighbourhoods/leaside/",
+      "timezone": "America/Toronto",
+      "point": [
+        43.7103659,
+        -79.3634816
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "drake-hotel",
+      "name": "The Drake Hotel",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "1150 Queen Street West",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "website": "https://thedrake.ca/",
+      "timezone": "America/Toronto",
+      "point": [
+        43.642992900000024,
+        -79.42477889999998
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "eastbound-brewing",
+      "name": "Eastbound Brewing Company",
+      "city": "Toronto",
+      "province": "ON",
+      "address": "700 Queen Street East",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "website": "https://eastboundbeer.com/",
+      "timezone": "America/Toronto",
+      "point": [
+        43.6589147,
+        -79.3502292
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "irish-harp",
+      "name": "The Irish Harp Pub",
+      "city": "Niagara-on-the-Lake",
+      "province": "ON",
+      "address": "245 King Street",
+      "regions": [
+        "horseshoe"
+      ],
+      "website": "https://theirishharppub.com/",
+      "timezone": "America/Toronto",
+      "point": [
+        43.253762,
+        -79.071919
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
     }
   ],
   "series": [
@@ -6255,6 +6497,431 @@
         "checked": "2026-11-17"
       },
       "validUntil": "2026-12-17"
+    },
+    {
+      "id": "careys-london-nov-18",
+      "venueId": "careys-london",
+      "name": "Trivia Night",
+      "days": [],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "gift-card",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://stayhappening.com/e/trivia-night-at-careys-bar-and-grill-E2IT03IEQB9",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-18",
+      "date": "2026-11-18",
+      "hostId": "graymatter"
+    },
+    {
+      "id": "bernies-sherwood-nov-18",
+      "venueId": "bernies-sherwood",
+      "name": "London Trivia League: November Edition",
+      "days": [],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://happeningnext.com/event/london-trivia-league-november-edition-eid3a0ea26itf",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-18",
+      "date": "2026-11-18",
+      "end": "21:30",
+      "hostId": "noah-tall",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://happeningnext.com/event/london-trivia-league-november-edition-eid3a0ea26itf",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 1000
+          }
+        ],
+        "note": "Two-week team tournament. The organizer lists up to five players per team."
+      },
+      "teamMax": 5
+    },
+    {
+      "id": "montanas-london-hyde-park-nov-24",
+      "venueId": "montanas-london-hyde-park",
+      "name": "Hyde Park Trivia Night",
+      "days": [],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://londonlive.ca/event/hyde-park-montana-s-trivia-night/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-24",
+      "date": "2026-11-24",
+      "hostId": "noah-tall",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://londonlive.ca/event/hyde-park-montana-s-trivia-night/",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "vices-et-versa-trivia",
+      "venueId": "vices-et-versa",
+      "name": "Lundi Quiz",
+      "days": [
+        1
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://vicesetversa.com/evenements/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-07"
+    },
+    {
+      "id": "chez-ernest-trivia",
+      "venueId": "chez-ernest",
+      "name": "Quiz musical avec Elektrik Erik",
+      "days": [
+        3
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://chezernest.ca/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
+    },
+    {
+      "id": "brutopia-trivia",
+      "venueId": "brutopia",
+      "name": "Monday Madness Trivia",
+      "days": [
+        1
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.brutopia.net/entertainment",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-30"
+    },
+    {
+      "id": "turbo-haus-simpsons-dec-22",
+      "venueId": "turbo-haus",
+      "name": "The Simpsons Trivia",
+      "days": [],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://quizmasterbrian.com/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-22",
+      "date": "2026-12-22",
+      "hostId": "brian",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://poudingchomeur.com/en/event/the-simpsons-trivia-with-quiz-master-brian-2026-12-22",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 1000
+          }
+        ],
+        "note": "Ticketing fees are additional. Teams of up to six."
+      },
+      "teamMax": 6
+    },
+    {
+      "id": "dawson-trail-christmas-dec-17",
+      "venueId": "dawson-trail",
+      "name": "Christmas Movie Trivia",
+      "days": [],
+      "time": "18:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://yourthunderbay.ca/events/christmas-movie-trivia-night-with-all-the-daze-productions/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "date": "2026-12-17",
+      "end": "21:00"
+    },
+    {
+      "id": "decew-falls-trivia",
+      "venueId": "decew-falls",
+      "name": "Music Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://decewfallsbrewing.ca/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "22:00",
+      "monthWeeks": [
+        1
+      ]
+    },
+    {
+      "id": "exchange-brewery-christmas-dec-2",
+      "venueId": "exchange-brewery",
+      "name": "Christmas Trivia at the Tinsel Tavern",
+      "days": [],
+      "time": "18:30",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://exchangebrewery.com/event/christmas-trivia-%F0%9F%93%9D%E2%9C%A8/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-02",
+      "date": "2026-12-02",
+      "end": "20:30",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://exchangebrewery.com/event/christmas-trivia-%F0%9F%93%9D%E2%9C%A8/",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          },
+          {
+            "type": "minimum-spend",
+            "unit": "person",
+            "amountCents": 1000
+          }
+        ],
+        "note": "No ticket fee. $10 minimum spend per player. Doors open at 6:00 PM."
+      },
+      "teamMax": 6
+    },
+    {
+      "id": "brunswick-bierworks-modern-family-nov-19",
+      "venueId": "brunswick-bierworks",
+      "name": "Modern Family Trivia",
+      "days": [],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "gift-card",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/modern-family-trivia-at-brunswick-bierworks-tickets-2003014307714",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-19",
+      "date": "2026-11-19",
+      "end": "21:30",
+      "hostId": "quizmaster-jess",
+      "prizeCents": 10000,
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.ca/e/modern-family-trivia-at-brunswick-bierworks-tickets-2003014307714",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 800
+          }
+        ],
+        "note": "$8 before tax and ticketing fees. Doors open at 6:30 PM."
+      }
+    },
+    {
+      "id": "brunswick-bierworks-office-dec-10",
+      "venueId": "brunswick-bierworks",
+      "name": "The Office: Christmas Episodes Trivia",
+      "days": [],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "gift-card",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/the-office-christmas-episodes-trivia-at-brunswick-bierworks-tickets-2004727859995",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-10",
+      "date": "2026-12-10",
+      "end": "21:30",
+      "hostId": "quizmaster-jess",
+      "prizeCents": 10000,
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.ca/e/the-office-christmas-episodes-trivia-at-brunswick-bierworks-tickets-2004727859995",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 800
+          }
+        ],
+        "note": "$8 before tax and ticketing fees. Doors open at 6:30 PM."
+      }
+    },
+    {
+      "id": "local-leaside-trivia",
+      "venueId": "local-leaside",
+      "name": "Trivia Tuesdays",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/trivia-tuesdays-at-local-by-quizmaster-jess-tickets-786467283817",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "21:15",
+      "hostId": "quizmaster-jess",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.com/cc/free-general-trivia-in-toronto-4665733/",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "drake-hotel-trivia",
+      "venueId": "drake-hotel",
+      "name": "Know-It-All Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "gift-card",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://thedrake.ca/event/drake-trivia/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "22:00",
+      "hostId": "quizmaster-jess",
+      "prizeCents": 10000
+    },
+    {
+      "id": "eastbound-brewing-home-alone-dec-9",
+      "venueId": "eastbound-brewing",
+      "name": "Home Alone Trivia",
+      "days": [],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.ca/e/home-alone-trivia-movies-12-at-eastbound-brewing-tickets-2004676767175",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-09",
+      "date": "2026-12-09",
+      "end": "21:30",
+      "hostId": "quizmaster-jess",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.ca/e/home-alone-trivia-movies-12-at-eastbound-brewing-tickets-2004676767175",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 800
+          }
+        ],
+        "note": "$8 before tax and ticketing fees. Doors open at 6:30 PM."
+      }
+    },
+    {
+      "id": "irish-harp-trivia",
+      "venueId": "irish-harp",
+      "name": "Music Trivia",
+      "days": [
+        2
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://theirishharppub.com/events/music-trivia/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://theirishharppub.com/events/music-trivia/",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
     }
   ],
   "hosts": [
@@ -6291,6 +6958,19 @@
       "id": "quiz-tonic",
       "name": "Quiz Tonic",
       "website": "https://www.quiztonic.ca/bars"
+    },
+    {
+      "id": "quizmaster-jess",
+      "name": "Quizmaster Jess",
+      "website": "https://www.quizmasterjess.com/"
+    },
+    {
+      "id": "noah-tall",
+      "name": "Noah Tall Trivia Co."
+    },
+    {
+      "id": "graymatter",
+      "name": "Graymatter Trivia Co."
     }
   ],
   "exceptions": [
@@ -6301,6 +6981,15 @@
       "evidence": {
         "url": "https://www.qbtrivia.ca/where-to-play/",
         "checked": "2026-11-16"
+      }
+    },
+    {
+      "seriesId": "irish-harp-trivia",
+      "date": "2026-12-01",
+      "time": "18:00",
+      "evidence": {
+        "url": "https://www.bars10.com/CA/Niagara-on-the-Lake/156019904484525/The-Irish-Harp-Pub",
+        "checked": "2026-11-17"
       }
     }
   ]
