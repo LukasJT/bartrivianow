@@ -4,14 +4,14 @@ Sources checked November 16–17, 2026. Counts include dated events and recurrin
 
 | Area | Trivia listings | Coverage notes |
 |---|---:|---|
-| GTA | 46 | Toronto and surrounding municipalities, including Burlington, Newmarket and Port Perry. |
-| Golden Horseshoe | 76 | GTA overlap plus Hamilton, Ancaster, Stoney Creek, Niagara-on-the-Lake and St. Catharines. |
-| Waterloo | 11 | Independent venues and recurring schedules from local pubs, breweries and cafés. |
-| London | 13 | London, including Hyde Park and Sherwood, plus Mount Brydges, Port Stanley and St. Marys. |
+| GTA | 48 | Toronto and surrounding municipalities, including Burlington, Newmarket and Port Perry. |
+| Golden Horseshoe | 78 | GTA overlap plus Hamilton, Ancaster, Stoney Creek, Niagara-on-the-Lake and St. Catharines. |
+| Waterloo | 17 | Waterloo Region and nearby Guelph. Includes New Hamburg, Cambridge, Kitchener and Waterloo. |
+| London | 14 | London, including Hyde Park and Sherwood, plus Mount Brydges, Port Stanley and St. Marys. |
 | Ottawa | 33 | Ottawa, Nepean, Kanata, Orléans, Stittsville and Carleton Place. |
-| Montréal | 24 | Venue and Quiz Tonic schedules, including bilingual quizzes and themed events. |
+| Montréal | 32 | Greater Montréal, including Dorval, Laval, Brossard and Repentigny, with bilingual quizzes and themed events. |
 | Thunder Bay | 7 | Recurring nights and dated quizzes at seven venues, including Dawson Trail. |
-| Greater Sudbury | 6 | Recurring and dated listings in Sudbury and Hanmer. |
+| Greater Sudbury | 7 | Recurring and dated listings in Sudbury and Hanmer, including Tucos Taco Lounge. |
 | North Bay | 2 | The Moose and Match Eatery. |
 | Timmins | 0 | Full Beard Brewing had several recent dated events. No upcoming bar trivia schedule was verified. |
 

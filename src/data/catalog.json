@@ -2633,6 +2633,263 @@
         -79.071919
       ],
       "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "scran-and-dram",
+      "name": "Scran & Dram Scottish Public House",
+      "city": "New Hamburg",
+      "province": "ON",
+      "address": "338 Waterloo Street",
+      "regions": [
+        "waterloo"
+      ],
+      "website": "https://www.scrananddram.ca/",
+      "timezone": "America/Toronto",
+      "point": [
+        43.385411,
+        -80.712544
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "royal-city-guelph",
+      "name": "Royal City Brewing Beer Hall",
+      "city": "Guelph",
+      "province": "ON",
+      "address": "199 Victoria Road South, Unit C8",
+      "regions": [
+        "waterloo"
+      ],
+      "website": "https://royalcitybrew.ca/pages/beer-hall",
+      "timezone": "America/Toronto",
+      "point": [
+        43.5524508248174,
+        -80.2245901327881
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "fixed-gear-canteen",
+      "name": "Fixed Gear Brewing: The Canteen",
+      "city": "Guelph",
+      "province": "ON",
+      "address": "5 Edinburgh Road South, Unit 1",
+      "regions": [
+        "waterloo"
+      ],
+      "website": "https://fixedgearbrewing.com/pages/the-canteen",
+      "timezone": "America/Toronto",
+      "point": [
+        43.53773460000002,
+        -80.25838220000003
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "brass-taps-guelph",
+      "name": "The Brass Taps",
+      "city": "Guelph",
+      "province": "ON",
+      "address": "50 Stone Road East, Level 2",
+      "regions": [
+        "waterloo"
+      ],
+      "website": "https://www.brasstaps.ca/",
+      "timezone": "America/Toronto",
+      "point": [
+        43.52792729999999,
+        -80.2230166
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "wooly-pub",
+      "name": "The Wooly Pub",
+      "city": "Guelph",
+      "province": "ON",
+      "address": "176 Woolwich Street",
+      "regions": [
+        "waterloo"
+      ],
+      "website": "https://www.thewoolypub.ca/",
+      "timezone": "America/Toronto",
+      "point": [
+        43.54827645454547,
+        -80.25265144545456
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "tucos-taco-lounge",
+      "name": "Tucos Taco Lounge",
+      "city": "Sudbury",
+      "province": "ON",
+      "address": "582 Kathleen Street",
+      "regions": [
+        "sudbury"
+      ],
+      "website": "https://www.tucostacolounge.com/",
+      "timezone": "America/Toronto",
+      "point": [
+        46.5005736,
+        -81.0052687
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "uptown-social-house",
+      "name": "Uptown Social House",
+      "city": "Burlington",
+      "province": "ON",
+      "address": "1900 Walkers Line",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "website": "https://uptownsocialhouse.ca/",
+      "timezone": "America/Toronto",
+      "point": [
+        43.378937399999984,
+        -79.80566859999999
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "ye-olde-squire-aldershot",
+      "name": "Ye Olde Squire Aldershot",
+      "city": "Burlington",
+      "province": "ON",
+      "address": "127 Plains Road West",
+      "regions": [
+        "gta",
+        "horseshoe"
+      ],
+      "website": "https://yeoldesquire.ca/aldershot/",
+      "timezone": "America/Toronto",
+      "point": [
+        43.30369209999998,
+        -79.8567026
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "hurleys-irish-pub",
+      "name": "Hurley's Irish Pub",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "1225 Rue Crescent",
+      "regions": [
+        "montreal"
+      ],
+      "website": "https://www.hurleysirishpub.com/",
+      "timezone": "America/Toronto",
+      "point": [
+        45.49661359990669,
+        -73.57453437963676
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "jack-astors-dorval",
+      "name": "Jack Astor's Dorval",
+      "city": "Dorval",
+      "province": "QC",
+      "address": "3051 Boulevard des Sources",
+      "regions": [
+        "montreal"
+      ],
+      "website": "https://jackastors.com/fr/?locationid=151",
+      "timezone": "America/Toronto",
+      "point": [
+        45.48114220000002,
+        -73.79392250000001
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "randolph-quartier-latin",
+      "name": "Randolph Pub Ludique Quartier Latin",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "2041 Rue Saint-Denis",
+      "regions": [
+        "montreal"
+      ],
+      "website": "https://www.randolph.ca/pages/randolph-pub-ludique-quartier-latin",
+      "timezone": "America/Toronto",
+      "point": [
+        45.51616783473291,
+        -73.5658193234383
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "randolph-rosemont",
+      "name": "Randolph Pub Ludique Rosemont",
+      "city": "Montréal",
+      "province": "QC",
+      "address": "6505 Rue des Écores",
+      "regions": [
+        "montreal"
+      ],
+      "website": "https://www.randolph.ca/pages/randolph-pub-ludique-rosemont",
+      "timezone": "America/Toronto",
+      "point": [
+        45.54760729999998,
+        -73.59275389999999
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "randolph-centropolis",
+      "name": "Randolph Pub Ludique Centropolis",
+      "city": "Laval",
+      "province": "QC",
+      "address": "490 Promenade du Centropolis",
+      "regions": [
+        "montreal"
+      ],
+      "website": "https://www.randolph.ca/pages/randolph-pubs-ludiques",
+      "timezone": "America/Toronto",
+      "point": [
+        45.561397530243774,
+        -73.74603873129021
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "randolph-dix30",
+      "name": "Randolph Pub Ludique DIX30",
+      "city": "Brossard",
+      "province": "QC",
+      "address": "150 Promenade des Lanternes, Suite 210",
+      "regions": [
+        "montreal"
+      ],
+      "website": "https://www.randolph.ca/pages/randolph-pubs-ludiques",
+      "timezone": "America/Toronto",
+      "point": [
+        45.4462207,
+        -73.4378081
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
+    },
+    {
+      "id": "randolph-repentigny",
+      "name": "Randolph Pub Ludique Repentigny",
+      "city": "Repentigny",
+      "province": "QC",
+      "address": "408 Rue Notre-Dame",
+      "regions": [
+        "montreal"
+      ],
+      "website": "https://www.randolph.ca/pages/randolph-pub-ludique-repentigny",
+      "timezone": "America/Toronto",
+      "point": [
+        45.73639396868534,
+        -73.44919213952603
+      ],
+      "locationEvidence": "https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/geolocation-service"
     }
   ],
   "series": [
@@ -3609,15 +3866,32 @@
       ],
       "time": "20:00",
       "kind": "trivia",
-      "fee": "unknown",
-      "prize": "unknown",
+      "fee": "paid",
+      "prize": "other",
       "language": "unknown",
       "evidence": {
-        "url": "https://abeerb.com/upcoming-events",
-        "checked": "2026-11-16"
+        "url": "https://www.abeerb.com/upcoming-events",
+        "checked": "2026-11-17"
       },
-      "validUntil": "2026-12-16",
-      "end": "22:00"
+      "validUntil": "2026-12-17",
+      "end": "22:00",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.abeerb.com/upcoming-events",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          },
+          {
+            "type": "minimum-spend",
+            "unit": "unspecified"
+          }
+        ],
+        "note": "No cover charge. Each guest must make a purchase. The venue does not specify a minimum amount."
+      }
     },
     {
       "id": "abe-erb-waterloo-trivia",
@@ -3628,15 +3902,32 @@
       ],
       "time": "20:00",
       "kind": "trivia",
-      "fee": "unknown",
-      "prize": "unknown",
+      "fee": "paid",
+      "prize": "other",
       "language": "unknown",
       "evidence": {
-        "url": "https://abeerb.com/upcoming-events",
-        "checked": "2026-11-16"
+        "url": "https://www.abeerb.com/upcoming-events",
+        "checked": "2026-11-17"
       },
-      "validUntil": "2026-12-16",
-      "end": "22:00"
+      "validUntil": "2026-12-17",
+      "end": "22:00",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.abeerb.com/upcoming-events",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          },
+          {
+            "type": "minimum-spend",
+            "unit": "unspecified"
+          }
+        ],
+        "note": "No cover charge. Each guest must make a purchase. The venue does not specify a minimum amount."
+      }
     },
     {
       "id": "stockyards-brew-hall-trivia",
@@ -3957,7 +4248,7 @@
       "days": [],
       "time": "18:00",
       "kind": "trivia",
-      "fee": "paid",
+      "fee": "unknown",
       "prize": "other",
       "language": "unknown",
       "evidence": {
@@ -3966,20 +4257,7 @@
       },
       "validUntil": "2026-12-13",
       "date": "2026-12-13",
-      "end": "20:30",
-      "buyIn": {
-        "currency": "CAD",
-        "checked": "2026-11-16",
-        "sourceUrl": "https://londonlive.ca/category/community/",
-        "terms": [
-          {
-            "type": "entry",
-            "unit": "unspecified",
-            "amountCents": 2000
-          }
-        ],
-        "note": "Calendar lists $20; verify the ticket unit with the organizer."
-      }
+      "end": "20:30"
     },
     {
       "id": "tipsy-fox-oakville-trivia",
@@ -4009,25 +4287,12 @@
       "end": "21:30",
       "date": "2026-12-14",
       "validUntil": "2026-12-14",
-      "fee": "paid",
+      "fee": "unknown",
       "prize": "other",
       "language": "unknown",
       "evidence": {
         "url": "https://www.eventbrite.ca/e/monday-quizmas-2026-tickets-2003780334922",
         "checked": "2026-11-16"
-      },
-      "buyIn": {
-        "currency": "CAD",
-        "checked": "2026-11-16",
-        "sourceUrl": "https://londonlive.ca/category/community/",
-        "terms": [
-          {
-            "type": "entry",
-            "unit": "unspecified",
-            "amountCents": 2000
-          }
-        ],
-        "note": "Calendar lists $20; verify the ticket unit with the organizer."
       }
     },
     {
@@ -6922,6 +7187,447 @@
           }
         ]
       }
+    },
+    {
+      "id": "scran-and-dram-holiday-movies",
+      "venueId": "scran-and-dram",
+      "name": "Holiday Movies Trivia",
+      "days": [],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://scrananddram.ca/events/23459/general-trivia-17",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-01",
+      "date": "2026-12-01",
+      "end": "21:00"
+    },
+    {
+      "id": "scran-and-dram-pop-culture-review",
+      "venueId": "scran-and-dram",
+      "name": "2026 Pop Culture in Review Trivia",
+      "days": [],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://scrananddram.ca/events/23551/2026-pop-culture-in-review-trivia",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2027-01-05",
+      "date": "2027-01-05",
+      "end": "21:00"
+    },
+    {
+      "id": "royal-city-guelph-trivia",
+      "venueId": "royal-city-guelph",
+      "name": "Wednesday General Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://royalcitybrew.ca/pages/events",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "monthWeeks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "fixed-gear-canteen-trivia",
+      "venueId": "fixed-gear-canteen",
+      "name": "Wednesday Trivia",
+      "days": [
+        3
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://fixedgearbrewing.com/pages/the-canteen",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
+    },
+    {
+      "id": "brass-taps-guelph-trivia",
+      "venueId": "brass-taps-guelph",
+      "name": "Taps Trivia Tuesday",
+      "days": [
+        2
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "gift-card",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.brasstaps.ca/events",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.brasstaps.ca/events",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "wooly-pub-trivia",
+      "venueId": "wooly-pub",
+      "name": "Tuesday Trivia",
+      "days": [
+        2
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.thewoolypub.ca/events/20421/trivia-8pm-4",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
+    },
+    {
+      "id": "tucos-taco-lounge-trivia",
+      "venueId": "tucos-taco-lounge",
+      "name": "Thursday Trivia",
+      "days": [
+        4
+      ],
+      "time": "18:45",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://sudbury.news/events/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-03",
+      "end": "21:15",
+      "hostId": "two-thumbs"
+    },
+    {
+      "id": "uptown-social-house-trivia",
+      "venueId": "uptown-social-house",
+      "name": "Thursday Trivia",
+      "days": [
+        4
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://uptownsocialhouse.ca/live-entertainment",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17"
+    },
+    {
+      "id": "ye-olde-squire-aldershot-trivia",
+      "venueId": "ye-olde-squire-aldershot",
+      "name": "Tuesday Trivia",
+      "days": [
+        2
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://yeoldesquire.ca/aldershot/promotions-events/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "end": "21:30"
+    },
+    {
+      "id": "hurleys-irish-pub-trivia",
+      "venueId": "hurleys-irish-pub",
+      "name": "Trivia and Stand-Up",
+      "days": [
+        3
+      ],
+      "time": "20:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://worldssmallest.club/",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-02",
+      "end": "22:00",
+      "hostId": "worlds-smallest"
+    },
+    {
+      "id": "jack-astors-dorval-trivia",
+      "venueId": "jack-astors-dorval",
+      "name": "Tuesday Night Trivia",
+      "days": [
+        2
+      ],
+      "time": "19:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.com/e/jacks-dorval-tuesday-night-trivia-free-tickets-906166136307",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.com/e/jacks-dorval-tuesday-night-trivia-free-tickets-906166136307",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "jack-astors-dorval-late-trivia",
+      "venueId": "jack-astors-dorval",
+      "name": "Tuesday Night Trivia (Late Session)",
+      "days": [
+        2
+      ],
+      "time": "20:30",
+      "kind": "trivia",
+      "fee": "free",
+      "prize": "other",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.eventbrite.com/e/jacks-dorval-tuesday-night-trivia-free-tickets-906166136307",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-17",
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.eventbrite.com/e/jacks-dorval-tuesday-night-trivia-free-tickets-906166136307",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "unspecified",
+            "amountCents": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "randolph-quartier-latin-quiz-ttmc",
+      "venueId": "randolph-quartier-latin",
+      "name": "Soirée Quiz TTMC",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.randolph.ca/pages/evenement/la-soiree-quiz-ttmc-et-le-retour-du-quiz-randolph",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-24",
+      "teamMax": 6,
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.randolph.ca/pages/evenement/la-soiree-quiz-ttmc-et-le-retour-du-quiz-randolph",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 950
+          }
+        ],
+        "note": "Plus tax. 18+ indoors."
+      }
+    },
+    {
+      "id": "randolph-rosemont-quiz-ttmc",
+      "venueId": "randolph-rosemont",
+      "name": "Soirée Quiz TTMC",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.randolph.ca/pages/evenement/la-soiree-quiz-ttmc-et-le-retour-du-quiz-randolph",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-24",
+      "teamMax": 6,
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.randolph.ca/pages/evenement/la-soiree-quiz-ttmc-et-le-retour-du-quiz-randolph",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 950
+          }
+        ],
+        "note": "Plus tax. The organizer lists a reduced $6.50 rate for children under 10."
+      }
+    },
+    {
+      "id": "randolph-centropolis-quiz-ttmc",
+      "venueId": "randolph-centropolis",
+      "name": "Soirée Quiz TTMC",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.randolph.ca/pages/evenement/la-soiree-quiz-ttmc-et-le-retour-du-quiz-randolph",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-24",
+      "teamMax": 6,
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.randolph.ca/pages/evenement/la-soiree-quiz-ttmc-et-le-retour-du-quiz-randolph",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 950
+          }
+        ],
+        "note": "Plus tax. 18+ indoors."
+      }
+    },
+    {
+      "id": "randolph-dix30-quiz-ttmc",
+      "venueId": "randolph-dix30",
+      "name": "Soirée Quiz TTMC",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.randolph.ca/pages/evenement/la-soiree-quiz-ttmc-et-le-retour-du-quiz-randolph",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-24",
+      "teamMax": 6,
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.randolph.ca/pages/evenement/la-soiree-quiz-ttmc-et-le-retour-du-quiz-randolph",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 950
+          }
+        ],
+        "note": "Plus tax. The organizer lists a reduced $6.50 rate for children under 10."
+      }
+    },
+    {
+      "id": "randolph-repentigny-quiz-ttmc",
+      "venueId": "randolph-repentigny",
+      "name": "Soirée Quiz TTMC",
+      "days": [
+        2
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "paid",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.randolph.ca/pages/evenement/la-soiree-quiz-ttmc-et-le-retour-du-quiz-randolph",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-11-24",
+      "teamMax": 6,
+      "buyIn": {
+        "currency": "CAD",
+        "sourceUrl": "https://www.randolph.ca/pages/evenement/la-soiree-quiz-ttmc-et-le-retour-du-quiz-randolph",
+        "checked": "2026-11-17",
+        "terms": [
+          {
+            "type": "entry",
+            "unit": "person",
+            "amountCents": 950
+          }
+        ],
+        "note": "Plus tax. The organizer lists a reduced $6.50 rate for children under 10."
+      }
+    },
+    {
+      "id": "toboggan-brewing-weekly-trivia",
+      "venueId": "toboggan-brewing",
+      "name": "Monday Night Trivia",
+      "days": [
+        1
+      ],
+      "time": "19:00",
+      "kind": "trivia",
+      "fee": "unknown",
+      "prize": "unknown",
+      "language": "unknown",
+      "evidence": {
+        "url": "https://www.tobogganbrewing.com/upcoming-events",
+        "checked": "2026-11-17"
+      },
+      "validUntil": "2026-12-14"
     }
   ],
   "hosts": [
@@ -6971,6 +7677,11 @@
     {
       "id": "graymatter",
       "name": "Graymatter Trivia Co."
+    },
+    {
+      "id": "worlds-smallest",
+      "name": "World's Smallest Comedy Club",
+      "website": "https://worldssmallest.club/"
     }
   ],
   "exceptions": [
@@ -6990,6 +7701,15 @@
       "evidence": {
         "url": "https://www.bars10.com/CA/Niagara-on-the-Lake/156019904484525/The-Irish-Harp-Pub",
         "checked": "2026-11-17"
+      }
+    },
+    {
+      "seriesId": "toboggan-brewing-weekly-trivia",
+      "date": "2026-12-14",
+      "cancelled": true,
+      "evidence": {
+        "checked": "2026-11-17",
+        "url": "https://www.eventbrite.ca/e/monday-quizmas-2026-tickets-2003780334922"
       }
     }
   ]
