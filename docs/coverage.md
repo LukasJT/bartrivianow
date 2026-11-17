@@ -14,12 +14,13 @@ Sources checked November 16–17, 2026. Counts include dated events and recurrin
 | Greater Sudbury | 7 | Recurring and dated listings in Sudbury and Hanmer, including Tucos Taco Lounge. |
 | North Bay | 2 | The Moose and Match Eatery. |
 | Timmins | 0 | Full Beard Brewing had several recent dated events. No upcoming bar trivia schedule was verified. |
-| Barrie & Simcoe County | 2 | The Queens Hotel and Canadian Brewhouse in Barrie. |
+| Barrie & Simcoe County | 5 | Barrie plus The Hog & Penny and dated Brewery Bay quizzes in Orillia. |
 | Peterborough & Kawarthas | 2 | The Social Pub and Bobcaygeon Brewing’s Peterborough taproom. |
 | Kingston | 4 | Daft Brewing, Riverhead Brewing and One Eyed Jack; includes Riverhead’s alternate-week music quiz. |
 | Sarnia & Lambton County | 3 | Refined Fool The Fool, Refined Fool Sports and Black Gold Brewery in Petrolia. |
 | Windsor & Essex County | 13 | Windsor, Tecumseh, Emeryville and Harrow. Includes recurring series and dated themed quizzes. |
 | Buffalo & Western New York | 9 | Buffalo, Williamsville and Amherst; weekly and monthly trivia from venue and host schedules. |
+| Stratford & Perth County | 3 | Brch & Wyn, Jobsite Brewing and The Bunker. |
 
 Venue and host sources appear on each schedule page. Street pins from Natural Resources Canada and the U.S. Census Bureau are approximate. Listings awaiting an address match remain in regional browsing. A page’s language does not establish the language the quiz is played in.
 
@@ -46,3 +47,11 @@ Ontario sources include venue calendars for [The Queens](https://www.queensbarri
 Buffalo sources are [Taproom Trivia WNY](https://taproomtriviawny.com/), [Buffalo Olde Brewery](https://buffalooldebrewery.com/buffalo-lovejoy-buffalo-olde-brewery-events) and Geeks Who Drink’s venue pages. The Beer Keep and Buffalo Golf House are explicitly paused and were excluded. Spotted Octopus was held pending a current venue/schedule match after relocation reports. Six Taproom WNY events have explicit free entry, recorded in USD; unspecified Geeks Who Drink fees remain unknown. Resurgence’s advertised December 23 cancellation is retained for future rechecks.
 
 All 30 new venues have reviewed pins. U.S. street pins use [Census address geocoding](https://geocoding.geo.census.gov/geocoder/); Buffalo Olde’s `E LOVEJOY ST` matches East Lovejoy Street. Duende’s point comes directly from geographic metadata on its own website. The 519 Beerhouse address uses the host’s mailing address, with its municipality corrected to Tecumseh for geocoding. No broader completeness claim is supported.
+
+## Orillia and Stratford follow-up
+
+Added six more schedules at five venues, bringing totals to **238 trivia schedules at 220 trivia venues**. [The Hog & Penny](https://www.thehogandpenny.com/home) advertises its Thursday quiz at 7:30pm. Brewery Bay/Couchiching Brewing has separately confirmed [November 17](https://www.bigdumbfacetrivia.com/events/couchiching-trivia-november-17-2026) and [November 24](https://www.bigdumbfacetrivia.com/events/couchiching-trivia-november-24-2026) quizzes; those are dated entries rather than a projected indefinite recurrence. They are free, with reservations required. The venue’s current address is 162 Mississaga Street East, Orillia.
+
+Stratford has its own regional page. [Brch & Wyn’s organizer listing](https://visitstratford.ca/events/trivia-night-6/?occurrence=2026-11-19) gives Thursday 7pm, free entry and a maximum of four players. [Rotaract](https://portal.clubrunner.ca/12940/CalendarItem/Details?CalendarItemId=cbe1c642-8f78-4f79-830c-5da73a2eca4b&End=2026-12-09&Start=2026-12-09) confirms second-Wednesday trivia at Jobsite, 6:30–9:30pm. [The Bunker](https://www.bunkerstratford.com/event-details/trivia-night-at-the-bunker-2026-11-24-19-00) advertises second/fourth Tuesdays at 7pm, $5 to play and no door cover. Its price unit is unspecified; do not convert it to a per-person or team fee without evidence.
+
+Research holds: Belleville’s Beaufort Pub has an indexed official Tuesday schedule, but direct source requests failed, so it was not published in this batch. Collingwood Brewery and Side Launch only yielded past quiz dates; Quayle’s and Sawdust City need a current upcoming date/anchor. Gilly’s Stratford only yielded November 3. Cobourg’s tourism detail returned 403 and The Mill’s current page supplied no readable schedule, so neither was turned into a recurring event. A Bewdley library quiz was fully registered and excluded. These are candidates for manual follow-up, not coverage claims.

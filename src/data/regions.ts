@@ -15,6 +15,7 @@ export const zones = {
  sarnia: ['Sarnia & Lambton County','Sarnia et comté de Lambton',42.9745,-82.4066],
  windsor: ['Windsor & Essex County','Windsor et comté d’Essex',42.3149,-83.0364],
  buffalo: ['Buffalo & Western New York','Buffalo et ouest de l’État de New York',42.8864,-78.8784],
+ stratford: ['Stratford & Perth County','Stratford et comté de Perth',43.3700,-80.9822],
 } as const;
 export type Region = keyof typeof zones;
 export type Locale = 'en' | 'fr';
