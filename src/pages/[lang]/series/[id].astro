@@ -1,5 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
+import PricingTerms from '../../../components/PricingTerms.astro';
 import data from '../../../data/catalog.json';
 import {formatDate, formatTime, localDate, normalize, plusDays, search, type Catalog, type Series} from '../../../lib/events';
 import {labels,money} from '../../../lib/labels';
@@ -26,6 +27,7 @@ const calendarPath=import.meta.env.PUBLIC_STATIC_HOST==='github-pages'?'/calenda
 <dt>{fr?'Langue de l’événement':'Event language'}</dt><dd>{labels[lang][series.language]}</dd>
 {series.teamMax&&<><dt>{fr?'Équipe':'Team size'}</dt><dd>{fr?'Maximum de ':'Up to '}{series.teamMax}</dd></>}
 </dl>
+{series.buyIn&&<PricingTerms pricing={series.buyIn} {lang}/>}
 <h2>{fr?'Prochaines dates':'Upcoming dates'}</h2>
 {upcoming.length?<ul>{upcoming.map(e=><li><time datetime={e.startsAt}>{formatDate(e.date,lang,{dateStyle:'full'})} · {formatTime(e.time,lang)}</time> · <a href={calendarPath+e.id+'.ics'} download>{fr?'Calendrier':'Calendar'}</a></li>)}</ul>:<p>{fr?'Aucune prochaine date publiée.':'No upcoming dates published.'}</p>}
 <p class="notice">{fr?'Horaire annoncé par le lieu ou l’organisateur. Vérifiez la date auprès de la source.':'Schedule advertised by the venue or organizer. Check the source before heading out.'}</p>

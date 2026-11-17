@@ -19,7 +19,7 @@ export interface Series {
   teamMax?: number; evidence: Evidence; validUntil: string;
   buyIn?: {
     currency: 'CAD' | 'USD'; checked: string; sourceUrl: string; note?: string;
-    terms: {type: 'entry' | 'minimum-spend'; unit: 'person' | 'table' | 'unspecified'; amountCents?: number; capacity?: number}[];
+    terms: {type: 'entry' | 'minimum-spend'; unit: 'person' | 'table' | 'team' | 'unspecified'; amountCents?: number; capacity?: number}[];
   };
 }
 export interface Exception { seriesId: string; date: string; cancelled?: boolean; movedTo?: string; time?: string; evidence: Evidence }

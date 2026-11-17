@@ -44,3 +44,11 @@ test('filters by any selected weekday and uses the closest search location',()=>
  assert.equal(get('&day=1&day=7').length,0);
  assert.equal(get('').length,2);
 });
+test('Buffalo region search uses U.S. venue coordinates and local time',()=>{
+ const data:Catalog={...catalog,venues:[...catalog.venues,{...catalog.venues[0],id:'buffalo-pub',city:'Buffalo',province:'NY',regions:['buffalo'],point:[42.8864,-78.8784],timezone:'America/New_York'}],
+ series:[...catalog.series,{...catalog.series[0],id:'buffalo-quiz',venueId:'buffalo-pub'}]};
+ const hits=run('place=buffalo&km=25&from=2026-03-11&to=2026-03-11',data);
+ assert.deepEqual(hits.map(e=>e.series.id),['buffalo-quiz']);
+ assert.equal(hits[0].startsAt,'2026-03-11T23:00:00Z');
+ assert.equal(hits[0].distance,0);
+});

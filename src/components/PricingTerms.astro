@@ -1,0 +1,13 @@
+---
+import type {Series} from '../lib/events';
+import type {Locale} from '../data/regions';
+const {pricing,lang}=Astro.props as {pricing:NonNullable<Series['buyIn']>;lang:Locale};
+const fr=lang==='fr';
+---
+<ul>{pricing.terms.map(term=><li>
+  {term.type==='entry'?(fr?'Entrée':'Entry'):(fr?'Dépense minimale':'Minimum spend')}
+  {' · '}{term.amountCents===undefined?(fr?'Montant non indiqué':'Amount not listed'):new Intl.NumberFormat(lang,{style:'currency',currency:pricing.currency,currencyDisplay:'code'}).format(term.amountCents/100)}
+  {term.unit==='person'?(fr?' par personne':' per person'):term.unit==='table'?(fr?' par table':' per table'):term.unit==='team'?(fr?' par équipe':' per team'):''}
+  {term.capacity?' ('+term.capacity+(fr?' places)':' seats)'):''}
+</li>)}{pricing.note&&<li>{pricing.note}</li>}
+<li><a href={pricing.sourceUrl}>{fr?'Source du tarif':'Pricing source'}</a></li></ul>
