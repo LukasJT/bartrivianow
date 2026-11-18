@@ -19,7 +19,7 @@ const matches=search(catalog,normalize(new URLSearchParams()));
 <div class="frame intro-layout">
 <div class="intro-copy">
 <h1>{fr?'Des quiz de pub':'Pub quizzes'} <em>{fr?'près de chez vous':'near you'}</em></h1>
-<p>{fr?'Des soirées vérifiées auprès des pubs et des organisateurs, en Ontario, dans le Grand Montréal et à Buffalo.':'Trivia nights in Ontario, Greater Montréal and Buffalo, verified with pubs and hosts.'}</p>
+<p>{fr?'Des soirées vérifiées auprès des pubs et des organisateurs, en Ontario, dans le Grand Montréal et dans l’État de New York.':'Trivia nights in Ontario, Greater Montréal and New York State, verified with pubs and hosts.'}</p>
 </div>
 <form id="filters" class="filters" method="get" action={'/'+lang+'/#agenda'}>
 <datalist id="pilot-cities">{citySuggestions.map(city=><option value={city}/>)}</datalist>

@@ -38,6 +38,14 @@ const supportedCities = [
   ['Collingwood', 'ON', 44.5010, -80.2169],
   ['Belleville', 'ON', 44.1628, -77.3832],
   ['Cobourg', 'ON', 43.9598, -78.1652],
+  ['Rochester', 'NY', zones.rochester[2], zones.rochester[3]],
+  ['Syracuse', 'NY', zones.centralny[2], zones.centralny[3]],
+  ['Albany', 'NY', zones.capitalny[2], zones.capitalny[3]],
+  ['Ithaca', 'NY', zones.fingerlakes[2], zones.fingerlakes[3]],
+  ['White Plains', 'NY', zones.hudsonvalley[2], zones.hudsonvalley[3]],
+  ['Saratoga Springs', 'NY', 43.0831, -73.7851],
+  ['Utica', 'NY', 43.1009, -75.2327],
+  ['Glens Falls', 'NY', 43.3095, -73.6434],
 ] as const;
 
 export const citySuggestions = supportedCities.map(([name, province]) => name+', '+province);

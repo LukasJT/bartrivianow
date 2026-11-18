@@ -5,7 +5,7 @@ import {citySuggestions,findLocations} from '../src/lib/locations.ts';
 test('new Ontario and New York cities resolve without a geocoder request',async()=>{
  // An aborted signal would reject a network request; built-in centres remain available offline.
  const signal=AbortSignal.abort();
- for(const city of ['Barrie, ON','Peterborough, ON','Kingston, ON','Sarnia, ON','Windsor, ON','Buffalo, NY','Williamsville, NY','Amherst, NY','Stratford, ON','Orillia, ON','Collingwood, ON','Belleville, ON','Cobourg, ON']){
+ for(const city of ['Barrie, ON','Peterborough, ON','Kingston, ON','Sarnia, ON','Windsor, ON','Buffalo, NY','Williamsville, NY','Amherst, NY','Stratford, ON','Orillia, ON','Collingwood, ON','Belleville, ON','Cobourg, ON','Rochester, NY','Syracuse, NY','Albany, NY','Ithaca, NY','White Plains, NY','Saratoga Springs, NY','Utica, NY','Glens Falls, NY']){
   assert.ok(citySuggestions.includes(city));
   const hits=await findLocations(city,'en',signal);
   assert.equal(hits.length,1);
