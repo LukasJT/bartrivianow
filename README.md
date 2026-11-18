@@ -1,6 +1,6 @@
 # Bar Trivia Now
 
-A bilingual directory for finding pub trivia and other venue events in Ontario, Québec and the Buffalo area of New York. Browse by radius, date, weekday, fee, prize and event language. The reviewed catalog contains 238 trivia schedules at 220 trivia venues, plus three other events. Coverage is partial; see the regional source notes below.
+A bilingual directory for finding pub trivia and other venue events in Ontario, Québec and New York State. Browse by radius, date, weekday, fee, prize and event language. The reviewed catalog contains 461 trivia schedules at 440 trivia venues, plus three other events. Coverage is partial; see the regional source notes below.
 
 ```sh
 npm ci
